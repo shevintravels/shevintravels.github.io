@@ -285,11 +285,13 @@
     const list = visitedC.filter(c => c.continent === ct);
     let body = list.map(cRow).join('');
     if (ct === 'Europe') {
-      body = [['Western Europe', list.filter(c => !EAST_EU.has(c.name))], ['Eastern Europe', list.filter(c => EAST_EU.has(c.name))]]
+      const euAll = D.countries.filter(c => c.continent === 'Europe');
+      body = [['Western Europe', c => !EAST_EU.has(c.name)], ['Eastern Europe', c => EAST_EU.has(c.name)]]
+        .map(([nm, f]) => [nm, list.filter(f), euAll.filter(f).length])
         .filter(([, l]) => l.length)
-        .map(([nm, l]) => `<div class="sub-head">${nm} (${l.length})</div>` + l.map(cRow).join('')).join('');
+        .map(([nm, l, of]) => `<div class="sub-head">${nm} (${l.length} of ${of})</div>` + l.map(cRow).join('')).join('');
     }
-    return `<div class="cont-head">${ct} (${list.length})</div>` + body;
+    return `<div class="cont-head">${ct} (${list.length} of ${D.countries.filter(c => c.continent === ct).length})</div>` + body;
   }).join('');
   const notYet = D.countries.filter(c => !c.visited);
   $('country-extra').innerHTML =
