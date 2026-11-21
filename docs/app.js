@@ -262,7 +262,7 @@
   const maxN = Math.max(...D.timeline.map(r => BUCKETS.reduce((a, [b]) => a + r[b], 0)));
   $('tl').innerHTML = [...D.timeline].sort((a, b) => b.year - a.year).map(r => {
     const n = BUCKETS.reduce((a, [b]) => a + r[b], 0);
-    return `<div class="tl-row"><div class="tl-year">${r.approx ? '~' : ''}${r.year}</div><div class="tl-track">` +
+    return `<div class="tl-row"><div class="tl-year">${r.year}</div><div class="tl-track">` +
       // one equal block per trip, grouped by kind
       BUCKETS.flatMap(([b, nm]) => D.trips.filter(t => t.yearSort === r.year && t.bucket === b).map(t =>
         `<div class="tl-seg" title="${esc(t.year)}: ${esc(t.destination)} (${nm})" style="width:calc((100% - ${maxN - 1} * 3px) / ${maxN});background:${css(b)}"></div>`)).join('') +
