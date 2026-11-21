@@ -1391,7 +1391,7 @@
    },
    "type": "International",
    "travelers": "Whole extended family",
-   "others": "with extended family",
+   "others": "with whole family",
    "confidence": "Exact",
    "notes": "Whole family trip",
    "places": [
@@ -1596,7 +1596,7 @@
    },
    "type": "Couples",
    "travelers": "Daryl + Ivory",
-   "others": "",
+   "others": "with Nardinis",
    "confidence": "Exact",
    "notes": "Christmas couples trip",
    "places": [
@@ -1630,7 +1630,7 @@
    },
    "type": "Family",
    "travelers": "All four",
-   "others": "",
+   "others": "with Adams",
    "confidence": "Exact",
    "notes": "Family trip",
    "places": [
@@ -1717,7 +1717,7 @@
    },
    "type": "International",
    "travelers": "All four",
-   "others": "",
+   "others": "with Lamonts, Laverys + Sotos",
    "confidence": "Exact",
    "notes": "Spring break family trip",
    "places": [
@@ -1745,7 +1745,7 @@
    },
    "type": "International",
    "travelers": "Whole extended family",
-   "others": "with extended family",
+   "others": "with whole family",
    "confidence": "Exact",
    "notes": "Extended family trip",
    "places": [
@@ -1831,7 +1831,7 @@
    },
    "type": "International",
    "travelers": "All four + other families",
-   "others": "with other families",
+   "others": "with Lamonts, Laverys + Sotos",
    "confidence": "Exact",
    "notes": "Spring break family trip",
    "places": [
@@ -1933,7 +1933,7 @@
    },
    "type": "Couples",
    "travelers": "Daryl + Ivory",
-   "others": "",
+   "others": "with Adams, Youngs, Medinas + Nardinis",
    "confidence": "Exact",
    "notes": "Couples trip before Ireland golf trip",
    "places": [
