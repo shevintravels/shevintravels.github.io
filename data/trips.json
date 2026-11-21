@@ -1067,7 +1067,7 @@
    },
    "type": "Couples",
    "travelers": "Daryl + Ivory",
-   "others": "",
+   "others": "with Adams, Medinas, Nardinis + Youngs",
    "confidence": "Exact",
    "notes": "Couples trip",
    "places": [
@@ -1887,7 +1887,7 @@
    },
    "type": "International",
    "travelers": "Jax, Keaton and Grammy",
-   "others": "with Keaton + Grammy",
+   "others": "with Grammy + Keaton",
    "confidence": "Exact",
    "notes": "Jax, Keaton and Grammy",
    "places": [
@@ -1933,7 +1933,7 @@
    },
    "type": "Couples",
    "travelers": "Daryl + Ivory",
-   "others": "with Adams, Youngs, Medinas + Nardinis",
+   "others": "with Adams, Medinas, Nardinis + Youngs",
    "confidence": "Exact",
    "notes": "Couples trip before Ireland golf trip",
    "places": [
@@ -2626,7 +2626,7 @@
    },
    "type": "International",
    "travelers": "Jaxon",
-   "others": "with Ricky + Javi",
+   "others": "with Javi + Ricky",
    "confidence": "Exact",
    "notes": "Discover Jiangsu Trip = Suzhou, Changzhou, Nanjing, Shanghai",
    "places": [
