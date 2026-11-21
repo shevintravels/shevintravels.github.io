@@ -93,7 +93,7 @@
   {
    "year": "1993",
    "timing": "",
-   "destination": "Rome, Florence, Venice",
+   "destination": "Rome, Vatican City, Florence, Venice",
    "who": {
     "daryl": true,
     "ivory": false,
@@ -110,6 +110,12 @@
      "lat": 41.9,
      "lng": 12.5,
      "country": "Italy"
+    },
+    {
+     "name": "Vatican City",
+     "lat": 41.904,
+     "lng": 12.453,
+     "country": "Vatican City"
     },
     {
      "name": "Florence",
@@ -1779,7 +1785,7 @@
   {
    "year": "2023",
    "timing": "Summer",
-   "destination": "Rome, Florence, Venice",
+   "destination": "Rome, Vatican City, Florence, Venice",
    "who": {
     "daryl": false,
     "ivory": false,
@@ -1796,6 +1802,12 @@
      "lat": 41.9,
      "lng": 12.5,
      "country": "Italy"
+    },
+    {
+     "name": "Vatican City",
+     "lat": 41.904,
+     "lng": 12.453,
+     "country": "Vatican City"
     },
     {
      "name": "Florence",
