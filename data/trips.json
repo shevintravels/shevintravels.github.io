@@ -1345,7 +1345,7 @@
    "travelers": "Ivory + friends",
    "others": "with friends",
    "confidence": "Exact",
-   "notes": "",
+   "notes": "College girls trip",
    "places": [
     {
      "name": "Mayakoba",
@@ -1545,6 +1545,35 @@
    "approxYear": false,
    "idiotCup": true,
    "id": 43
+  },
+  {
+   "year": "2018",
+   "timing": "",
+   "destination": "New York, NY",
+   "who": {
+    "daryl": false,
+    "ivory": true,
+    "jaxon": false,
+    "sloane": false
+   },
+   "type": "Girls Trip",
+   "travelers": "Ivory + friends",
+   "others": "with friends",
+   "confidence": "Exact",
+   "notes": "College girls trip",
+   "places": [
+    {
+     "name": "New York, NY",
+     "lat": 40.71,
+     "lng": -74.01,
+     "country": "United States",
+     "state": "NY"
+    }
+   ],
+   "yearSort": 2018,
+   "approxYear": false,
+   "idiotCup": false,
+   "id": 93
   },
   {
    "year": "2019",
