@@ -832,7 +832,7 @@
    },
    "type": "Sports Trip",
    "travelers": "Daryl + friends",
-   "others": "with friends",
+   "others": "with buddies",
    "places": [
     {
      "name": "Buffalo, NY",
@@ -2241,7 +2241,7 @@
    },
    "type": "Golf Trip",
    "travelers": "Daryl solo",
-   "others": "",
+   "others": "with buddies",
    "confidence": "Exact",
    "notes": "Annual Pebble trip, week before Christmas",
    "places": [
@@ -2462,7 +2462,7 @@
    },
    "type": "Golf Trip",
    "travelers": "Daryl solo",
-   "others": "",
+   "others": "with buddies",
    "confidence": "Exact",
    "notes": "Annual Pebble trip, week before Christmas",
    "places": [
