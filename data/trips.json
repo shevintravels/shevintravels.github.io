@@ -1718,6 +1718,35 @@
    "id": 48
   },
   {
+   "year": "2021",
+   "timing": "Mar",
+   "destination": "San Antonio, TX",
+   "who": {
+    "daryl": true,
+    "ivory": true,
+    "jaxon": true,
+    "sloane": true
+   },
+   "type": "Family",
+   "travelers": "All four",
+   "others": "",
+   "confidence": "Exact",
+   "notes": "Family trip",
+   "places": [
+    {
+     "name": "San Antonio, TX",
+     "lat": 29.42,
+     "lng": -98.49,
+     "country": "United States",
+     "state": "TX"
+    }
+   ],
+   "yearSort": 2021,
+   "approxYear": false,
+   "idiotCup": false,
+   "id": 57
+  },
+  {
    "timing": "Apr",
    "notes": "Stopover on the drive to Kiawah",
    "confidence": "Exact",
@@ -1951,35 +1980,6 @@
    "approxYear": false,
    "idiotCup": true,
    "id": 56
-  },
-  {
-   "year": "2022",
-   "timing": "",
-   "destination": "San Antonio, TX",
-   "who": {
-    "daryl": true,
-    "ivory": true,
-    "jaxon": true,
-    "sloane": true
-   },
-   "type": "Family",
-   "travelers": "All four",
-   "others": "",
-   "confidence": "Exact",
-   "notes": "Family trip",
-   "places": [
-    {
-     "name": "San Antonio, TX",
-     "lat": 29.42,
-     "lng": -98.49,
-     "country": "United States",
-     "state": "TX"
-    }
-   ],
-   "yearSort": 2022,
-   "approxYear": false,
-   "idiotCup": false,
-   "id": 57
   },
   {
    "year": "2023",
