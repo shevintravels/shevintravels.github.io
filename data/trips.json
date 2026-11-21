@@ -2138,7 +2138,7 @@
   {
    "year": "2024",
    "timing": "Summer",
-   "destination": "Sloane + grandma, Switzerland + Austria",
+   "destination": "Switzerland + Austria",
    "who": {
     "daryl": false,
     "ivory": false,
@@ -2146,9 +2146,9 @@
     "sloane": true
    },
    "type": "International",
-   "travelers": "Sloane + grandma",
+   "travelers": "Sloane + Grammy",
    "confidence": "Exact",
-   "notes": "Independent trip with Daryl's mom",
+   "notes": "Sloane and Grammy",
    "places": [
     {
      "name": "Switzerland",
