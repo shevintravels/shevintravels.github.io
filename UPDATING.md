@@ -42,7 +42,7 @@ Claude then:
 | To change | Edit |
 |---|---|
 | A recurring destination | `recurring` in `data/trips.json` |
-| The bucket list | `bucket`: one item per place, `who` lists whose tile it shows on; `check` lists countries or states, and the build warns once that person has been |
+| The bucket list | `bucket`: one item per place, `who` lists whose tile it shows on; `check` lists countries or states, and the build warns once that person has been; `"us": true` puts it under USA. Keep each person to 5 international + 3 USA |
 | A state or country someone visited with no trip on record | `otherVisits` |
 | Footnote rules shown on the site | `meta.rules` |
 

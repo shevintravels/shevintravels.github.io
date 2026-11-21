@@ -207,3 +207,5 @@ details p { margin-top: 8px; line-height: 1.7; }
   .log tr { padding: 10px 0; border-bottom: 1px solid var(--cream-dark); }
   .log td { border: 0; padding: 2px 0; }
 }
+.bl-sub { font-size: 10.5px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); font-weight: 700; margin: 8px 0 2px; }
+.bl-soon { padding: 4px 0 8px; border-top: 1px solid var(--cream-dark); }

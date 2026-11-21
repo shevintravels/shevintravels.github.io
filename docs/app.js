@@ -352,13 +352,18 @@
   /* ---------- bucket ---------- */
   // one tile per person; an item shows on the tile of everyone listed in its `who`
   $('bucket-grid').innerHTML = PEOPLE.map(p => {
-    const items = D.bucket.filter(b => b.who.includes(p.key));
-    return `<div class="bl-tile" style="border-top-color:${PCOLOR[p.key]}">
-      <div class="bl-head"><div class="avatar sm" style="background:${PCOLOR[p.key]}">${p.initial}</div><div class="bl-name">${esc(p.name)}</div></div>
-      ${items.length ? `<ul class="bl-list">${items.map(b => `<li><div class="bl-item">${esc(b.title)}</div>` +
+    // top 5 international + top 3 USA (items with "us": true)
+    const mine = D.bucket.filter(b => b.who.includes(p.key));
+    const isUS = b => !!b.us;
+    const list = (label, items) => `<div class="bl-sub">${label}</div>` +
+      (items.length ? `<ul class="bl-list">${items.map(b => `<li><div class="bl-item">${esc(b.title)}</div>` +
         (b.note ? `<div class="bl-note">${esc(b.note)}</div>` : '') +
         (b.doneBy[p.key] ? `<div class="warn">Already been: ${esc(b.doneBy[p.key].join(', '))}</div>` : '') + `</li>`).join('')}</ul>`
-        : '<div class="bl-note">Coming soon</div>'}
+        : '<div class="bl-note bl-soon">Coming soon</div>');
+    return `<div class="bl-tile" style="border-top-color:${PCOLOR[p.key]}">
+      <div class="bl-head"><div class="avatar sm" style="background:${PCOLOR[p.key]}">${p.initial}</div><div class="bl-name">${esc(p.name)}</div></div>
+      ${list('International', mine.filter(b => !isUS(b)))}
+      ${list('USA', mine.filter(isUS))}
     </div>`;
   }).join('');
 

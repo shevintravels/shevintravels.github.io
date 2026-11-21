@@ -3361,7 +3361,8 @@
     "states": [
      "AK"
     ]
-   }
+   },
+   "us": true
   },
   {
    "title": "Eastern Europe",
@@ -3414,6 +3415,37 @@
     "ivory"
    ],
    "note": "UK beyond London.",
+   "check": {}
+  },
+  {
+   "title": "Montana",
+   "who": [
+    "daryl"
+   ],
+   "note": "",
+   "us": true,
+   "check": {
+    "states": [
+     "MT"
+    ]
+   }
+  },
+  {
+   "title": "Bandon Dunes, OR",
+   "who": [
+    "daryl"
+   ],
+   "note": "",
+   "us": true,
+   "check": {}
+  },
+  {
+   "title": "Sun Valley, ID",
+   "who": [
+    "daryl"
+   ],
+   "note": "",
+   "us": true,
    "check": {}
   }
  ]
