@@ -2271,7 +2271,7 @@
    "type": "Personal",
    "travelers": "Daryl solo",
    "confidence": "Exact",
-   "notes": "Solo trip per AA data",
+   "notes": "Truist golf - Cricket Club",
    "places": [
     {
      "name": "Philadelphia, PA",
@@ -2327,7 +2327,7 @@
    "type": "Teen Tour",
    "travelers": "Jaxon solo",
    "confidence": "Exact",
-   "notes": "Westcoast Connection: Dubrovnik, Split, Hvar, Ljubljana, Salzburg, Vienna, Prague, Greek Islands",
+   "notes": "Dubrovnik, Split, Hvar, Ljubljana, Salzburg, Vienna, Prague, Greek Islands",
    "places": [
     {
      "name": "Dubrovnik",
@@ -2457,7 +2457,7 @@
    "type": "Family",
    "travelers": "Daryl + Jaxon",
    "confidence": "Exact",
-   "notes": "College visits + golf at Pinehurst",
+   "notes": "Duke Visit & Pinehurst",
    "places": [
     {
      "name": "Durham, NC",
@@ -2527,7 +2527,7 @@
    "type": "Couples",
    "travelers": "Daryl + Ivory",
    "confidence": "Exact",
-   "notes": "Couples trip",
+   "notes": "50th bday couples trip",
    "places": [
     {
      "name": "Lake Tahoe, CA",
@@ -2555,7 +2555,7 @@
    "type": "International",
    "travelers": "Jaxon + Florida student delegation",
    "confidence": "Exact",
-   "notes": "Discover Jiangsu student exchange, Nov 19 to 28. School exchanges in Suzhou, Changzhou and Nanjing; Humble Administrator's Garden, Li Auto plant, pandas at Hongshan Forest Zoo, Ming Xiaoling Mausoleum, high-speed train to Shanghai and the Bund.",
+   "notes": "Discover Jiangsu Trip = Suzhou, Changzhou, Nanjing, Shanghai",
    "places": [
     {
      "name": "Suzhou",
