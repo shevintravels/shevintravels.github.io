@@ -52,12 +52,14 @@
       <div class="bar"><div style="width:${m.fill}%;background:${m.color}"></div></div>
     </div>`).join('');
   $('people').innerHTML = D.people.map(p => `
-    <div class="person">
-      <div class="avatar" style="background:${PCOLOR[p.key]}">${p.initial}</div>
-      <div>
-        <div class="person-name">${p.name}</div>
-        <div class="person-stats">${p.trips} trips · ${p.countries} countries · ${p.states} states · ${p.continents.length} continents</div>
-      </div>
+    <div class="person" aria-label="${esc(p.name)}">
+      <div class="avatar" style="background:${PCOLOR[p.key]}" title="${esc(p.name)}">${p.initial}</div>
+      <dl class="person-stats">
+        <dt>Trips</dt><dd>${p.trips}</dd>
+        <dt>Countries</dt><dd>${p.countries}</dd>
+        <dt>States</dt><dd>${p.states}</dd>
+        <dt>Continents</dt><dd>${p.continents.length}</dd>
+      </dl>
     </div>`).join('');
 
   /* ---------- tooltip ---------- */
