@@ -38,7 +38,7 @@
   /* ---------- metrics ---------- */
   const pct = (a, b) => Math.round(100 * a / b);
   const metrics = [
-    { href: '#trips', label: 'Total trips', val: S.trips, denom: '', sub: `${S.allFourTrips} with all four of us`, fill: pct(S.allFourTrips, S.trips), color: css('all4') },
+    { href: '#trips', label: 'Unique trips', val: S.trips, denom: '', sub: `${S.allFourTrips} with all four of us`, fill: pct(S.allFourTrips, S.trips), color: css('all4') },
     { href: '#countries', label: 'Continents', val: S.continents.length, denom: `of ${S.continentsTotal}`, sub: `Still to go: ${S.continentsMissing.join(', ')}`, fill: pct(S.continents.length, 7), color: css('dsolo') },
     { href: '#countries', label: 'Countries', val: S.countries, denom: `of ${S.countriesTotal}`, sub: '193 UN + Vatican City, Palestine', fill: pct(S.countries, 195), color: css('couple') },
     { href: '#states', label: 'US states', val: S.states, denom: `of ${S.statesTotal}`, sub: '50 states + DC', fill: pct(S.states, 51), color: css('ssolo') },
