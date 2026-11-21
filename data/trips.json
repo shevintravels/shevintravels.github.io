@@ -1649,6 +1649,64 @@
    "id": 48
   },
   {
+   "timing": "Apr",
+   "notes": "Stopover on the drive to Kiawah",
+   "confidence": "Exact",
+   "year": "2021",
+   "destination": "Savannah, GA",
+   "who": {
+    "daryl": true,
+    "ivory": true,
+    "jaxon": true,
+    "sloane": true
+   },
+   "type": "Family",
+   "travelers": "All four",
+   "others": "",
+   "places": [
+    {
+     "name": "Savannah, GA",
+     "lat": 32.08,
+     "lng": -81.09,
+     "country": "United States",
+     "state": "GA"
+    }
+   ],
+   "yearSort": 2021,
+   "approxYear": false,
+   "idiotCup": false,
+   "id": 53
+  },
+  {
+   "year": "2021",
+   "timing": "Apr",
+   "destination": "Kiawah Island, SC",
+   "who": {
+    "daryl": true,
+    "ivory": true,
+    "jaxon": true,
+    "sloane": true
+   },
+   "type": "Family",
+   "travelers": "All four",
+   "others": "with Adams",
+   "confidence": "Exact",
+   "notes": "Family trip",
+   "places": [
+    {
+     "name": "Kiawah Island, SC",
+     "lat": 32.61,
+     "lng": -80.08,
+     "country": "United States",
+     "state": "SC"
+    }
+   ],
+   "yearSort": 2021,
+   "approxYear": false,
+   "idiotCup": false,
+   "id": 51
+  },
+  {
    "year": "2021",
    "timing": "Summer",
    "destination": "Big Cedar, MO",
@@ -1676,6 +1734,35 @@
    "approxYear": false,
    "idiotCup": true,
    "id": 49
+  },
+  {
+   "year": "2021",
+   "timing": "",
+   "destination": "Pebble Beach, CA",
+   "who": {
+    "daryl": true,
+    "ivory": true,
+    "jaxon": false,
+    "sloane": false
+   },
+   "type": "Couples",
+   "travelers": "Daryl + Ivory",
+   "others": "",
+   "confidence": "Exact",
+   "notes": "Pebble and Carmel",
+   "places": [
+    {
+     "name": "Pebble Beach, CA",
+     "lat": 36.57,
+     "lng": -121.95,
+     "country": "United States",
+     "state": "CA"
+    }
+   ],
+   "yearSort": 2021,
+   "approxYear": false,
+   "idiotCup": false,
+   "id": 52
   },
   {
    "year": "2021",
@@ -1710,93 +1797,6 @@
    "approxYear": false,
    "idiotCup": false,
    "id": 50
-  },
-  {
-   "year": "2021",
-   "timing": "",
-   "destination": "Kiawah Island, SC",
-   "who": {
-    "daryl": true,
-    "ivory": true,
-    "jaxon": true,
-    "sloane": true
-   },
-   "type": "Family",
-   "travelers": "All four",
-   "others": "with Adams",
-   "confidence": "Exact",
-   "notes": "Family trip",
-   "places": [
-    {
-     "name": "Kiawah Island, SC",
-     "lat": 32.61,
-     "lng": -80.08,
-     "country": "United States",
-     "state": "SC"
-    }
-   ],
-   "yearSort": 2021,
-   "approxYear": false,
-   "idiotCup": false,
-   "id": 51
-  },
-  {
-   "year": "2021",
-   "timing": "",
-   "destination": "Pebble Beach, CA",
-   "who": {
-    "daryl": true,
-    "ivory": true,
-    "jaxon": false,
-    "sloane": false
-   },
-   "type": "Couples",
-   "travelers": "Daryl + Ivory",
-   "others": "",
-   "confidence": "Exact",
-   "notes": "Pebble and Carmel",
-   "places": [
-    {
-     "name": "Pebble Beach, CA",
-     "lat": 36.57,
-     "lng": -121.95,
-     "country": "United States",
-     "state": "CA"
-    }
-   ],
-   "yearSort": 2021,
-   "approxYear": false,
-   "idiotCup": false,
-   "id": 52
-  },
-  {
-   "timing": "",
-   "notes": "Stopover on the drive to Kiawah",
-   "confidence": "Exact",
-   "year": "2021",
-   "destination": "Savannah, GA",
-   "who": {
-    "daryl": true,
-    "ivory": true,
-    "jaxon": true,
-    "sloane": true
-   },
-   "type": "Family",
-   "travelers": "All four",
-   "others": "",
-   "places": [
-    {
-     "name": "Savannah, GA",
-     "lat": 32.08,
-     "lng": -81.09,
-     "country": "United States",
-     "state": "GA"
-    }
-   ],
-   "yearSort": 2021,
-   "approxYear": false,
-   "idiotCup": false,
-   "id": 53
   },
   {
    "year": "2022",
