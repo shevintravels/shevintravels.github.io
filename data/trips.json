@@ -2810,11 +2810,11 @@
    "who": {
     "daryl": false,
     "ivory": true,
-    "jaxon": false,
-    "sloane": false
+    "jaxon": true,
+    "sloane": true
    },
-   "note": "Multiple visits; ~2002 noted",
-   "source": "Workbook Tracker tab; no trip on record"
+   "note": "Ivory: multiple visits, ~2002 noted. Jaxon and Sloane: separate school trips.",
+   "source": "Workbook Tracker tab; kids added by Daryl Nov 2026; no trip on record"
   }
  ],
  "bucket": [
