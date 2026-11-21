@@ -44,6 +44,9 @@ section { margin-bottom: 2rem; }
 .metrics { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin-bottom: 16px; }
 .metric { background: var(--white); border-radius: 12px; padding: 1.4rem 1.25rem; border-bottom: 3px solid var(--cream-dark); transition: transform .2s, border-color .2s; }
 .metric:hover { transform: translateY(-2px); border-color: var(--gold); }
+a.metric { display: block; color: inherit; text-decoration: none; cursor: pointer; }
+.m-go { float: right; letter-spacing: 0; text-transform: none; color: var(--gold); opacity: .8; font-weight: 500; }
+a.metric:hover .m-go { opacity: 1; }
 .m-label { font-size: 10.5px; font-weight: 500; text-transform: uppercase; letter-spacing: .12em; color: var(--muted); margin-bottom: 8px; }
 .m-val { font-family: 'Playfair Display', serif; font-size: 2.5rem; font-weight: 700; line-height: 1; font-variant-numeric: lining-nums tabular-nums; }
 .m-denom { font-family: 'DM Sans', sans-serif; font-size: 1rem; font-weight: 400; color: var(--muted); margin-left: 4px; }

@@ -38,18 +38,18 @@
   /* ---------- metrics ---------- */
   const pct = (a, b) => Math.round(100 * a / b);
   const metrics = [
-    { label: 'Total trips', val: S.trips, denom: '', sub: `${S.allFourTrips} with all four of us`, fill: pct(S.allFourTrips, S.trips), color: css('all4') },
-    { label: 'Continents', val: S.continents.length, denom: `of ${S.continentsTotal}`, sub: `Still to go: ${S.continentsMissing.join(', ')}`, fill: pct(S.continents.length, 7), color: css('dsolo') },
-    { label: 'Countries', val: S.countries, denom: `of ${S.countriesTotal}`, sub: '193 UN + Vatican City, Palestine', fill: pct(S.countries, 195), color: css('couple') },
-    { label: 'US states', val: S.states, denom: `of ${S.statesTotal}`, sub: '50 states + DC', fill: pct(S.states, 51), color: css('ssolo') },
+    { href: '#trips', label: 'Total trips', val: S.trips, denom: '', sub: `${S.allFourTrips} with all four of us`, fill: pct(S.allFourTrips, S.trips), color: css('all4') },
+    { href: '#countries', label: 'Continents', val: S.continents.length, denom: `of ${S.continentsTotal}`, sub: `Still to go: ${S.continentsMissing.join(', ')}`, fill: pct(S.continents.length, 7), color: css('dsolo') },
+    { href: '#countries', label: 'Countries', val: S.countries, denom: `of ${S.countriesTotal}`, sub: '193 UN + Vatican City, Palestine', fill: pct(S.countries, 195), color: css('couple') },
+    { href: '#states', label: 'US states', val: S.states, denom: `of ${S.statesTotal}`, sub: '50 states + DC', fill: pct(S.states, 51), color: css('ssolo') },
   ];
   $('metrics').innerHTML = metrics.map(m => `
-    <div class="metric">
-      <div class="m-label">${m.label}</div>
+    <a class="metric" href="${m.href}">
+      <div class="m-label">${m.label}<span class="m-go">See list &rarr;</span></div>
       <div class="m-val">${m.val}<span class="m-denom">${m.denom}</span></div>
       <div class="m-sub">${esc(m.sub)}</div>
       <div class="bar"><div style="width:${m.fill}%;background:${m.color}"></div></div>
-    </div>`).join('');
+    </a>`).join('');
   $('people').innerHTML = D.people.map(p => `
     <div class="person" aria-label="${esc(p.name)}">
       <div class="avatar" style="background:${PCOLOR[p.key]}" title="${esc(p.name)}">${p.initial}</div>
