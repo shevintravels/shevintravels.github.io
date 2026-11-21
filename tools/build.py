@@ -156,6 +156,16 @@ out = {**d, "countries": country_rows, "states": state_rows, "people": people, "
 target = ROOT / "docs" / "data.js"
 target.write_text("window.ST = " + json.dumps(out, ensure_ascii=False) + ";\n", encoding="utf-8")
 
+# Stamp each asset link in index.html with a hash of the file, so browsers never mix
+# a new page with stale cached CSS/JS (GitHub Pages caches files for 10 minutes).
+import hashlib, re  # noqa: E401,E402
+index = ROOT / "docs" / "index.html"
+html = index.read_text(encoding="utf-8")
+for name in ("styles.css", "data.js", "app.js"):
+    v = hashlib.md5((ROOT / "docs" / name).read_bytes()).hexdigest()[:8]
+    html = re.sub(r'(["\'])' + re.escape(name) + r'(\?v=[0-9a-f]+)?\1', rf'\g<1>{name}?v={v}\g<1>', html)
+index.write_text(html, encoding="utf-8", newline="\n")
+
 for x in warns[len(check(d, g)[1]):]:
     print("WARN", x)
 print(f"trips {stats['trips']} | continents {len(stats['continents'])}/7 | countries {stats['countries']}/195 "

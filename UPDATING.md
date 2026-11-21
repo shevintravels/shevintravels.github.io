@@ -44,6 +44,9 @@ Claude then:
 | A state or country someone visited with no trip on record | `otherVisits` |
 | Footnote rules shown on the site | `meta.rules` |
 
+After any change to `docs/styles.css` or `docs/app.js`, also run `py tools/build.py`: it stamps the file links in
+`docs/index.html` with a version so visitors' browsers never mix new and old files.
+
 ## House rules (from the brief)
 
 - Florida intrastate trips are not logged. States only driven through do not count.
