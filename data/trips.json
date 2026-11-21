@@ -36,7 +36,7 @@
  },
  "trips": [
   {
-   "year": "~1988",
+   "year": "1989",
    "timing": "",
    "destination": "Israel",
    "who": {
@@ -47,7 +47,7 @@
    },
    "type": "International",
    "travelers": "Daryl solo",
-   "confidence": "Fuzzy",
+   "confidence": "Exact",
    "notes": "Bar Mitzvah trip for childhood best friend",
    "places": [
     {
@@ -57,8 +57,8 @@
      "country": "Israel"
     }
    ],
-   "yearSort": 1988,
-   "approxYear": true,
+   "yearSort": 1989,
+   "approxYear": false,
    "idiotCup": false,
    "id": 1
   },
@@ -201,7 +201,7 @@
    "type": "International",
    "travelers": "Daryl solo",
    "confidence": "Exact",
-   "notes": "During study abroad; North Africa",
+   "notes": "During study abroad",
    "places": [
     {
      "name": "Morocco",
