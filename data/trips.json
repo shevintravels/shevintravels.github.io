@@ -2649,6 +2649,35 @@
   },
   {
    "year": "2025",
+   "timing": "Sep",
+   "destination": "Key West, FL",
+   "who": {
+    "daryl": false,
+    "ivory": true,
+    "jaxon": false,
+    "sloane": false
+   },
+   "type": "Girls Trip",
+   "travelers": "Ivory + friends",
+   "others": "with friends",
+   "confidence": "Exact",
+   "notes": "",
+   "places": [
+    {
+     "name": "Key West, FL",
+     "lat": 24.56,
+     "lng": -81.78,
+     "country": "United States",
+     "state": "FL"
+    }
+   ],
+   "yearSort": 2025,
+   "approxYear": false,
+   "idiotCup": false,
+   "id": 88
+  },
+  {
+   "year": "2025",
    "timing": "Dec",
    "destination": "Pebble Beach, CA",
    "who": {
