@@ -263,7 +263,9 @@
   $('tl').innerHTML = [...D.timeline].sort((a, b) => b.year - a.year).map(r => {
     const n = BUCKETS.reduce((a, [b]) => a + r[b], 0);
     return `<div class="tl-row"><div class="tl-year">${r.approx ? '~' : ''}${r.year}</div><div class="tl-track">` +
-      BUCKETS.filter(([b]) => r[b]).map(([b, nm]) => `<div class="tl-seg" title="${r.year}: ${r[b]} ${nm.toLowerCase()}" style="width:${100 * r[b] / maxN}%;background:${css(b)}"></div>`).join('') +
+      // one equal block per trip, grouped by kind
+      BUCKETS.flatMap(([b, nm]) => D.trips.filter(t => t.yearSort === r.year && t.bucket === b).map(t =>
+        `<div class="tl-seg" title="${esc(t.year)}: ${esc(t.destination)} (${nm})" style="width:calc((100% - ${maxN - 1} * 3px) / ${maxN});background:${css(b)}"></div>`)).join('') +
       `</div><div class="tl-count">${n}</div></div>`;
   }).join('');
 

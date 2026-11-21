@@ -106,8 +106,8 @@ a.metric:hover .m-go { opacity: 1; }
 /* timeline */
 .tl-row { display: flex; align-items: center; gap: 10px; margin-bottom: 5px; }
 .tl-year { font-size: 11.5px; font-weight: 500; color: var(--muted); width: 48px; text-align: right; flex-shrink: 0; font-variant-numeric: tabular-nums; }
-.tl-track { flex: 1; height: 18px; display: flex; gap: 1px; }
-.tl-seg { height: 100%; border-radius: 3px; cursor: default; }
+.tl-track { flex: 1; height: 18px; display: flex; gap: 3px; }
+.tl-seg { height: 100%; border-radius: 3px; cursor: default; flex-shrink: 0; }
 .tl-count { font-size: 11.5px; color: var(--muted); width: 18px; flex-shrink: 0; font-variant-numeric: tabular-nums; }
 
 /* who dots */
