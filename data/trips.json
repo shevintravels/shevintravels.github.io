@@ -31,8 +31,7 @@
    "Recurring places (Denver, Keystone, New York, Chicago, Boston, Las Vegas, New Orleans, Maine, Asheville) are listed once. Repeat visits there are not logged as trips unless they were a special occasion. Trips to anywhere else are logged every time.",
    "US territories (Puerto Rico) and non-UN places (Cayman Islands) are not counted as countries.",
    "Countries are out of 195: 193 UN members plus Vatican City and Palestine.",
-   "Full tracking starts in 2003, when Daryl and Ivory met. Earlier years include only select trips, mostly international.",
-   "Years marked ~ are estimates."
+   "Full tracking starts in 2003, when Daryl and Ivory met. Earlier years include only select trips, mostly international."
   ]
  },
  "trips": [
