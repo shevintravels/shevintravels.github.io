@@ -21,6 +21,8 @@ Claude then:
    `places` needs `name`, `lat`, `lng`, `country` (exact name from `data/geo.json`) and, for the US,
    `state` (two-letter code). A US territory uses `"country": null` and `"territory": "Puerto Rico"`.
    Give it the next unused `id` and a numeric `yearSort`.
+   `travelers` is the full who-went text (used in map pop-ups and search). `others` is the short line under the
+   D I J S dots in the trip log: only people beyond the four of us, like `with Brandon + Keaton`, or `""` for none.
 2. Updates `meta.updated`.
 3. Runs `py tools/build.py`. This runs `tools/validate.py` first and refuses to build on any error
    (unknown country or state, missing coordinates, nobody marked as traveling, and so on).

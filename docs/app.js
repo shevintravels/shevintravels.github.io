@@ -342,7 +342,7 @@
           return sub ? `<div class="note">${esc(sub)}</div>` : '';
         })()}</td>
         <td><div class="dest">${esc(t.destination)}</div>${t.notes ? `<div class="note">${esc(t.notes)}</div>` : ''}</td>
-        <td>${whoDots(t.who)}<div class="note">${esc(t.travelers)}</div></td>
+        <td>${whoDots(t.who)}${t.others ? `<div class="note">${esc(t.others)}</div>` : ''}</td>
         <td><span class="tag" style="background:${css(t.bucket)}">${esc(t.type)}</span>${t.idiotCup ? '<div class="conf">Idiot Cup</div>' : ''}</td>
       </tr>`).join('') + `</tbody>`;
     if (!rows.length) $('log').innerHTML += `<tbody><tr><td colspan="4" class="note">No trips match.</td></tr></tbody>`;
