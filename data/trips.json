@@ -2813,6 +2813,35 @@
   },
   {
    "year": "2026",
+   "timing": "Oct",
+   "destination": "Nashville, TN",
+   "who": {
+    "daryl": false,
+    "ivory": true,
+    "jaxon": false,
+    "sloane": false
+   },
+   "type": "Girls Trip",
+   "travelers": "Ivory + friends",
+   "others": "with friends",
+   "confidence": "Exact",
+   "notes": "",
+   "places": [
+    {
+     "name": "Nashville, TN",
+     "lat": 36.16,
+     "lng": -86.78,
+     "country": "United States",
+     "state": "TN"
+    }
+   ],
+   "yearSort": 2026,
+   "approxYear": false,
+   "idiotCup": false,
+   "id": 87
+  },
+  {
+   "year": "2026",
    "timing": "Nov",
    "destination": "China",
    "who": {
