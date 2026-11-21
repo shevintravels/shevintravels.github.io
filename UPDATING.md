@@ -52,7 +52,8 @@ After any change to `docs/styles.css` or `docs/app.js`, also run `py tools/build
 ## House rules (from the brief)
 
 - Wording: `+` joins places and names in trip names and the Who line; notes use "and", never `&`. No period at the
-  end of a note. The trip name is places only; an event starts the note: `Fiesta Bowl: UF vs Nebraska ...`. Name lists are alphabetical
+  end of a note. The trip name is places only: one place is `City, ST` or `City, Country`; several places in one state or
+  country are `Country (A, B, C)`; separate countries are joined with `+`; an event starts the note: `Fiesta Bowl: UF vs Nebraska ...`. Name lists are alphabetical
   (`with Adams, Medinas + Nardinis`); families are plural with no apostrophe. Golf and guys trips say `with buddies`.
 
 - Florida intrastate trips are not logged. States only driven through do not count.

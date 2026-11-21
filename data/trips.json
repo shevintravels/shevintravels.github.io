@@ -66,7 +66,7 @@
   {
    "year": "1993",
    "timing": "",
-   "destination": "Israel (summer program)",
+   "destination": "Israel",
    "who": {
     "daryl": false,
     "ivory": true,
@@ -94,7 +94,7 @@
   {
    "year": "1993",
    "timing": "",
-   "destination": "Rome, Vatican City, Florence, Venice",
+   "destination": "Italy (Rome, Vatican City, Florence, Venice)",
    "who": {
     "daryl": true,
     "ivory": false,
@@ -140,7 +140,7 @@
   {
    "year": "1996",
    "timing": "",
-   "destination": "Amsterdam",
+   "destination": "Amsterdam, Netherlands",
    "who": {
     "daryl": true,
     "ivory": false,
@@ -168,7 +168,7 @@
   {
    "year": "1996",
    "timing": "",
-   "destination": "Brussels",
+   "destination": "Brussels, Belgium",
    "who": {
     "daryl": true,
     "ivory": false,
@@ -224,7 +224,7 @@
   {
    "year": "1996",
    "timing": "",
-   "destination": "Paris",
+   "destination": "Paris, France",
    "who": {
     "daryl": true,
     "ivory": false,
@@ -280,7 +280,7 @@
   {
    "year": "1996",
    "timing": "",
-   "destination": "Study Abroad, Spain (Sevilla, Barcelona, Madrid, San Sebastian, Marbella and more)",
+   "destination": "Spain (Sevilla, Barcelona, Madrid, San Sebastian, Marbella and more)",
    "who": {
     "daryl": true,
     "ivory": false,
@@ -291,7 +291,7 @@
    "travelers": "Daryl solo",
    "others": "",
    "confidence": "Exact",
-   "notes": "Based in Sevilla for 4+ months",
+   "notes": "Study abroad; based in Sevilla for 4+ months",
    "places": [
     {
      "name": "Sevilla",
@@ -361,7 +361,7 @@
   {
    "year": "~2000",
    "timing": "Feb",
-   "destination": "Salvador + Morro de São Paulo, Brazil",
+   "destination": "Brazil (Salvador, Morro de São Paulo)",
    "who": {
     "daryl": true,
     "ivory": false,
@@ -423,7 +423,7 @@
   {
    "year": "~2002",
    "timing": "",
-   "destination": "Washington DC",
+   "destination": "Washington, DC",
    "who": {
     "daryl": true,
     "ivory": false,
@@ -1324,7 +1324,7 @@
   {
    "year": "2018",
    "timing": "Summer",
-   "destination": "Jackson Hole, WY (then drove to Keystone)",
+   "destination": "Jackson Hole, WY",
    "who": {
     "daryl": true,
     "ivory": true,
@@ -1382,7 +1382,7 @@
   {
    "year": "2019",
    "timing": "Jul",
-   "destination": "Dubai, UAE (2 days) + South Africa (Kruger, Cape Town, Grootbos)",
+   "destination": "UAE (Dubai) + South Africa (Kruger, Cape Town, Grootbos)",
    "who": {
     "daryl": true,
     "ivory": true,
@@ -1504,7 +1504,7 @@
    "travelers": "All four",
    "others": "",
    "confidence": "Exact",
-   "notes": "COVID summer, Beech Mountain and Cashiers",
+   "notes": "COVID summer",
    "places": [
     {
      "name": "Beech Mountain, NC",
@@ -1587,7 +1587,7 @@
   {
    "year": "2021",
    "timing": "Dec",
-   "destination": "Tuscany + Florence, Italy",
+   "destination": "Italy (Tuscany, Florence)",
    "who": {
     "daryl": true,
     "ivory": true,
@@ -1708,7 +1708,7 @@
   {
    "year": "2022",
    "timing": "Spring Break",
-   "destination": "Baha Mar, Nassau, Bahamas",
+   "destination": "Bahamas (Nassau, Baha Mar)",
    "who": {
     "daryl": true,
     "ivory": true,
@@ -1878,7 +1878,7 @@
   {
    "year": "2023",
    "timing": "Summer",
-   "destination": "Rome, Vatican City, Florence, Venice",
+   "destination": "Italy (Rome, Vatican City, Florence, Venice)",
    "who": {
     "daryl": false,
     "ivory": false,
@@ -2289,7 +2289,7 @@
   {
    "year": "2025",
    "timing": "Spring Break",
-   "destination": "Maui + Big Island, HI",
+   "destination": "Hawaii (Maui, Big Island)",
    "who": {
     "daryl": true,
     "ivory": true,
