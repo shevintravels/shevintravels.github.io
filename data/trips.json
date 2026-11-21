@@ -1063,6 +1063,40 @@
    "id": 30
   },
   {
+   "who": {
+    "daryl": true,
+    "ivory": true,
+    "jaxon": false,
+    "sloane": false
+   },
+   "type": "Couples",
+   "travelers": "Daryl + Ivory",
+   "others": "",
+   "confidence": "Exact",
+   "approxYear": false,
+   "idiotCup": false,
+   "id": 85,
+   "year": "2012",
+   "timing": "May",
+   "destination": "Paris, France + Barcelona, Spain",
+   "notes": "",
+   "places": [
+    {
+     "name": "Paris",
+     "lat": 48.86,
+     "lng": 2.35,
+     "country": "France"
+    },
+    {
+     "name": "Barcelona",
+     "lat": 41.39,
+     "lng": 2.17,
+     "country": "Spain"
+    }
+   ],
+   "yearSort": 2012
+  },
+  {
    "year": "2012",
    "timing": "Summer",
    "destination": "La Romana, Dominican Republic (Casa de Campo)",
@@ -1118,6 +1152,34 @@
    "approxYear": false,
    "idiotCup": true,
    "id": 32
+  },
+  {
+   "who": {
+    "daryl": true,
+    "ivory": true,
+    "jaxon": false,
+    "sloane": false
+   },
+   "type": "Couples",
+   "travelers": "Daryl + Ivory",
+   "others": "",
+   "confidence": "Exact",
+   "approxYear": false,
+   "idiotCup": false,
+   "id": 86,
+   "year": "2013",
+   "timing": "Aug",
+   "destination": "Bimini, Bahamas",
+   "notes": "Christina's 40th",
+   "places": [
+    {
+     "name": "Bimini",
+     "lat": 25.73,
+     "lng": -79.25,
+     "country": "Bahamas"
+    }
+   ],
+   "yearSort": 2013
   },
   {
    "year": "2014",
@@ -1388,7 +1450,7 @@
   {
    "year": "2018",
    "timing": "Summer",
-   "destination": "Jackson Hole, WY",
+   "destination": "Wyoming (Jackson Hole, Yellowstone)",
    "who": {
     "daryl": true,
     "ivory": true,
@@ -1405,6 +1467,13 @@
      "name": "Jackson Hole, WY",
      "lat": 43.48,
      "lng": -110.76,
+     "country": "United States",
+     "state": "WY"
+    },
+    {
+     "name": "Yellowstone, WY",
+     "lat": 44.43,
+     "lng": -110.59,
      "country": "United States",
      "state": "WY"
     }
@@ -1708,6 +1777,35 @@
   },
   {
    "year": "2021",
+   "timing": "May",
+   "destination": "Pebble Beach, CA",
+   "who": {
+    "daryl": true,
+    "ivory": true,
+    "jaxon": false,
+    "sloane": false
+   },
+   "type": "Couples",
+   "travelers": "Daryl + Ivory",
+   "others": "",
+   "confidence": "Exact",
+   "notes": "Pebble and Carmel",
+   "places": [
+    {
+     "name": "Pebble Beach, CA",
+     "lat": 36.57,
+     "lng": -121.95,
+     "country": "United States",
+     "state": "CA"
+    }
+   ],
+   "yearSort": 2021,
+   "approxYear": false,
+   "idiotCup": false,
+   "id": 52
+  },
+  {
+   "year": "2021",
    "timing": "Summer",
    "destination": "Big Cedar, MO",
    "who": {
@@ -1734,35 +1832,6 @@
    "approxYear": false,
    "idiotCup": true,
    "id": 49
-  },
-  {
-   "year": "2021",
-   "timing": "",
-   "destination": "Pebble Beach, CA",
-   "who": {
-    "daryl": true,
-    "ivory": true,
-    "jaxon": false,
-    "sloane": false
-   },
-   "type": "Couples",
-   "travelers": "Daryl + Ivory",
-   "others": "",
-   "confidence": "Exact",
-   "notes": "Pebble and Carmel",
-   "places": [
-    {
-     "name": "Pebble Beach, CA",
-     "lat": 36.57,
-     "lng": -121.95,
-     "country": "United States",
-     "state": "CA"
-    }
-   ],
-   "yearSort": 2021,
-   "approxYear": false,
-   "idiotCup": false,
-   "id": 52
   },
   {
    "year": "2021",
