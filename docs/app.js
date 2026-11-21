@@ -254,7 +254,7 @@
   /* ---------- timeline ---------- */
   $('tl-legend').innerHTML = BUCKETS.map(([b, n]) => `<span><i class="sq" style="background:${css(b)}"></i>${n} (${D.trips.filter(t => t.bucket === b).length})</span>`).join('');
   const maxN = Math.max(...D.timeline.map(r => BUCKETS.reduce((a, [b]) => a + r[b], 0)));
-  $('tl').innerHTML = D.timeline.map(r => {
+  $('tl').innerHTML = [...D.timeline].sort((a, b) => b.year - a.year).map(r => {
     const n = BUCKETS.reduce((a, [b]) => a + r[b], 0);
     return `<div class="tl-row"><div class="tl-year">${r.approx ? '~' : ''}${r.year}</div><div class="tl-track">` +
       BUCKETS.filter(([b]) => r[b]).map(([b, nm]) => `<div class="tl-seg" title="${r.year}: ${r[b]} ${nm.toLowerCase()}" style="width:${100 * r[b] / maxN}%;background:${css(b)}"></div>`).join('') +
