@@ -323,7 +323,10 @@
     $('log-count').textContent = `${rows.length} of ${D.trips.length} trips`;
     $('log').innerHTML = `<thead><tr><th>When</th><th>Where</th><th>Who</th><th>Type</th></tr></thead><tbody>` +
       rows.map(t => `<tr>
-        <td class="yr">${esc(when(t))}${t.approxYear ? '<div class="conf">estimate</div>' : t.confidence !== 'Exact' ? `<div class="conf">${esc(t.confidence.toLowerCase())}</div>` : ''}</td>
+        <td class="yr">${esc(t.year)}${(() => {
+          const sub = [t.timing, t.approxYear ? 'estimate' : t.confidence !== 'Exact' ? t.confidence.toLowerCase() : ''].filter(Boolean).join(' · ');
+          return sub ? `<div class="note">${esc(sub)}</div>` : '';
+        })()}</td>
         <td><div class="dest">${esc(t.destination)}</div>${t.notes ? `<div class="note">${esc(t.notes)}</div>` : ''}</td>
         <td>${whoDots(t.who)}<div class="note">${esc(t.travelers)}</div></td>
         <td><span class="tag" style="background:${css(t.bucket)}">${esc(t.type)}</span>${t.idiotCup ? '<div class="conf">Idiot Cup</div>' : ''}</td>
