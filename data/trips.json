@@ -2897,8 +2897,25 @@
  ],
  "bucket": [
   {
+   "title": "Italy",
+   "who": [
+    "sloane"
+   ],
+   "note": "",
+   "check": {
+    "countries": [
+     "Italy"
+    ]
+   }
+  },
+  {
    "title": "Japan",
-   "for": "Whole family",
+   "who": [
+    "daryl",
+    "ivory",
+    "jaxon",
+    "sloane"
+   ],
    "note": "Top family pick.",
    "check": {
     "countries": [
@@ -2908,7 +2925,10 @@
   },
   {
    "title": "East and Southeast Asia",
-   "for": "Daryl + Ivory",
+   "who": [
+    "daryl",
+    "ivory"
+   ],
    "note": "Thailand, Vietnam, Bali and more. Jaxon got there first: China, Nov 2026.",
    "check": {
     "countries": [
@@ -2917,16 +2937,15 @@
      "Vietnam",
      "Indonesia",
      "South Korea"
-    ],
-    "who": [
-     "daryl",
-     "ivory"
     ]
    }
   },
   {
    "title": "Australia + New Zealand",
-   "for": "Daryl + Ivory",
+   "who": [
+    "daryl",
+    "ivory"
+   ],
    "note": "Would open up continent number 6.",
    "check": {
     "countries": [
@@ -2937,7 +2956,10 @@
   },
   {
    "title": "East Africa safari",
-   "for": "Daryl + Ivory",
+   "who": [
+    "daryl",
+    "ivory"
+   ],
    "note": "Serengeti, Kenya, Rwanda. South Africa done twice.",
    "check": {
     "countries": [
@@ -2949,7 +2971,12 @@
   },
   {
    "title": "Alaska",
-   "for": "Whole family",
+   "who": [
+    "daryl",
+    "ivory",
+    "jaxon",
+    "sloane"
+   ],
    "note": "None of us have been.",
    "check": {
     "states": [
@@ -2959,7 +2986,10 @@
   },
   {
    "title": "Eastern Europe",
-   "for": "Daryl + Ivory",
+   "who": [
+    "daryl",
+    "ivory"
+   ],
    "note": "Jaxon has been on his 2025 teen tour.",
    "check": {
     "countries": [
@@ -2968,30 +2998,28 @@
      "Czech Republic",
      "Hungary",
      "Poland"
-    ],
-    "who": [
-     "daryl",
-     "ivory"
     ]
    }
   },
   {
    "title": "Greece",
-   "for": "Daryl + Ivory",
+   "who": [
+    "daryl",
+    "ivory"
+   ],
    "note": "Jaxon did the Greek Islands in 2025.",
    "check": {
     "countries": [
      "Greece"
-    ],
-    "who": [
-     "daryl",
-     "ivory"
     ]
    }
   },
   {
    "title": "Scandinavia",
-   "for": "Daryl + Ivory",
+   "who": [
+    "daryl",
+    "ivory"
+   ],
    "note": "Norway, Sweden, Denmark, Iceland.",
    "check": {
     "countries": [
@@ -3004,7 +3032,9 @@
   },
   {
    "title": "Patagonia and the rest of South America",
-   "for": "Daryl",
+   "who": [
+    "daryl"
+   ],
    "note": "Peru, Colombia, Chile. Argentina and Brazil done.",
    "check": {
     "countries": [
@@ -3016,7 +3046,10 @@
   },
   {
    "title": "Scotland",
-   "for": "Daryl + Ivory",
+   "who": [
+    "daryl",
+    "ivory"
+   ],
    "note": "UK beyond London.",
    "check": {}
   }

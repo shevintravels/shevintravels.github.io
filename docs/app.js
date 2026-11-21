@@ -350,13 +350,17 @@
   renderLog();
 
   /* ---------- bucket ---------- */
-  $('bucket-grid').innerHTML = D.bucket.map(b => `
-    <div class="tile bucket">
-      <div class="tile-for">${esc(b.for)}</div>
-      <div class="tile-title">${esc(b.title)}</div>
-      <div class="tile-sub">${esc(b.note)}</div>
-      ${b.doneAlready.length ? `<div class="warn">Already been: ${esc(b.doneAlready.join(', '))}</div>` : ''}
-    </div>`).join('');
+  // one tile per person; an item shows on the tile of everyone listed in its `who`
+  $('bucket-grid').innerHTML = PEOPLE.map(p => {
+    const items = D.bucket.filter(b => b.who.includes(p.key));
+    return `<div class="bl-tile" style="border-top-color:${PCOLOR[p.key]}">
+      <div class="bl-head"><div class="avatar sm" style="background:${PCOLOR[p.key]}">${p.initial}</div><div class="bl-name">${esc(p.name)}</div></div>
+      ${items.length ? `<ul class="bl-list">${items.map(b => `<li><div class="bl-item">${esc(b.title)}</div>` +
+        (b.note ? `<div class="bl-note">${esc(b.note)}</div>` : '') +
+        (b.doneBy[p.key] ? `<div class="warn">Already been: ${esc(b.doneBy[p.key].join(', '))}</div>` : '') + `</li>`).join('')}</ul>`
+        : '<div class="bl-note">Coming soon</div>'}
+    </div>`;
+  }).join('');
 
   /* ---------- Idiot Cup ---------- */
   const ic = D.trips.filter(t => t.idiotCup).sort((a, b) => b.yearSort - a.yearSort);

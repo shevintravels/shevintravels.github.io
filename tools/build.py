@@ -127,15 +127,16 @@ timeline = [{"year": y, **{b: timeline[y][b] for b in ("intl", "domestic", "golf
             for y in sorted(timeline)]
 
 # ---- bucket list: flag items someone has now done
+# each item lists who wants it; doneBy[person] = places on it that person has already been to
 for b in d["bucket"]:
-    who = b.get("check", {}).get("who", PEOPLE)
-    done = [c["name"] for c in visited_c if c["name"] in b.get("check", {}).get("countries", [])
-            and any(c["who"][p] for p in who)]
-    done += [s["name"] for s in visited_s if s["abbr"] in b.get("check", {}).get("states", [])
-             and any(s["who"][p] for p in who)]
-    b["doneAlready"] = done
-    if done:
-        warns.append(f"bucket list '{b['title']}': already visited {done}; update or remove it")
+    chk = b.get("check", {})
+    b["doneBy"] = {}
+    for p in b["who"]:
+        done = [c["name"] for c in visited_c if c["name"] in chk.get("countries", []) and c["who"][p]]
+        done += [s["name"] for s in visited_s if s["abbr"] in chk.get("states", []) and s["who"][p]]
+        if done:
+            b["doneBy"][p] = done
+            warns.append(f"bucket list '{b['title']}' ({p}): already visited {done}; update or remove it")
 
 stats = {
     "trips": len(d["trips"]),
