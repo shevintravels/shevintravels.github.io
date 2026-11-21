@@ -37,11 +37,10 @@
 
   /* ---------- metrics ---------- */
   const pct = (a, b) => Math.round(100 * a / b);
-  const terrNames = S.territories.map(t => t.name).join(', ');
   const metrics = [
     { label: 'Total trips', val: S.trips, denom: '', sub: `${S.allFourTrips} with all four of us`, fill: pct(S.allFourTrips, S.trips), color: css('all4') },
     { label: 'Continents', val: S.continents.length, denom: `of ${S.continentsTotal}`, sub: `Still to go: ${S.continentsMissing.join(', ')}`, fill: pct(S.continents.length, 7), color: css('dsolo') },
-    { label: 'Countries', val: S.countries, denom: `of ${S.countriesTotal}`, sub: S.territories.length ? `Plus ${terrNames}` : 'UN members + 2 observers', fill: pct(S.countries, 195), color: css('couple') },
+    { label: 'Countries', val: S.countries, denom: `of ${S.countriesTotal}`, sub: '193 UN + Vatican City, Palestine', fill: pct(S.countries, 195), color: css('couple') },
     { label: 'US states', val: S.states, denom: `of ${S.statesTotal}`, sub: '50 states + DC', fill: pct(S.states, 51), color: css('ssolo') },
   ];
   $('metrics').innerHTML = metrics.map(m => `
