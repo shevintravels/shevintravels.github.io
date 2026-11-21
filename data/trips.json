@@ -3365,14 +3365,15 @@
    "us": true
   },
   {
-   "title": "Budapest, Hungary",
+   "title": "Budapest + Prague",
    "who": [
     "daryl"
    ],
    "note": "",
    "check": {
     "countries": [
-     "Hungary"
+     "Hungary",
+     "Czech Republic"
     ]
    }
   },
