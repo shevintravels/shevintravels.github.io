@@ -335,8 +335,7 @@
     </div>`).join('');
 
   /* ---------- Idiot Cup ---------- */
-  $('ic-link').href = D.meta.idiotCupUrl;
-  const ic = D.trips.filter(t => t.idiotCup);
+  const ic = D.trips.filter(t => t.idiotCup).sort((a, b) => b.yearSort - a.yearSort);
   $('ic-strip').innerHTML = ic.map(t => `<div class="ic-ed"><div class="y">${t.year}</div>${esc(t.destination.replace(/\s*\(.*\)$/, '').replace(', golf trip', ''))}</div>`).join('');
 
   /* ---------- nav highlight ---------- */
