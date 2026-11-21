@@ -274,11 +274,23 @@
   $('country-chips').innerHTML = `<span class="chip"><strong>${S.countries}</strong>of 195</span>` +
     D.people.map(p => `<span class="chip"><strong>${p.countries}</strong>${p.name}</span>`).join('');
   const conts = [...new Set(visitedC.map(c => c.continent))].sort();
-  $('country-list').innerHTML = conts.map(ct => `<div class="cont-head">${ct} (${visitedC.filter(c => c.continent === ct).length})</div>` +
-    visitedC.filter(c => c.continent === ct).map(c => {
-      const n = c.trips.length;
-      return `<div class="item"><span>${esc(c.name)}</span><span class="meta">${n} trip${n === 1 ? '' : 's'}</span>${whoDots(c.who)}</div>`;
-    }).join('')).join('');
+  const cRow = c => {
+    const n = c.trips.length;
+    return `<div class="item"><span>${esc(c.name)}</span><span class="meta">${n} trip${n === 1 ? '' : 's'}</span>${whoDots(c.who)}</div>`;
+  };
+  const EAST_EU = new Set(['Albania', 'Belarus', 'Bosnia and Herzegovina', 'Bulgaria', 'Croatia', 'Czech Republic', 'Estonia',
+    'Hungary', 'Latvia', 'Lithuania', 'Moldova', 'Montenegro', 'North Macedonia', 'Poland', 'Romania', 'Russia', 'Serbia',
+    'Slovakia', 'Slovenia', 'Ukraine']);
+  $('country-list').innerHTML = conts.map(ct => {
+    const list = visitedC.filter(c => c.continent === ct);
+    let body = list.map(cRow).join('');
+    if (ct === 'Europe') {
+      body = [['Western Europe', list.filter(c => !EAST_EU.has(c.name))], ['Eastern Europe', list.filter(c => EAST_EU.has(c.name))]]
+        .filter(([, l]) => l.length)
+        .map(([nm, l]) => `<div class="sub-head">${nm} (${l.length})</div>` + l.map(cRow).join('')).join('');
+    }
+    return `<div class="cont-head">${ct} (${list.length})</div>` + body;
+  }).join('');
   const notYet = D.countries.filter(c => !c.visited);
   $('country-extra').innerHTML =
     (S.territories.length ? `<div class="cont-head">Territories (not counted)</div>` + S.territories.map(t =>
