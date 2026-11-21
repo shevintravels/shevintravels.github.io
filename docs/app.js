@@ -291,7 +291,8 @@
       return `<div class="item"><span>${esc(s.name)}</span><span class="meta">${bits.join(', ')}</span>${whoDots(s.who)}</div>`;
     }).join('') +
     `<div class="cont-head" style="margin-top:16px">Not yet (${D.states.length - visitedS.length})</div>` +
-    `<p class="footnote" style="margin-top:4px;font-size:13px;line-height:1.7">${D.states.filter(s => !s.visited).map(s => esc(s.name)).join(', ')}</p>` +
+    D.states.filter(s => !s.visited).map(s =>
+      `<div class="item"><span>${esc(s.name)}</span><span class="meta"></span>${whoDots({})}</div>`).join('') +
     `<p class="footnote">Florida trips are not logged (home state). States only driven through do not count.</p>`;
 
   /* ---------- trip log ---------- */
