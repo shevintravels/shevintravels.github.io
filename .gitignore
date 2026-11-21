@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+~$*
+
+# Originals kept on disk only, not published
+source/

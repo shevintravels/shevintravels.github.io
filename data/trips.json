@@ -1,0 +1,2906 @@
+{
+ "meta": {
+  "title": "The Shevin Travels",
+  "updated": "2026-11-21",
+  "home": "Miami, FL",
+  "people": [
+   {
+    "key": "daryl",
+    "name": "Daryl",
+    "initial": "D"
+   },
+   {
+    "key": "ivory",
+    "name": "Ivory",
+    "initial": "I"
+   },
+   {
+    "key": "jaxon",
+    "name": "Jaxon",
+    "initial": "J"
+   },
+   {
+    "key": "sloane",
+    "name": "Sloane",
+    "initial": "S"
+   }
+  ],
+  "rules": [
+   "Florida intrastate trips are not counted.",
+   "States only driven through do not count.",
+   "Recurring places (Denver, Keystone, New York, Chicago, Boston, Las Vegas, New Orleans, Maine, Asheville) are listed once. Repeat visits there are not logged as trips unless they were a special occasion. Trips to anywhere else are logged every time.",
+   "US territories (Puerto Rico) and non-UN places (Cayman Islands) are not counted as countries.",
+   "Countries are out of 195: 193 UN members plus Vatican City and Palestine.",
+   "Years marked ~ are estimates."
+  ],
+  "idiotCupUrl": "https://idiotcup.github.io/"
+ },
+ "trips": [
+  {
+   "year": "~1988",
+   "timing": "",
+   "destination": "Israel",
+   "who": {
+    "daryl": true,
+    "ivory": false,
+    "jaxon": false,
+    "sloane": false
+   },
+   "type": "International",
+   "travelers": "Daryl solo",
+   "confidence": "Fuzzy",
+   "notes": "Bar Mitzvah trip for childhood best friend",
+   "places": [
+    {
+     "name": "Israel",
+     "lat": 31.77,
+     "lng": 35.21,
+     "country": "Israel"
+    }
+   ],
+   "yearSort": 1988,
+   "approxYear": true,
+   "idiotCup": false,
+   "id": 1
+  },
+  {
+   "year": "1993",
+   "timing": "",
+   "destination": "Israel (summer program)",
+   "who": {
+    "daryl": false,
+    "ivory": true,
+    "jaxon": false,
+    "sloane": false
+   },
+   "type": "International",
+   "travelers": "Ivory solo",
+   "confidence": "Exact",
+   "notes": "Ivory's high school summer program",
+   "places": [
+    {
+     "name": "Israel",
+     "lat": 31.77,
+     "lng": 35.21,
+     "country": "Israel"
+    }
+   ],
+   "yearSort": 1993,
+   "approxYear": false,
+   "idiotCup": false,
+   "id": 2
+  },
+  {
+   "year": "1993",
+   "timing": "",
+   "destination": "Rome, Florence, Venice",
+   "who": {
+    "daryl": true,
+    "ivory": false,
+    "jaxon": false,
+    "sloane": false
+   },
+   "type": "International",
+   "travelers": "Daryl solo",
+   "confidence": "Exact",
+   "notes": "High school trip",
+   "places": [
+    {
+     "name": "Rome",
+     "lat": 41.9,
+     "lng": 12.5,
+     "country": "Italy"
+    },
+    {
+     "name": "Florence",
+     "lat": 43.77,
+     "lng": 11.26,
+     "country": "Italy"
+    },
+    {
+     "name": "Venice",
+     "lat": 45.44,
+     "lng": 12.32,
+     "country": "Italy"
+    }
+   ],
+   "yearSort": 1993,
+   "approxYear": false,
+   "idiotCup": false,
+   "id": 3
+  },
+  {
+   "year": "1996",
+   "timing": "",
+   "destination": "Amsterdam",
+   "who": {
+    "daryl": true,
+    "ivory": false,
+    "jaxon": false,
+    "sloane": false
+   },
+   "type": "International",
+   "travelers": "Daryl solo",
+   "confidence": "Approximate",
+   "notes": "During study abroad year",
+   "places": [
+    {
+     "name": "Amsterdam",
+     "lat": 52.37,
+     "lng": 4.9,
+     "country": "Netherlands"
+    }
+   ],
+   "yearSort": 1996,
+   "approxYear": false,
+   "idiotCup": false,
+   "id": 4
+  },
+  {
+   "year": "1996",
+   "timing": "",
+   "destination": "Brussels",
+   "who": {
+    "daryl": true,
+    "ivory": false,
+    "jaxon": false,
+    "sloane": false
+   },
+   "type": "International",
+   "travelers": "Daryl solo",
+   "confidence": "Approximate",
+   "notes": "During study abroad year",
+   "places": [
+    {
+     "name": "Brussels",
+     "lat": 50.85,
+     "lng": 4.35,
+     "country": "Belgium"
+    }
+   ],
+   "yearSort": 1996,
+   "approxYear": false,
+   "idiotCup": false,
+   "id": 5
+  },
+  {
+   "year": "1996",
+   "timing": "",
+   "destination": "Morocco",
+   "who": {
+    "daryl": true,
+    "ivory": false,
+    "jaxon": false,
+    "sloane": false
+   },
+   "type": "International",
+   "travelers": "Daryl solo",
+   "confidence": "Approximate",
+   "notes": "During study abroad year; North Africa",
+   "places": [
+    {
+     "name": "Morocco",
+     "lat": 31.8,
+     "lng": -7.1,
+     "country": "Morocco"
+    }
+   ],
+   "yearSort": 1996,
+   "approxYear": false,
+   "idiotCup": false,
+   "id": 6
+  },
+  {
+   "year": "1996",
+   "timing": "",
+   "destination": "Paris",
+   "who": {
+    "daryl": true,
+    "ivory": false,
+    "jaxon": false,
+    "sloane": false
+   },
+   "type": "International",
+   "travelers": "Daryl solo",
+   "confidence": "Approximate",
+   "notes": "During study abroad year",
+   "places": [
+    {
+     "name": "Paris",
+     "lat": 48.86,
+     "lng": 2.35,
+     "country": "France"
+    }
+   ],
+   "yearSort": 1996,
+   "approxYear": false,
+   "idiotCup": false,
+   "id": 7
+  },
+  {
+   "year": "1996",
+   "timing": "",
+   "destination": "Portugal (small town)",
+   "who": {
+    "daryl": true,
+    "ivory": false,
+    "jaxon": false,
+    "sloane": false
+   },
+   "type": "International",
+   "travelers": "Daryl solo",
+   "confidence": "Approximate",
+   "notes": "During study abroad year",
+   "places": [
+    {
+     "name": "Portugal",
+     "lat": 39.6,
+     "lng": -8.0,
+     "country": "Portugal"
+    }
+   ],
+   "yearSort": 1996,
+   "approxYear": false,
+   "idiotCup": false,
+   "id": 8
+  },
+  {
+   "year": "1996",
+   "timing": "",
+   "destination": "Study Abroad, Spain (Barcelona, Madrid, San Sebastian, Marbella)",
+   "who": {
+    "daryl": true,
+    "ivory": false,
+    "jaxon": false,
+    "sloane": false
+   },
+   "type": "International",
+   "travelers": "Daryl solo",
+   "confidence": "Exact",
+   "notes": "Based in Spain all year",
+   "places": [
+    {
+     "name": "Barcelona",
+     "lat": 41.39,
+     "lng": 2.17,
+     "country": "Spain"
+    },
+    {
+     "name": "Madrid",
+     "lat": 40.42,
+     "lng": -3.7,
+     "country": "Spain"
+    },
+    {
+     "name": "San Sebastian",
+     "lat": 43.32,
+     "lng": -1.98,
+     "country": "Spain"
+    },
+    {
+     "name": "Marbella",
+     "lat": 36.51,
+     "lng": -4.88,
+     "country": "Spain"
+    }
+   ],
+   "yearSort": 1996,
+   "approxYear": false,
+   "idiotCup": false,
+   "id": 9
+  },
+  {
+   "year": "1997",
+   "timing": "Jan",
+   "destination": "Tempe, AZ, Fiesta Bowl",
+   "who": {
+    "daryl": true,
+    "ivory": false,
+    "jaxon": false,
+    "sloane": false
+   },
+   "type": "Sports Trip",
+   "travelers": "Daryl solo",
+   "confidence": "Exact",
+   "notes": "UF vs Nebraska national championship game",
+   "places": [
+    {
+     "name": "Tempe, AZ",
+     "lat": 33.43,
+     "lng": -111.94,
+     "country": "United States",
+     "state": "AZ"
+    }
+   ],
+   "yearSort": 1997,
+   "approxYear": false,
+   "idiotCup": false,
+   "id": 10
+  },
+  {
+   "year": "~2000",
+   "timing": "Feb",
+   "destination": "Salvador + Morro de São Paulo, Brazil",
+   "who": {
+    "daryl": true,
+    "ivory": false,
+    "jaxon": false,
+    "sloane": false
+   },
+   "type": "International",
+   "travelers": "Daryl + friends",
+   "confidence": "Fuzzy",
+   "notes": "Carnival trip with brother Brandon and friends",
+   "places": [
+    {
+     "name": "Salvador",
+     "lat": -12.97,
+     "lng": -38.5,
+     "country": "Brazil"
+    },
+    {
+     "name": "Morro de Sao Paulo",
+     "lat": -13.38,
+     "lng": -38.91,
+     "country": "Brazil"
+    }
+   ],
+   "yearSort": 2000,
+   "approxYear": true,
+   "idiotCup": false,
+   "id": 11
+  },
+  {
+   "timing": "",
+   "notes": "With brother Brandon and parents.",
+   "confidence": "Approximate",
+   "year": "2000",
+   "destination": "Mont Tremblant, Canada",
+   "who": {
+    "daryl": true,
+    "ivory": false,
+    "jaxon": false,
+    "sloane": false
+   },
+   "type": "Family",
+   "travelers": "Daryl + brother + parents",
+   "places": [
+    {
+     "name": "Mont Tremblant",
+     "lat": 46.21,
+     "lng": -74.58,
+     "country": "Canada"
+    }
+   ],
+   "yearSort": 2000,
+   "approxYear": false,
+   "idiotCup": false,
+   "id": 12
+  },
+  {
+   "year": "~2002",
+   "timing": "",
+   "destination": "Washington DC",
+   "who": {
+    "daryl": true,
+    "ivory": false,
+    "jaxon": false,
+    "sloane": false
+   },
+   "type": "Personal",
+   "travelers": "Daryl solo",
+   "confidence": "Approximate",
+   "notes": "One of several DC visits",
+   "places": [
+    {
+     "name": "Washington DC",
+     "lat": 38.91,
+     "lng": -77.04,
+     "country": "United States",
+     "state": "DC"
+    }
+   ],
+   "yearSort": 2002,
+   "approxYear": true,
+   "idiotCup": false,
+   "id": 13
+  },
+  {
+   "year": "2003",
+   "timing": "Summer",
+   "destination": "Myrtle Beach, SC",
+   "who": {
+    "daryl": true,
+    "ivory": false,
+    "jaxon": false,
+    "sloane": false
+   },
+   "type": "Golf Trip",
+   "travelers": "Daryl + buddies",
+   "confidence": "Exact",
+   "notes": "Annual golf trip",
+   "places": [
+    {
+     "name": "Myrtle Beach, SC",
+     "lat": 33.69,
+     "lng": -78.89,
+     "country": "United States",
+     "state": "SC"
+    }
+   ],
+   "yearSort": 2003,
+   "approxYear": false,
+   "idiotCup": true,
+   "id": 14
+  },
+  {
+   "year": "~2003",
+   "timing": "",
+   "destination": "San Francisco, CA",
+   "who": {
+    "daryl": true,
+    "ivory": true,
+    "jaxon": false,
+    "sloane": false
+   },
+   "type": "Couples",
+   "travelers": "Daryl + Ivory",
+   "confidence": "Fuzzy",
+   "notes": "First trip together as a couple",
+   "places": [
+    {
+     "name": "San Francisco, CA",
+     "lat": 37.77,
+     "lng": -122.42,
+     "country": "United States",
+     "state": "CA"
+    }
+   ],
+   "yearSort": 2003,
+   "approxYear": true,
+   "idiotCup": false,
+   "id": 15
+  },
+  {
+   "year": "2004",
+   "timing": "Summer",
+   "destination": "Tunica, MS",
+   "who": {
+    "daryl": true,
+    "ivory": false,
+    "jaxon": false,
+    "sloane": false
+   },
+   "type": "Golf Trip",
+   "travelers": "Daryl + buddies",
+   "confidence": "Exact",
+   "notes": "Annual golf trip",
+   "places": [
+    {
+     "name": "Tunica, MS",
+     "lat": 34.69,
+     "lng": -90.38,
+     "country": "United States",
+     "state": "MS"
+    }
+   ],
+   "yearSort": 2004,
+   "approxYear": false,
+   "idiotCup": true,
+   "id": 16
+  },
+  {
+   "year": "2004",
+   "timing": "",
+   "destination": "Cayman Islands",
+   "who": {
+    "daryl": true,
+    "ivory": false,
+    "jaxon": false,
+    "sloane": false
+   },
+   "type": "International",
+   "travelers": "Daryl solo",
+   "confidence": "Exact",
+   "notes": "Work trip",
+   "places": [
+    {
+     "name": "Grand Cayman",
+     "lat": 19.29,
+     "lng": -81.37,
+     "country": null,
+     "territory": "Cayman Islands"
+    }
+   ],
+   "yearSort": 2004,
+   "approxYear": false,
+   "idiotCup": false,
+   "id": 17
+  },
+  {
+   "year": "2005",
+   "timing": "Summer",
+   "destination": "Charleston, SC",
+   "who": {
+    "daryl": true,
+    "ivory": false,
+    "jaxon": false,
+    "sloane": false
+   },
+   "type": "Golf Trip",
+   "travelers": "Daryl + buddies",
+   "confidence": "Exact",
+   "notes": "Annual golf trip",
+   "places": [
+    {
+     "name": "Charleston, SC",
+     "lat": 32.78,
+     "lng": -79.93,
+     "country": "United States",
+     "state": "SC"
+    }
+   ],
+   "yearSort": 2005,
+   "approxYear": false,
+   "idiotCup": true,
+   "id": 18
+  },
+  {
+   "year": "2006",
+   "timing": "Feb",
+   "destination": "Argentina (Mendoza, Salta, Buenos Aires)",
+   "who": {
+    "daryl": true,
+    "ivory": true,
+    "jaxon": false,
+    "sloane": false
+   },
+   "type": "International",
+   "travelers": "Daryl + Ivory",
+   "confidence": "Exact",
+   "notes": "Ivory's 30th birthday trip",
+   "places": [
+    {
+     "name": "Mendoza",
+     "lat": -32.89,
+     "lng": -68.83,
+     "country": "Argentina"
+    },
+    {
+     "name": "Salta",
+     "lat": -24.78,
+     "lng": -65.41,
+     "country": "Argentina"
+    },
+    {
+     "name": "Buenos Aires",
+     "lat": -34.6,
+     "lng": -58.38,
+     "country": "Argentina"
+    }
+   ],
+   "yearSort": 2006,
+   "approxYear": false,
+   "idiotCup": false,
+   "id": 19
+  },
+  {
+   "year": "2006",
+   "timing": "Apr",
+   "destination": "Indianapolis, IN, Final Four",
+   "who": {
+    "daryl": true,
+    "ivory": false,
+    "jaxon": false,
+    "sloane": false
+   },
+   "type": "Sports Trip",
+   "travelers": "Daryl solo",
+   "confidence": "Exact",
+   "notes": "UF National Championship, beat UCLA 73-57, RCA Dome",
+   "places": [
+    {
+     "name": "Indianapolis, IN",
+     "lat": 39.77,
+     "lng": -86.16,
+     "country": "United States",
+     "state": "IN"
+    }
+   ],
+   "yearSort": 2006,
+   "approxYear": false,
+   "idiotCup": false,
+   "id": 20
+  },
+  {
+   "year": "2006",
+   "timing": "Summer",
+   "destination": "Austin, TX",
+   "who": {
+    "daryl": true,
+    "ivory": false,
+    "jaxon": false,
+    "sloane": false
+   },
+   "type": "Golf Trip",
+   "travelers": "Daryl + buddies",
+   "confidence": "Exact",
+   "notes": "Annual golf trip",
+   "places": [
+    {
+     "name": "Austin, TX",
+     "lat": 30.27,
+     "lng": -97.74,
+     "country": "United States",
+     "state": "TX"
+    }
+   ],
+   "yearSort": 2006,
+   "approxYear": false,
+   "idiotCup": true,
+   "id": 21
+  },
+  {
+   "year": "2007",
+   "timing": "Jul",
+   "destination": "Keystone, CO, Wedding",
+   "who": {
+    "daryl": true,
+    "ivory": true,
+    "jaxon": false,
+    "sloane": false
+   },
+   "type": "Family/Personal",
+   "travelers": "Daryl + Ivory",
+   "confidence": "Exact",
+   "notes": "Wedding, July 28, 2007",
+   "places": [
+    {
+     "name": "Keystone, CO",
+     "lat": 39.6,
+     "lng": -105.95,
+     "country": "United States",
+     "state": "CO"
+    }
+   ],
+   "yearSort": 2007,
+   "approxYear": false,
+   "idiotCup": false,
+   "id": 22
+  },
+  {
+   "year": "2007",
+   "timing": "Summer",
+   "destination": "New Orleans, LA",
+   "who": {
+    "daryl": true,
+    "ivory": false,
+    "jaxon": false,
+    "sloane": false
+   },
+   "type": "Golf Trip",
+   "travelers": "Daryl + buddies",
+   "confidence": "Exact",
+   "notes": "Annual golf trip",
+   "places": [
+    {
+     "name": "New Orleans, LA",
+     "lat": 29.95,
+     "lng": -90.07,
+     "country": "United States",
+     "state": "LA"
+    }
+   ],
+   "yearSort": 2007,
+   "approxYear": false,
+   "idiotCup": true,
+   "id": 23
+  },
+  {
+   "year": "2007",
+   "timing": "",
+   "destination": "South Africa (Kruger, Cape Town, Wine Country)",
+   "who": {
+    "daryl": true,
+    "ivory": true,
+    "jaxon": false,
+    "sloane": false
+   },
+   "type": "International",
+   "travelers": "Daryl + Ivory",
+   "confidence": "Exact",
+   "notes": "Honeymoon, Kruger safari, Cape Town, Stellenbosch wine country",
+   "places": [
+    {
+     "name": "Kruger",
+     "lat": -23.99,
+     "lng": 31.55,
+     "country": "South Africa"
+    },
+    {
+     "name": "Cape Town",
+     "lat": -33.92,
+     "lng": 18.42,
+     "country": "South Africa"
+    },
+    {
+     "name": "Stellenbosch",
+     "lat": -33.93,
+     "lng": 18.86,
+     "country": "South Africa"
+    }
+   ],
+   "yearSort": 2007,
+   "approxYear": false,
+   "idiotCup": false,
+   "id": 24
+  },
+  {
+   "year": "2008",
+   "timing": "Summer",
+   "destination": "Montreal, Canada",
+   "who": {
+    "daryl": true,
+    "ivory": false,
+    "jaxon": false,
+    "sloane": false
+   },
+   "type": "Golf Trip",
+   "travelers": "Daryl + buddies",
+   "confidence": "Exact",
+   "notes": "Annual golf trip",
+   "places": [
+    {
+     "name": "Montreal",
+     "lat": 45.5,
+     "lng": -73.57,
+     "country": "Canada"
+    }
+   ],
+   "yearSort": 2008,
+   "approxYear": false,
+   "idiotCup": true,
+   "id": 25
+  },
+  {
+   "timing": "",
+   "notes": "Dolphins away game with friends. Year is an estimate; confirm.",
+   "confidence": "Fuzzy",
+   "year": "~2008",
+   "destination": "Buffalo, NY + Toronto, Canada (Dolphins away game)",
+   "who": {
+    "daryl": true,
+    "ivory": false,
+    "jaxon": false,
+    "sloane": false
+   },
+   "type": "Sports Trip",
+   "travelers": "Daryl + friends",
+   "places": [
+    {
+     "name": "Buffalo, NY",
+     "lat": 42.89,
+     "lng": -78.88,
+     "country": "United States",
+     "state": "NY"
+    },
+    {
+     "name": "Toronto",
+     "lat": 43.65,
+     "lng": -79.38,
+     "country": "Canada"
+    }
+   ],
+   "yearSort": 2008,
+   "approxYear": true,
+   "idiotCup": false,
+   "id": 26
+  },
+  {
+   "year": "2009",
+   "timing": "Summer",
+   "destination": "Milwaukee, WI",
+   "who": {
+    "daryl": true,
+    "ivory": false,
+    "jaxon": false,
+    "sloane": false
+   },
+   "type": "Golf Trip",
+   "travelers": "Daryl + buddies",
+   "confidence": "Exact",
+   "notes": "Annual golf trip",
+   "places": [
+    {
+     "name": "Milwaukee, WI",
+     "lat": 43.04,
+     "lng": -87.91,
+     "country": "United States",
+     "state": "WI"
+    }
+   ],
+   "yearSort": 2009,
+   "approxYear": false,
+   "idiotCup": true,
+   "id": 27
+  },
+  {
+   "timing": "",
+   "notes": "Guys trip for Keith's bachelor party. US territory, not counted as a country.",
+   "confidence": "Exact",
+   "year": "2009",
+   "destination": "San Juan, Puerto Rico",
+   "who": {
+    "daryl": true,
+    "ivory": false,
+    "jaxon": false,
+    "sloane": false
+   },
+   "type": "Guys Trip",
+   "travelers": "Daryl + friends",
+   "places": [
+    {
+     "name": "San Juan, Puerto Rico",
+     "lat": 18.47,
+     "lng": -66.11,
+     "country": null,
+     "territory": "Puerto Rico"
+    }
+   ],
+   "yearSort": 2009,
+   "approxYear": false,
+   "idiotCup": false,
+   "id": 28
+  },
+  {
+   "year": "2010",
+   "timing": "Summer",
+   "destination": "New Jersey",
+   "who": {
+    "daryl": true,
+    "ivory": false,
+    "jaxon": false,
+    "sloane": false
+   },
+   "type": "Golf Trip",
+   "travelers": "Daryl + buddies",
+   "confidence": "Exact",
+   "notes": "Annual golf trip",
+   "places": [
+    {
+     "name": "New Jersey",
+     "lat": 40.06,
+     "lng": -74.41,
+     "country": "United States",
+     "state": "NJ"
+    }
+   ],
+   "yearSort": 2010,
+   "approxYear": false,
+   "idiotCup": true,
+   "id": 29
+  },
+  {
+   "year": "2011",
+   "timing": "Summer",
+   "destination": "Michigan",
+   "who": {
+    "daryl": true,
+    "ivory": false,
+    "jaxon": false,
+    "sloane": false
+   },
+   "type": "Golf Trip",
+   "travelers": "Daryl + buddies",
+   "confidence": "Exact",
+   "notes": "Annual golf trip",
+   "places": [
+    {
+     "name": "Michigan",
+     "lat": 44.3,
+     "lng": -85.6,
+     "country": "United States",
+     "state": "MI"
+    }
+   ],
+   "yearSort": 2011,
+   "approxYear": false,
+   "idiotCup": true,
+   "id": 30
+  },
+  {
+   "year": "2012",
+   "timing": "Summer",
+   "destination": "La Romana, Dominican Republic (Casa de Campo)",
+   "who": {
+    "daryl": true,
+    "ivory": false,
+    "jaxon": false,
+    "sloane": false
+   },
+   "type": "Golf Trip",
+   "travelers": "Daryl + buddies",
+   "confidence": "Exact",
+   "notes": "Annual golf trip, CDC #1",
+   "places": [
+    {
+     "name": "Casa de Campo",
+     "lat": 18.41,
+     "lng": -68.95,
+     "country": "Dominican Republic"
+    }
+   ],
+   "yearSort": 2012,
+   "approxYear": false,
+   "idiotCup": true,
+   "id": 31
+  },
+  {
+   "year": "2013",
+   "timing": "Summer",
+   "destination": "Pinehurst, NC",
+   "who": {
+    "daryl": true,
+    "ivory": false,
+    "jaxon": false,
+    "sloane": false
+   },
+   "type": "Golf Trip",
+   "travelers": "Daryl + buddies",
+   "confidence": "Exact",
+   "notes": "Annual golf trip",
+   "places": [
+    {
+     "name": "Pinehurst, NC",
+     "lat": 35.2,
+     "lng": -79.47,
+     "country": "United States",
+     "state": "NC"
+    }
+   ],
+   "yearSort": 2013,
+   "approxYear": false,
+   "idiotCup": true,
+   "id": 32
+  },
+  {
+   "year": "2014",
+   "timing": "Apr",
+   "destination": "Napa Valley, CA",
+   "who": {
+    "daryl": true,
+    "ivory": true,
+    "jaxon": false,
+    "sloane": false
+   },
+   "type": "Couples",
+   "travelers": "Daryl + Ivory",
+   "confidence": "Exact",
+   "notes": "Couples trip",
+   "places": [
+    {
+     "name": "Napa Valley, CA",
+     "lat": 38.3,
+     "lng": -122.29,
+     "country": "United States",
+     "state": "CA"
+    }
+   ],
+   "yearSort": 2014,
+   "approxYear": false,
+   "idiotCup": false,
+   "id": 33
+  },
+  {
+   "year": "2014",
+   "timing": "Summer",
+   "destination": "Whistling Straits, WI",
+   "who": {
+    "daryl": true,
+    "ivory": false,
+    "jaxon": false,
+    "sloane": false
+   },
+   "type": "Golf Trip",
+   "travelers": "Daryl + buddies",
+   "confidence": "Exact",
+   "notes": "Annual golf trip",
+   "places": [
+    {
+     "name": "Whistling Straits, WI",
+     "lat": 43.85,
+     "lng": -87.73,
+     "country": "United States",
+     "state": "WI"
+    }
+   ],
+   "yearSort": 2014,
+   "approxYear": false,
+   "idiotCup": true,
+   "id": 34
+  },
+  {
+   "year": "2015",
+   "timing": "Summer",
+   "destination": "La Romana, Dominican Republic (Casa de Campo)",
+   "who": {
+    "daryl": true,
+    "ivory": false,
+    "jaxon": false,
+    "sloane": false
+   },
+   "type": "Golf Trip",
+   "travelers": "Daryl + buddies",
+   "confidence": "Exact",
+   "notes": "Annual golf trip, CDC #2",
+   "places": [
+    {
+     "name": "Casa de Campo",
+     "lat": 18.41,
+     "lng": -68.95,
+     "country": "Dominican Republic"
+    }
+   ],
+   "yearSort": 2015,
+   "approxYear": false,
+   "idiotCup": true,
+   "id": 35
+  },
+  {
+   "year": "2016",
+   "timing": "Feb",
+   "destination": "Maui, HI",
+   "who": {
+    "daryl": true,
+    "ivory": true,
+    "jaxon": false,
+    "sloane": false
+   },
+   "type": "Couples",
+   "travelers": "Daryl + Ivory",
+   "confidence": "Exact",
+   "notes": "Ivory's 40th birthday trip",
+   "places": [
+    {
+     "name": "Maui, HI",
+     "lat": 20.8,
+     "lng": -156.33,
+     "country": "United States",
+     "state": "HI"
+    }
+   ],
+   "yearSort": 2016,
+   "approxYear": false,
+   "idiotCup": false,
+   "id": 36
+  },
+  {
+   "year": "2016",
+   "timing": "Summer",
+   "destination": "Vail, CO",
+   "who": {
+    "daryl": true,
+    "ivory": false,
+    "jaxon": false,
+    "sloane": false
+   },
+   "type": "Golf Trip",
+   "travelers": "Daryl + buddies",
+   "confidence": "Exact",
+   "notes": "Annual golf trip",
+   "places": [
+    {
+     "name": "Vail, CO",
+     "lat": 39.64,
+     "lng": -106.37,
+     "country": "United States",
+     "state": "CO"
+    }
+   ],
+   "yearSort": 2016,
+   "approxYear": false,
+   "idiotCup": true,
+   "id": 37
+  },
+  {
+   "year": "2017",
+   "timing": "Apr",
+   "destination": "Napa Valley, CA",
+   "who": {
+    "daryl": true,
+    "ivory": true,
+    "jaxon": false,
+    "sloane": false
+   },
+   "type": "Couples",
+   "travelers": "Daryl + Ivory",
+   "confidence": "Exact",
+   "notes": "Couples trip",
+   "places": [
+    {
+     "name": "Napa Valley, CA",
+     "lat": 38.3,
+     "lng": -122.29,
+     "country": "United States",
+     "state": "CA"
+    }
+   ],
+   "yearSort": 2017,
+   "approxYear": false,
+   "idiotCup": false,
+   "id": 38
+  },
+  {
+   "year": "2017",
+   "timing": "Jul",
+   "destination": "Jamaica (Negril)",
+   "who": {
+    "daryl": true,
+    "ivory": true,
+    "jaxon": false,
+    "sloane": false
+   },
+   "type": "Couples",
+   "travelers": "Daryl + Ivory",
+   "confidence": "Exact",
+   "notes": "Couples trip",
+   "places": [
+    {
+     "name": "Negril",
+     "lat": 18.27,
+     "lng": -78.35,
+     "country": "Jamaica"
+    }
+   ],
+   "yearSort": 2017,
+   "approxYear": false,
+   "idiotCup": false,
+   "id": 39
+  },
+  {
+   "year": "2017",
+   "timing": "Summer",
+   "destination": "San Diego, CA",
+   "who": {
+    "daryl": true,
+    "ivory": false,
+    "jaxon": false,
+    "sloane": false
+   },
+   "type": "Golf Trip",
+   "travelers": "Daryl + buddies",
+   "confidence": "Exact",
+   "notes": "Annual golf trip",
+   "places": [
+    {
+     "name": "San Diego, CA",
+     "lat": 32.72,
+     "lng": -117.16,
+     "country": "United States",
+     "state": "CA"
+    }
+   ],
+   "yearSort": 2017,
+   "approxYear": false,
+   "idiotCup": true,
+   "id": 40
+  },
+  {
+   "year": "2017",
+   "timing": "Dec",
+   "destination": "Durham/Chapel Hill, NC, Duke + UNC games",
+   "who": {
+    "daryl": true,
+    "ivory": false,
+    "jaxon": true,
+    "sloane": false
+   },
+   "type": "Sports Trip",
+   "travelers": "Daryl + Jaxon",
+   "confidence": "Exact",
+   "notes": "Sports trip, attended Duke and UNC games",
+   "places": [
+    {
+     "name": "Durham, NC",
+     "lat": 35.99,
+     "lng": -78.9,
+     "country": "United States",
+     "state": "NC"
+    },
+    {
+     "name": "Chapel Hill, NC",
+     "lat": 35.91,
+     "lng": -79.06,
+     "country": "United States",
+     "state": "NC"
+    }
+   ],
+   "yearSort": 2017,
+   "approxYear": false,
+   "idiotCup": false,
+   "id": 41
+  },
+  {
+   "year": "2018",
+   "timing": "Summer",
+   "destination": "Jackson Hole, WY (then drove to Keystone)",
+   "who": {
+    "daryl": true,
+    "ivory": true,
+    "jaxon": true,
+    "sloane": true
+   },
+   "type": "Family",
+   "travelers": "All four",
+   "confidence": "Exact",
+   "notes": "Family trip; drove to Keystone to start summer",
+   "places": [
+    {
+     "name": "Jackson Hole, WY",
+     "lat": 43.48,
+     "lng": -110.76,
+     "country": "United States",
+     "state": "WY"
+    }
+   ],
+   "yearSort": 2018,
+   "approxYear": false,
+   "idiotCup": false,
+   "id": 42
+  },
+  {
+   "year": "2018",
+   "timing": "Summer",
+   "destination": "Pinehurst, NC",
+   "who": {
+    "daryl": true,
+    "ivory": false,
+    "jaxon": false,
+    "sloane": false
+   },
+   "type": "Golf Trip",
+   "travelers": "Daryl + buddies",
+   "confidence": "Exact",
+   "notes": "Annual golf trip",
+   "places": [
+    {
+     "name": "Pinehurst, NC",
+     "lat": 35.2,
+     "lng": -79.47,
+     "country": "United States",
+     "state": "NC"
+    }
+   ],
+   "yearSort": 2018,
+   "approxYear": false,
+   "idiotCup": true,
+   "id": 43
+  },
+  {
+   "year": "2019",
+   "timing": "Jul",
+   "destination": "Dubai, UAE (2 days) + South Africa (Kruger, Cape Town, Grootbos)",
+   "who": {
+    "daryl": true,
+    "ivory": true,
+    "jaxon": true,
+    "sloane": true
+   },
+   "type": "International",
+   "travelers": "Whole extended family",
+   "confidence": "Exact",
+   "notes": "Extended family trip incl. mom, brother Brandon, his kids; Dubai stopover en route",
+   "places": [
+    {
+     "name": "Dubai",
+     "lat": 25.2,
+     "lng": 55.27,
+     "country": "United Arab Emirates"
+    },
+    {
+     "name": "Kruger",
+     "lat": -23.99,
+     "lng": 31.55,
+     "country": "South Africa"
+    },
+    {
+     "name": "Cape Town",
+     "lat": -33.92,
+     "lng": 18.42,
+     "country": "South Africa"
+    },
+    {
+     "name": "Grootbos",
+     "lat": -34.54,
+     "lng": 19.43,
+     "country": "South Africa"
+    }
+   ],
+   "yearSort": 2019,
+   "approxYear": false,
+   "idiotCup": false,
+   "id": 44
+  },
+  {
+   "year": "2019",
+   "timing": "Summer",
+   "destination": "TPC Sawgrass, FL",
+   "who": {
+    "daryl": true,
+    "ivory": false,
+    "jaxon": false,
+    "sloane": false
+   },
+   "type": "Golf Trip",
+   "travelers": "Daryl + buddies",
+   "confidence": "Exact",
+   "notes": "Annual golf trip, destination golf, not intrastate leisure",
+   "places": [
+    {
+     "name": "TPC Sawgrass, FL",
+     "lat": 30.2,
+     "lng": -81.39,
+     "country": "United States",
+     "state": "FL"
+    }
+   ],
+   "yearSort": 2019,
+   "approxYear": false,
+   "idiotCup": true,
+   "id": 45
+  },
+  {
+   "year": "2019",
+   "timing": "",
+   "destination": "Nashville, TN + Blackberry Mountain, TN",
+   "who": {
+    "daryl": true,
+    "ivory": true,
+    "jaxon": false,
+    "sloane": false
+   },
+   "type": "Couples",
+   "travelers": "Daryl + Ivory",
+   "confidence": "Exact",
+   "notes": "Couples trip",
+   "places": [
+    {
+     "name": "Nashville, TN",
+     "lat": 36.16,
+     "lng": -86.78,
+     "country": "United States",
+     "state": "TN"
+    },
+    {
+     "name": "Blackberry Mountain, TN",
+     "lat": 35.66,
+     "lng": -83.86,
+     "country": "United States",
+     "state": "TN"
+    }
+   ],
+   "yearSort": 2019,
+   "approxYear": false,
+   "idiotCup": false,
+   "id": 46
+  },
+  {
+   "year": "2020",
+   "timing": "Summer",
+   "destination": "Beech Mountain + Cashiers, NC",
+   "who": {
+    "daryl": true,
+    "ivory": true,
+    "jaxon": true,
+    "sloane": true
+   },
+   "type": "Family",
+   "travelers": "All four",
+   "confidence": "Exact",
+   "notes": "COVID summer, Beech Mountain and Cashiers",
+   "places": [
+    {
+     "name": "Beech Mountain, NC",
+     "lat": 36.21,
+     "lng": -81.88,
+     "country": "United States",
+     "state": "NC"
+    },
+    {
+     "name": "Cashiers, NC",
+     "lat": 35.11,
+     "lng": -83.1,
+     "country": "United States",
+     "state": "NC"
+    }
+   ],
+   "yearSort": 2020,
+   "approxYear": false,
+   "idiotCup": false,
+   "id": 47
+  },
+  {
+   "year": "2020",
+   "timing": "Summer",
+   "destination": "Pinehurst, NC",
+   "who": {
+    "daryl": true,
+    "ivory": false,
+    "jaxon": false,
+    "sloane": false
+   },
+   "type": "Golf Trip",
+   "travelers": "Daryl + buddies",
+   "confidence": "Exact",
+   "notes": "Annual golf trip",
+   "places": [
+    {
+     "name": "Pinehurst, NC",
+     "lat": 35.2,
+     "lng": -79.47,
+     "country": "United States",
+     "state": "NC"
+    }
+   ],
+   "yearSort": 2020,
+   "approxYear": false,
+   "idiotCup": true,
+   "id": 48
+  },
+  {
+   "year": "2021",
+   "timing": "Summer",
+   "destination": "Big Cedar, MO",
+   "who": {
+    "daryl": true,
+    "ivory": false,
+    "jaxon": false,
+    "sloane": false
+   },
+   "type": "Golf Trip",
+   "travelers": "Daryl + buddies",
+   "confidence": "Exact",
+   "notes": "Annual golf trip",
+   "places": [
+    {
+     "name": "Big Cedar, MO",
+     "lat": 36.59,
+     "lng": -93.33,
+     "country": "United States",
+     "state": "MO"
+    }
+   ],
+   "yearSort": 2021,
+   "approxYear": false,
+   "idiotCup": true,
+   "id": 49
+  },
+  {
+   "year": "2021",
+   "timing": "Dec",
+   "destination": "Tuscany + Florence, Italy",
+   "who": {
+    "daryl": true,
+    "ivory": true,
+    "jaxon": false,
+    "sloane": false
+   },
+   "type": "Couples",
+   "travelers": "Daryl + Ivory",
+   "confidence": "Exact",
+   "notes": "Christmas couples trip",
+   "places": [
+    {
+     "name": "Tuscany",
+     "lat": 43.32,
+     "lng": 11.33,
+     "country": "Italy"
+    },
+    {
+     "name": "Florence",
+     "lat": 43.77,
+     "lng": 11.26,
+     "country": "Italy"
+    }
+   ],
+   "yearSort": 2021,
+   "approxYear": false,
+   "idiotCup": false,
+   "id": 50
+  },
+  {
+   "year": "2021",
+   "timing": "",
+   "destination": "Kiawah Island, SC",
+   "who": {
+    "daryl": true,
+    "ivory": true,
+    "jaxon": true,
+    "sloane": true
+   },
+   "type": "Family",
+   "travelers": "All four",
+   "confidence": "Exact",
+   "notes": "Family trip",
+   "places": [
+    {
+     "name": "Kiawah Island, SC",
+     "lat": 32.61,
+     "lng": -80.08,
+     "country": "United States",
+     "state": "SC"
+    }
+   ],
+   "yearSort": 2021,
+   "approxYear": false,
+   "idiotCup": false,
+   "id": 51
+  },
+  {
+   "year": "2021",
+   "timing": "",
+   "destination": "Pebble Beach, CA",
+   "who": {
+    "daryl": true,
+    "ivory": true,
+    "jaxon": false,
+    "sloane": false
+   },
+   "type": "Couples",
+   "travelers": "Daryl + Ivory",
+   "confidence": "Exact",
+   "notes": "Couples golf trip",
+   "places": [
+    {
+     "name": "Pebble Beach, CA",
+     "lat": 36.57,
+     "lng": -121.95,
+     "country": "United States",
+     "state": "CA"
+    }
+   ],
+   "yearSort": 2021,
+   "approxYear": false,
+   "idiotCup": false,
+   "id": 52
+  },
+  {
+   "timing": "",
+   "notes": "Stopover on the drive to Kiawah.",
+   "confidence": "Exact",
+   "year": "2021",
+   "destination": "Savannah, GA",
+   "who": {
+    "daryl": true,
+    "ivory": true,
+    "jaxon": true,
+    "sloane": true
+   },
+   "type": "Family",
+   "travelers": "All four",
+   "places": [
+    {
+     "name": "Savannah, GA",
+     "lat": 32.08,
+     "lng": -81.09,
+     "country": "United States",
+     "state": "GA"
+    }
+   ],
+   "yearSort": 2021,
+   "approxYear": false,
+   "idiotCup": false,
+   "id": 53
+  },
+  {
+   "year": "2022",
+   "timing": "Spring Break",
+   "destination": "Baha Mar, Nassau, Bahamas",
+   "who": {
+    "daryl": true,
+    "ivory": true,
+    "jaxon": true,
+    "sloane": true
+   },
+   "type": "International",
+   "travelers": "All four",
+   "confidence": "Exact",
+   "notes": "Spring break family trip",
+   "places": [
+    {
+     "name": "Nassau",
+     "lat": 25.07,
+     "lng": -77.4,
+     "country": "Bahamas"
+    }
+   ],
+   "yearSort": 2022,
+   "approxYear": false,
+   "idiotCup": false,
+   "id": 54
+  },
+  {
+   "year": "2022",
+   "timing": "Jul",
+   "destination": "Costa Rica (Guanacaste)",
+   "who": {
+    "daryl": true,
+    "ivory": true,
+    "jaxon": true,
+    "sloane": true
+   },
+   "type": "International",
+   "travelers": "Whole extended family",
+   "confidence": "Exact",
+   "notes": "Extended family trip, flew into LIR",
+   "places": [
+    {
+     "name": "Guanacaste",
+     "lat": 10.5,
+     "lng": -85.6,
+     "country": "Costa Rica"
+    }
+   ],
+   "yearSort": 2022,
+   "approxYear": false,
+   "idiotCup": false,
+   "id": 55
+  },
+  {
+   "year": "2022",
+   "timing": "Summer",
+   "destination": "Reynolds Lake Oconee, GA",
+   "who": {
+    "daryl": true,
+    "ivory": false,
+    "jaxon": false,
+    "sloane": false
+   },
+   "type": "Golf Trip",
+   "travelers": "Daryl + buddies",
+   "confidence": "Exact",
+   "notes": "Annual golf trip",
+   "places": [
+    {
+     "name": "Reynolds Lake Oconee, GA",
+     "lat": 33.43,
+     "lng": -83.25,
+     "country": "United States",
+     "state": "GA"
+    }
+   ],
+   "yearSort": 2022,
+   "approxYear": false,
+   "idiotCup": true,
+   "id": 56
+  },
+  {
+   "year": "2022",
+   "timing": "",
+   "destination": "San Antonio, TX",
+   "who": {
+    "daryl": true,
+    "ivory": true,
+    "jaxon": true,
+    "sloane": true
+   },
+   "type": "Family",
+   "travelers": "All four",
+   "confidence": "Exact",
+   "notes": "Family trip",
+   "places": [
+    {
+     "name": "San Antonio, TX",
+     "lat": 29.42,
+     "lng": -98.49,
+     "country": "United States",
+     "state": "TX"
+    }
+   ],
+   "yearSort": 2022,
+   "approxYear": false,
+   "idiotCup": false,
+   "id": 57
+  },
+  {
+   "year": "2023",
+   "timing": "Spring Break",
+   "destination": "Punta Cana, Dominican Republic",
+   "who": {
+    "daryl": true,
+    "ivory": true,
+    "jaxon": true,
+    "sloane": true
+   },
+   "type": "International",
+   "travelers": "All four + other families",
+   "confidence": "Exact",
+   "notes": "Spring break family trip",
+   "places": [
+    {
+     "name": "Punta Cana",
+     "lat": 18.58,
+     "lng": -68.4,
+     "country": "Dominican Republic"
+    }
+   ],
+   "yearSort": 2023,
+   "approxYear": false,
+   "idiotCup": false,
+   "id": 58
+  },
+  {
+   "year": "2023",
+   "timing": "Summer",
+   "destination": "Ireland",
+   "who": {
+    "daryl": true,
+    "ivory": false,
+    "jaxon": false,
+    "sloane": false
+   },
+   "type": "Golf Trip",
+   "travelers": "Daryl + buddies",
+   "confidence": "Exact",
+   "notes": "Annual golf trip, tacked onto Europe couples trip",
+   "places": [
+    {
+     "name": "Ireland",
+     "lat": 52.95,
+     "lng": -8.2,
+     "country": "Ireland"
+    }
+   ],
+   "yearSort": 2023,
+   "approxYear": false,
+   "idiotCup": true,
+   "id": 59
+  },
+  {
+   "year": "2023",
+   "timing": "Summer",
+   "destination": "Rome, Florence, Venice",
+   "who": {
+    "daryl": false,
+    "ivory": false,
+    "jaxon": true,
+    "sloane": false
+   },
+   "type": "International",
+   "travelers": "Jaxon + grandma + cousin Keaton",
+   "confidence": "Exact",
+   "notes": "With grandma and cousin Keaton. Daryl and Ivory not on this trip.",
+   "places": [
+    {
+     "name": "Rome",
+     "lat": 41.9,
+     "lng": 12.5,
+     "country": "Italy"
+    },
+    {
+     "name": "Florence",
+     "lat": 43.77,
+     "lng": 11.26,
+     "country": "Italy"
+    },
+    {
+     "name": "Venice",
+     "lat": 45.44,
+     "lng": 12.32,
+     "country": "Italy"
+    }
+   ],
+   "yearSort": 2023,
+   "approxYear": false,
+   "idiotCup": false,
+   "id": 60
+  },
+  {
+   "year": "2023",
+   "timing": "Summer",
+   "destination": "San Sebastian + Paris",
+   "who": {
+    "daryl": true,
+    "ivory": true,
+    "jaxon": false,
+    "sloane": false
+   },
+   "type": "Couples",
+   "travelers": "Daryl + Ivory",
+   "confidence": "Exact",
+   "notes": "Couples trip before Ireland golf trip",
+   "places": [
+    {
+     "name": "San Sebastian",
+     "lat": 43.32,
+     "lng": -1.98,
+     "country": "Spain"
+    },
+    {
+     "name": "Paris",
+     "lat": 48.86,
+     "lng": 2.35,
+     "country": "France"
+    }
+   ],
+   "yearSort": 2023,
+   "approxYear": false,
+   "idiotCup": false,
+   "id": 61
+  },
+  {
+   "year": "2024",
+   "timing": "Spring Break",
+   "destination": "Paris + London",
+   "who": {
+    "daryl": true,
+    "ivory": true,
+    "jaxon": true,
+    "sloane": true
+   },
+   "type": "International",
+   "travelers": "All four",
+   "confidence": "Exact",
+   "notes": "Spring break family trip",
+   "places": [
+    {
+     "name": "Paris",
+     "lat": 48.86,
+     "lng": 2.35,
+     "country": "France"
+    },
+    {
+     "name": "London",
+     "lat": 51.51,
+     "lng": -0.13,
+     "country": "United Kingdom"
+    }
+   ],
+   "yearSort": 2024,
+   "approxYear": false,
+   "idiotCup": false,
+   "id": 62
+  },
+  {
+   "year": "2024",
+   "timing": "May",
+   "destination": "Lake Norman, NC",
+   "who": {
+    "daryl": true,
+    "ivory": true,
+    "jaxon": true,
+    "sloane": true
+   },
+   "type": "Family",
+   "travelers": "All four + other families",
+   "confidence": "Exact",
+   "notes": "Memorial Day weekend",
+   "places": [
+    {
+     "name": "Lake Norman, NC",
+     "lat": 35.55,
+     "lng": -80.93,
+     "country": "United States",
+     "state": "NC"
+    }
+   ],
+   "yearSort": 2024,
+   "approxYear": false,
+   "idiotCup": false,
+   "id": 63
+  },
+  {
+   "year": "2024",
+   "timing": "Jun",
+   "destination": "Buena Vista, CO, whitewater rafting",
+   "who": {
+    "daryl": true,
+    "ivory": false,
+    "jaxon": true,
+    "sloane": false
+   },
+   "type": "Family",
+   "travelers": "Daryl + Jaxon + brother Brandon + nephew Keaton",
+   "confidence": "Exact",
+   "notes": "2-day father/son trip during Keystone summer",
+   "places": [
+    {
+     "name": "Buena Vista, CO",
+     "lat": 38.84,
+     "lng": -106.13,
+     "country": "United States",
+     "state": "CO"
+    }
+   ],
+   "yearSort": 2024,
+   "approxYear": false,
+   "idiotCup": false,
+   "id": 64
+  },
+  {
+   "year": "2024",
+   "timing": "Summer",
+   "destination": "Jaxon Teen Tour, American West (28 days)",
+   "who": {
+    "daryl": false,
+    "ivory": false,
+    "jaxon": true,
+    "sloane": false
+   },
+   "type": "Teen Tour",
+   "travelers": "Jaxon solo",
+   "confidence": "Exact",
+   "notes": "Westcoast Connection Californian Extravaganza: Boulder, Jackson Hole, Yellowstone, Park City, SF, Tahoe, Santa Barbara, LA, San Diego, Las Vegas, Zion, Bryce, Grand Canyon, Sedona, Scottsdale",
+   "places": [
+    {
+     "name": "Boulder, CO",
+     "lat": 40.01,
+     "lng": -105.27,
+     "country": "United States",
+     "state": "CO"
+    },
+    {
+     "name": "Jackson Hole, WY",
+     "lat": 43.48,
+     "lng": -110.76,
+     "country": "United States",
+     "state": "WY"
+    },
+    {
+     "name": "Yellowstone, WY",
+     "lat": 44.43,
+     "lng": -110.59,
+     "country": "United States",
+     "state": "WY"
+    },
+    {
+     "name": "Park City, UT",
+     "lat": 40.65,
+     "lng": -111.5,
+     "country": "United States",
+     "state": "UT"
+    },
+    {
+     "name": "San Francisco, CA",
+     "lat": 37.77,
+     "lng": -122.42,
+     "country": "United States",
+     "state": "CA"
+    },
+    {
+     "name": "Lake Tahoe, CA",
+     "lat": 39.1,
+     "lng": -120.03,
+     "country": "United States",
+     "state": "CA"
+    },
+    {
+     "name": "Santa Barbara, CA",
+     "lat": 34.42,
+     "lng": -119.7,
+     "country": "United States",
+     "state": "CA"
+    },
+    {
+     "name": "Los Angeles, CA",
+     "lat": 34.05,
+     "lng": -118.24,
+     "country": "United States",
+     "state": "CA"
+    },
+    {
+     "name": "San Diego, CA",
+     "lat": 32.72,
+     "lng": -117.16,
+     "country": "United States",
+     "state": "CA"
+    },
+    {
+     "name": "Las Vegas, NV",
+     "lat": 36.17,
+     "lng": -115.14,
+     "country": "United States",
+     "state": "NV"
+    },
+    {
+     "name": "Zion, UT",
+     "lat": 37.3,
+     "lng": -113.03,
+     "country": "United States",
+     "state": "UT"
+    },
+    {
+     "name": "Bryce Canyon, UT",
+     "lat": 37.59,
+     "lng": -112.19,
+     "country": "United States",
+     "state": "UT"
+    },
+    {
+     "name": "Grand Canyon, AZ",
+     "lat": 36.11,
+     "lng": -112.11,
+     "country": "United States",
+     "state": "AZ"
+    },
+    {
+     "name": "Sedona, AZ",
+     "lat": 34.87,
+     "lng": -111.76,
+     "country": "United States",
+     "state": "AZ"
+    },
+    {
+     "name": "Scottsdale, AZ",
+     "lat": 33.49,
+     "lng": -111.93,
+     "country": "United States",
+     "state": "AZ"
+    }
+   ],
+   "yearSort": 2024,
+   "approxYear": false,
+   "idiotCup": false,
+   "id": 65
+  },
+  {
+   "year": "2024",
+   "timing": "Summer",
+   "destination": "La Romana, Dominican Republic (Casa de Campo)",
+   "who": {
+    "daryl": true,
+    "ivory": false,
+    "jaxon": false,
+    "sloane": false
+   },
+   "type": "Golf Trip",
+   "travelers": "Daryl + buddies",
+   "confidence": "Exact",
+   "notes": "Annual golf trip, CDC #3",
+   "places": [
+    {
+     "name": "Casa de Campo",
+     "lat": 18.41,
+     "lng": -68.95,
+     "country": "Dominican Republic"
+    }
+   ],
+   "yearSort": 2024,
+   "approxYear": false,
+   "idiotCup": true,
+   "id": 66
+  },
+  {
+   "year": "2024",
+   "timing": "Summer",
+   "destination": "Sloane + grandma, Switzerland + Austria",
+   "who": {
+    "daryl": false,
+    "ivory": false,
+    "jaxon": false,
+    "sloane": true
+   },
+   "type": "International",
+   "travelers": "Sloane + grandma",
+   "confidence": "Exact",
+   "notes": "Independent trip with Daryl's mom",
+   "places": [
+    {
+     "name": "Switzerland",
+     "lat": 46.8,
+     "lng": 8.2,
+     "country": "Switzerland"
+    },
+    {
+     "name": "Austria",
+     "lat": 47.5,
+     "lng": 13.3,
+     "country": "Austria"
+    }
+   ],
+   "yearSort": 2024,
+   "approxYear": false,
+   "idiotCup": false,
+   "id": 67
+  },
+  {
+   "year": "2024",
+   "timing": "Dec",
+   "destination": "Pebble Beach, CA",
+   "who": {
+    "daryl": true,
+    "ivory": false,
+    "jaxon": false,
+    "sloane": false
+   },
+   "type": "Golf Trip",
+   "travelers": "Daryl solo",
+   "confidence": "Exact",
+   "notes": "Annual Pebble trip, week before Christmas",
+   "places": [
+    {
+     "name": "Pebble Beach, CA",
+     "lat": 36.57,
+     "lng": -121.95,
+     "country": "United States",
+     "state": "CA"
+    }
+   ],
+   "yearSort": 2024,
+   "approxYear": false,
+   "idiotCup": false,
+   "id": 68
+  },
+  {
+   "year": "2025",
+   "timing": "Feb",
+   "destination": "Tulum, Mexico",
+   "who": {
+    "daryl": true,
+    "ivory": true,
+    "jaxon": false,
+    "sloane": false
+   },
+   "type": "Couples",
+   "travelers": "Daryl + Ivory",
+   "confidence": "Exact",
+   "notes": "Ivory's birthday trip, flew MIA to CUN",
+   "places": [
+    {
+     "name": "Tulum",
+     "lat": 20.21,
+     "lng": -87.47,
+     "country": "Mexico"
+    }
+   ],
+   "yearSort": 2025,
+   "approxYear": false,
+   "idiotCup": false,
+   "id": 69
+  },
+  {
+   "year": "2025",
+   "timing": "Spring Break",
+   "destination": "Maui + Big Island, HI",
+   "who": {
+    "daryl": true,
+    "ivory": true,
+    "jaxon": true,
+    "sloane": true
+   },
+   "type": "Family",
+   "travelers": "All four",
+   "confidence": "Exact",
+   "notes": "First Hawaii trip with the kids",
+   "places": [
+    {
+     "name": "Maui, HI",
+     "lat": 20.8,
+     "lng": -156.33,
+     "country": "United States",
+     "state": "HI"
+    },
+    {
+     "name": "Big Island, HI",
+     "lat": 19.6,
+     "lng": -155.52,
+     "country": "United States",
+     "state": "HI"
+    }
+   ],
+   "yearSort": 2025,
+   "approxYear": false,
+   "idiotCup": false,
+   "id": 70
+  },
+  {
+   "year": "2025",
+   "timing": "May",
+   "destination": "Philadelphia, PA",
+   "who": {
+    "daryl": true,
+    "ivory": false,
+    "jaxon": false,
+    "sloane": false
+   },
+   "type": "Personal",
+   "travelers": "Daryl solo",
+   "confidence": "Exact",
+   "notes": "Solo trip per AA data",
+   "places": [
+    {
+     "name": "Philadelphia, PA",
+     "lat": 39.95,
+     "lng": -75.17,
+     "country": "United States",
+     "state": "PA"
+    }
+   ],
+   "yearSort": 2025,
+   "approxYear": false,
+   "idiotCup": false,
+   "id": 71
+  },
+  {
+   "year": "2025",
+   "timing": "Summer",
+   "destination": "Arcadia Bluffs, MI",
+   "who": {
+    "daryl": true,
+    "ivory": false,
+    "jaxon": false,
+    "sloane": false
+   },
+   "type": "Golf Trip",
+   "travelers": "Daryl + buddies",
+   "confidence": "Exact",
+   "notes": "Annual golf trip",
+   "places": [
+    {
+     "name": "Arcadia Bluffs, MI",
+     "lat": 44.49,
+     "lng": -86.24,
+     "country": "United States",
+     "state": "MI"
+    }
+   ],
+   "yearSort": 2025,
+   "approxYear": false,
+   "idiotCup": true,
+   "id": 72
+  },
+  {
+   "year": "2025",
+   "timing": "Summer",
+   "destination": "Jaxon Teen Tour, Central Europe + Greek Islands (26 days)",
+   "who": {
+    "daryl": false,
+    "ivory": false,
+    "jaxon": true,
+    "sloane": false
+   },
+   "type": "Teen Tour",
+   "travelers": "Jaxon solo",
+   "confidence": "Exact",
+   "notes": "Westcoast Connection: Dubrovnik, Split, Hvar, Ljubljana, Salzburg, Vienna, Prague, Greek Islands",
+   "places": [
+    {
+     "name": "Dubrovnik",
+     "lat": 42.65,
+     "lng": 18.09,
+     "country": "Croatia"
+    },
+    {
+     "name": "Split",
+     "lat": 43.51,
+     "lng": 16.44,
+     "country": "Croatia"
+    },
+    {
+     "name": "Hvar",
+     "lat": 43.17,
+     "lng": 16.44,
+     "country": "Croatia"
+    },
+    {
+     "name": "Ljubljana",
+     "lat": 46.06,
+     "lng": 14.51,
+     "country": "Slovenia"
+    },
+    {
+     "name": "Salzburg",
+     "lat": 47.81,
+     "lng": 13.06,
+     "country": "Austria"
+    },
+    {
+     "name": "Vienna",
+     "lat": 48.21,
+     "lng": 16.37,
+     "country": "Austria"
+    },
+    {
+     "name": "Prague",
+     "lat": 50.08,
+     "lng": 14.44,
+     "country": "Czech Republic"
+    },
+    {
+     "name": "Greek Islands",
+     "lat": 37.0,
+     "lng": 25.4,
+     "country": "Greece"
+    }
+   ],
+   "yearSort": 2025,
+   "approxYear": false,
+   "idiotCup": false,
+   "id": 73
+  },
+  {
+   "year": "2025",
+   "timing": "Dec",
+   "destination": "Pebble Beach, CA",
+   "who": {
+    "daryl": true,
+    "ivory": false,
+    "jaxon": false,
+    "sloane": false
+   },
+   "type": "Golf Trip",
+   "travelers": "Daryl solo",
+   "confidence": "Exact",
+   "notes": "Annual Pebble trip, week before Christmas",
+   "places": [
+    {
+     "name": "Pebble Beach, CA",
+     "lat": 36.57,
+     "lng": -121.95,
+     "country": "United States",
+     "state": "CA"
+    }
+   ],
+   "yearSort": 2025,
+   "approxYear": false,
+   "idiotCup": false,
+   "id": 74
+  },
+  {
+   "year": "2026",
+   "timing": "Spring Break",
+   "destination": "Costa Rica (Rio Celeste + Arenal/La Fortuna)",
+   "who": {
+    "daryl": true,
+    "ivory": true,
+    "jaxon": true,
+    "sloane": true
+   },
+   "type": "International",
+   "travelers": "All four",
+   "confidence": "Exact",
+   "notes": "Spring break family trip, flew MIA to LIR",
+   "places": [
+    {
+     "name": "Rio Celeste",
+     "lat": 10.71,
+     "lng": -84.99,
+     "country": "Costa Rica"
+    },
+    {
+     "name": "La Fortuna",
+     "lat": 10.47,
+     "lng": -84.64,
+     "country": "Costa Rica"
+    }
+   ],
+   "yearSort": 2026,
+   "approxYear": false,
+   "idiotCup": false,
+   "id": 75
+  },
+  {
+   "year": "2026",
+   "timing": "Father's Day",
+   "destination": "Durham/Chapel Hill, NC + Pinehurst",
+   "who": {
+    "daryl": true,
+    "ivory": false,
+    "jaxon": true,
+    "sloane": false
+   },
+   "type": "Family",
+   "travelers": "Daryl + Jaxon",
+   "confidence": "Exact",
+   "notes": "College visits + golf at Pinehurst",
+   "places": [
+    {
+     "name": "Durham, NC",
+     "lat": 35.99,
+     "lng": -78.9,
+     "country": "United States",
+     "state": "NC"
+    },
+    {
+     "name": "Chapel Hill, NC",
+     "lat": 35.91,
+     "lng": -79.06,
+     "country": "United States",
+     "state": "NC"
+    },
+    {
+     "name": "Pinehurst, NC",
+     "lat": 35.2,
+     "lng": -79.47,
+     "country": "United States",
+     "state": "NC"
+    }
+   ],
+   "yearSort": 2026,
+   "approxYear": false,
+   "idiotCup": false,
+   "id": 76
+  },
+  {
+   "year": "2026",
+   "timing": "Summer",
+   "destination": "Bend, OR",
+   "who": {
+    "daryl": true,
+    "ivory": false,
+    "jaxon": false,
+    "sloane": false
+   },
+   "type": "Golf Trip",
+   "travelers": "Daryl + buddies",
+   "confidence": "Exact",
+   "notes": "Annual golf trip",
+   "places": [
+    {
+     "name": "Bend, OR",
+     "lat": 44.06,
+     "lng": -121.31,
+     "country": "United States",
+     "state": "OR"
+    }
+   ],
+   "yearSort": 2026,
+   "approxYear": false,
+   "idiotCup": true,
+   "id": 77
+  },
+  {
+   "year": "2026",
+   "timing": "Oct",
+   "destination": "Lake Tahoe, CA",
+   "who": {
+    "daryl": true,
+    "ivory": true,
+    "jaxon": false,
+    "sloane": false
+   },
+   "type": "Couples",
+   "travelers": "Daryl + Ivory",
+   "confidence": "Exact",
+   "notes": "Couples trip",
+   "places": [
+    {
+     "name": "Lake Tahoe, CA",
+     "lat": 39.1,
+     "lng": -120.03,
+     "country": "United States",
+     "state": "CA"
+    }
+   ],
+   "yearSort": 2026,
+   "approxYear": false,
+   "idiotCup": false,
+   "id": 78
+  },
+  {
+   "year": "2026",
+   "timing": "Nov",
+   "destination": "China: Suzhou, Changzhou, Nanjing, Shanghai (Discover Jiangsu)",
+   "who": {
+    "daryl": false,
+    "ivory": false,
+    "jaxon": true,
+    "sloane": false
+   },
+   "type": "International",
+   "travelers": "Jaxon + Florida student delegation",
+   "confidence": "Exact",
+   "notes": "Discover Jiangsu student exchange, Nov 19 to 28. School exchanges in Suzhou, Changzhou and Nanjing; Humble Administrator's Garden, Li Auto plant, pandas at Hongshan Forest Zoo, Ming Xiaoling Mausoleum, high-speed train to Shanghai and the Bund.",
+   "places": [
+    {
+     "name": "Suzhou",
+     "lat": 31.3,
+     "lng": 120.62,
+     "country": "China"
+    },
+    {
+     "name": "Changzhou",
+     "lat": 31.81,
+     "lng": 119.97,
+     "country": "China"
+    },
+    {
+     "name": "Nanjing",
+     "lat": 32.06,
+     "lng": 118.8,
+     "country": "China"
+    },
+    {
+     "name": "Shanghai",
+     "lat": 31.23,
+     "lng": 121.47,
+     "country": "China"
+    }
+   ],
+   "yearSort": 2026,
+   "approxYear": false,
+   "idiotCup": false,
+   "id": 79
+  }
+ ],
+ "recurring": [
+  {
+   "name": "Denver, CO",
+   "places": [
+    {
+     "name": "Denver, CO",
+     "lat": 39.74,
+     "lng": -104.99,
+     "country": "United States",
+     "state": "CO"
+    }
+   ],
+   "who": {
+    "daryl": true,
+    "ivory": true,
+    "jaxon": true,
+    "sloane": true
+   },
+   "firstVisit": "~2008",
+   "frequency": "1 to 2 times a year for about 15 years. Brother Brandon lives there. Gateway to Keystone."
+  },
+  {
+   "name": "Keystone, CO",
+   "places": [
+    {
+     "name": "Keystone, CO",
+     "lat": 39.6,
+     "lng": -105.95,
+     "country": "United States",
+     "state": "CO"
+    }
+   ],
+   "who": {
+    "daryl": true,
+    "ivory": true,
+    "jaxon": true,
+    "sloane": true
+   },
+   "firstVisit": "2007",
+   "frequency": "About 5 weeks every summer since COVID; regular before that. Wedding venue in 2007."
+  },
+  {
+   "name": "New York, NY",
+   "places": [
+    {
+     "name": "New York, NY",
+     "lat": 40.71,
+     "lng": -74.01,
+     "country": "United States",
+     "state": "NY"
+    }
+   ],
+   "who": {
+    "daryl": true,
+    "ivory": true,
+    "jaxon": true,
+    "sloane": true
+   },
+   "firstVisit": "~2000s",
+   "frequency": "Many times, in various combinations. Never all four together."
+  },
+  {
+   "name": "Chicago, IL",
+   "places": [
+    {
+     "name": "Chicago, IL",
+     "lat": 41.88,
+     "lng": -87.63,
+     "country": "United States",
+     "state": "IL"
+    }
+   ],
+   "who": {
+    "daryl": true,
+    "ivory": true,
+    "jaxon": false,
+    "sloane": false
+   },
+   "firstVisit": "~2000s",
+   "frequency": "Daryl about 6 times; Daryl and Ivory together twice. Kids have not been."
+  },
+  {
+   "name": "Boston, MA",
+   "places": [
+    {
+     "name": "Boston, MA",
+     "lat": 42.36,
+     "lng": -71.06,
+     "country": "United States",
+     "state": "MA"
+    }
+   ],
+   "who": {
+    "daryl": true,
+    "ivory": true,
+    "jaxon": true,
+    "sloane": false
+   },
+   "firstVisit": "~2000s",
+   "frequency": "Several couples trips; one included Jaxon."
+  },
+  {
+   "name": "Las Vegas, NV",
+   "places": [
+    {
+     "name": "Las Vegas, NV",
+     "lat": 36.17,
+     "lng": -115.14,
+     "country": "United States",
+     "state": "NV"
+    }
+   ],
+   "who": {
+    "daryl": true,
+    "ivory": true,
+    "jaxon": true,
+    "sloane": false
+   },
+   "firstVisit": "~2000s",
+   "frequency": "Couples trips over the years. Jaxon on his 2024 teen tour."
+  },
+  {
+   "name": "New Orleans, LA",
+   "places": [
+    {
+     "name": "New Orleans, LA",
+     "lat": 29.95,
+     "lng": -90.07,
+     "country": "United States",
+     "state": "LA"
+    }
+   ],
+   "who": {
+    "daryl": true,
+    "ivory": true,
+    "jaxon": false,
+    "sloane": false
+   },
+   "firstVisit": "~1990s",
+   "frequency": "Jazz Fest, Mardi Gras, bowl games, the 2007 golf trip. Both many times."
+  },
+  {
+   "name": "Maine",
+   "places": [
+    {
+     "name": "Bangor, ME",
+     "lat": 44.8,
+     "lng": -68.77,
+     "country": "United States",
+     "state": "ME"
+    },
+    {
+     "name": "Portland, ME",
+     "lat": 43.66,
+     "lng": -70.26,
+     "country": "United States",
+     "state": "ME"
+    },
+    {
+     "name": "Bar Harbor, ME",
+     "lat": 44.39,
+     "lng": -68.2,
+     "country": "United States",
+     "state": "ME"
+    }
+   ],
+   "who": {
+    "daryl": true,
+    "ivory": true,
+    "jaxon": true,
+    "sloane": true
+   },
+   "firstVisit": "~2019",
+   "frequency": "July visit to Sloane's camp in Bangor most summers; also Portland and Bar Harbor."
+  },
+  {
+   "name": "Asheville, NC",
+   "places": [
+    {
+     "name": "Asheville, NC",
+     "lat": 35.6,
+     "lng": -82.55,
+     "country": "United States",
+     "state": "NC"
+    }
+   ],
+   "who": {
+    "daryl": true,
+    "ivory": true,
+    "jaxon": true,
+    "sloane": false
+   },
+   "firstVisit": "~2018",
+   "frequency": "A few trips. Sloane has not been."
+  }
+ ],
+ "otherVisits": [
+  {
+   "kind": "state",
+   "name": "FL",
+   "who": {
+    "daryl": false,
+    "ivory": true,
+    "jaxon": true,
+    "sloane": true
+   },
+   "note": "Home state, Miami based",
+   "source": "Workbook Tracker tab; no trip on record"
+  },
+  {
+   "kind": "state",
+   "name": "VT",
+   "who": {
+    "daryl": true,
+    "ivory": false,
+    "jaxon": false,
+    "sloane": false
+   },
+   "note": "Late 1980s, with parents as a kid",
+   "source": "Workbook Tracker tab; no trip on record"
+  },
+  {
+   "kind": "state",
+   "name": "DC",
+   "who": {
+    "daryl": false,
+    "ivory": true,
+    "jaxon": false,
+    "sloane": false
+   },
+   "note": "Multiple visits; ~2002 noted",
+   "source": "Workbook Tracker tab; no trip on record"
+  }
+ ],
+ "bucket": [
+  {
+   "title": "Japan",
+   "for": "Whole family",
+   "note": "Top family pick.",
+   "check": {
+    "countries": [
+     "Japan"
+    ]
+   }
+  },
+  {
+   "title": "East and Southeast Asia",
+   "for": "Daryl + Ivory",
+   "note": "Thailand, Vietnam, Bali and more. Jaxon got there first: China, Nov 2026.",
+   "check": {
+    "countries": [
+     "China",
+     "Thailand",
+     "Vietnam",
+     "Indonesia",
+     "South Korea"
+    ],
+    "who": [
+     "daryl",
+     "ivory"
+    ]
+   }
+  },
+  {
+   "title": "Australia + New Zealand",
+   "for": "Daryl + Ivory",
+   "note": "Would open up continent number 6.",
+   "check": {
+    "countries": [
+     "Australia",
+     "New Zealand"
+    ]
+   }
+  },
+  {
+   "title": "East Africa safari",
+   "for": "Daryl + Ivory",
+   "note": "Serengeti, Kenya, Rwanda. South Africa done twice.",
+   "check": {
+    "countries": [
+     "Tanzania",
+     "Kenya",
+     "Rwanda"
+    ]
+   }
+  },
+  {
+   "title": "Alaska",
+   "for": "Whole family",
+   "note": "None of us have been.",
+   "check": {
+    "states": [
+     "AK"
+    ]
+   }
+  },
+  {
+   "title": "Eastern Europe",
+   "for": "Daryl + Ivory",
+   "note": "Jaxon has been on his 2025 teen tour.",
+   "check": {
+    "countries": [
+     "Croatia",
+     "Slovenia",
+     "Czech Republic",
+     "Hungary",
+     "Poland"
+    ],
+    "who": [
+     "daryl",
+     "ivory"
+    ]
+   }
+  },
+  {
+   "title": "Greece",
+   "for": "Daryl + Ivory",
+   "note": "Jaxon did the Greek Islands in 2025.",
+   "check": {
+    "countries": [
+     "Greece"
+    ],
+    "who": [
+     "daryl",
+     "ivory"
+    ]
+   }
+  },
+  {
+   "title": "Scandinavia",
+   "for": "Daryl + Ivory",
+   "note": "Norway, Sweden, Denmark, Iceland.",
+   "check": {
+    "countries": [
+     "Norway",
+     "Sweden",
+     "Denmark",
+     "Iceland"
+    ]
+   }
+  },
+  {
+   "title": "Patagonia and the rest of South America",
+   "for": "Daryl",
+   "note": "Peru, Colombia, Chile. Argentina and Brazil done.",
+   "check": {
+    "countries": [
+     "Peru",
+     "Colombia",
+     "Chile"
+    ]
+   }
+  },
+  {
+   "title": "Scotland",
+   "for": "Daryl + Ivory",
+   "note": "UK beyond London.",
+   "check": {}
+  }
+ ]
+}

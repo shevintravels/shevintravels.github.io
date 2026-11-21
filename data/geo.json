@@ -1,0 +1,1258 @@
+{
+ "countries": [
+  {
+   "name": "Algeria",
+   "continent": "Africa",
+   "iso": null
+  },
+  {
+   "name": "Angola",
+   "continent": "Africa",
+   "iso": null
+  },
+  {
+   "name": "Benin",
+   "continent": "Africa",
+   "iso": null
+  },
+  {
+   "name": "Botswana",
+   "continent": "Africa",
+   "iso": null
+  },
+  {
+   "name": "Burkina Faso",
+   "continent": "Africa",
+   "iso": null
+  },
+  {
+   "name": "Burundi",
+   "continent": "Africa",
+   "iso": null
+  },
+  {
+   "name": "Cabo Verde",
+   "continent": "Africa",
+   "iso": null
+  },
+  {
+   "name": "Cameroon",
+   "continent": "Africa",
+   "iso": null
+  },
+  {
+   "name": "Central African Republic",
+   "continent": "Africa",
+   "iso": null
+  },
+  {
+   "name": "Chad",
+   "continent": "Africa",
+   "iso": null
+  },
+  {
+   "name": "Comoros",
+   "continent": "Africa",
+   "iso": null
+  },
+  {
+   "name": "Congo Dem. Rep.",
+   "continent": "Africa",
+   "iso": null
+  },
+  {
+   "name": "Congo Rep.",
+   "continent": "Africa",
+   "iso": null
+  },
+  {
+   "name": "Cote d'Ivoire",
+   "continent": "Africa",
+   "iso": null
+  },
+  {
+   "name": "Djibouti",
+   "continent": "Africa",
+   "iso": null
+  },
+  {
+   "name": "Egypt",
+   "continent": "Africa",
+   "iso": null
+  },
+  {
+   "name": "Equatorial Guinea",
+   "continent": "Africa",
+   "iso": null
+  },
+  {
+   "name": "Eritrea",
+   "continent": "Africa",
+   "iso": null
+  },
+  {
+   "name": "Eswatini",
+   "continent": "Africa",
+   "iso": null
+  },
+  {
+   "name": "Ethiopia",
+   "continent": "Africa",
+   "iso": null
+  },
+  {
+   "name": "Gabon",
+   "continent": "Africa",
+   "iso": null
+  },
+  {
+   "name": "Gambia",
+   "continent": "Africa",
+   "iso": null
+  },
+  {
+   "name": "Ghana",
+   "continent": "Africa",
+   "iso": null
+  },
+  {
+   "name": "Guinea",
+   "continent": "Africa",
+   "iso": null
+  },
+  {
+   "name": "Guinea-Bissau",
+   "continent": "Africa",
+   "iso": null
+  },
+  {
+   "name": "Kenya",
+   "continent": "Africa",
+   "iso": "404"
+  },
+  {
+   "name": "Lesotho",
+   "continent": "Africa",
+   "iso": null
+  },
+  {
+   "name": "Liberia",
+   "continent": "Africa",
+   "iso": null
+  },
+  {
+   "name": "Libya",
+   "continent": "Africa",
+   "iso": null
+  },
+  {
+   "name": "Madagascar",
+   "continent": "Africa",
+   "iso": null
+  },
+  {
+   "name": "Malawi",
+   "continent": "Africa",
+   "iso": null
+  },
+  {
+   "name": "Mali",
+   "continent": "Africa",
+   "iso": null
+  },
+  {
+   "name": "Mauritania",
+   "continent": "Africa",
+   "iso": null
+  },
+  {
+   "name": "Mauritius",
+   "continent": "Africa",
+   "iso": null
+  },
+  {
+   "name": "Morocco",
+   "continent": "Africa",
+   "iso": "504"
+  },
+  {
+   "name": "Mozambique",
+   "continent": "Africa",
+   "iso": null
+  },
+  {
+   "name": "Namibia",
+   "continent": "Africa",
+   "iso": null
+  },
+  {
+   "name": "Niger",
+   "continent": "Africa",
+   "iso": null
+  },
+  {
+   "name": "Nigeria",
+   "continent": "Africa",
+   "iso": null
+  },
+  {
+   "name": "Rwanda",
+   "continent": "Africa",
+   "iso": "646"
+  },
+  {
+   "name": "Sao Tome and Principe",
+   "continent": "Africa",
+   "iso": null
+  },
+  {
+   "name": "Senegal",
+   "continent": "Africa",
+   "iso": null
+  },
+  {
+   "name": "Seychelles",
+   "continent": "Africa",
+   "iso": null
+  },
+  {
+   "name": "Sierra Leone",
+   "continent": "Africa",
+   "iso": null
+  },
+  {
+   "name": "Somalia",
+   "continent": "Africa",
+   "iso": null
+  },
+  {
+   "name": "South Africa",
+   "continent": "Africa",
+   "iso": "710"
+  },
+  {
+   "name": "South Sudan",
+   "continent": "Africa",
+   "iso": null
+  },
+  {
+   "name": "Sudan",
+   "continent": "Africa",
+   "iso": null
+  },
+  {
+   "name": "Tanzania",
+   "continent": "Africa",
+   "iso": "834"
+  },
+  {
+   "name": "Togo",
+   "continent": "Africa",
+   "iso": null
+  },
+  {
+   "name": "Tunisia",
+   "continent": "Africa",
+   "iso": null
+  },
+  {
+   "name": "Uganda",
+   "continent": "Africa",
+   "iso": null
+  },
+  {
+   "name": "Zambia",
+   "continent": "Africa",
+   "iso": null
+  },
+  {
+   "name": "Zimbabwe",
+   "continent": "Africa",
+   "iso": null
+  },
+  {
+   "name": "Afghanistan",
+   "continent": "Asia",
+   "iso": null
+  },
+  {
+   "name": "Armenia",
+   "continent": "Asia",
+   "iso": null
+  },
+  {
+   "name": "Azerbaijan",
+   "continent": "Asia",
+   "iso": null
+  },
+  {
+   "name": "Bahrain",
+   "continent": "Asia",
+   "iso": null
+  },
+  {
+   "name": "Bangladesh",
+   "continent": "Asia",
+   "iso": null
+  },
+  {
+   "name": "Bhutan",
+   "continent": "Asia",
+   "iso": null
+  },
+  {
+   "name": "Brunei",
+   "continent": "Asia",
+   "iso": null
+  },
+  {
+   "name": "Cambodia",
+   "continent": "Asia",
+   "iso": null
+  },
+  {
+   "name": "China",
+   "continent": "Asia",
+   "iso": "156"
+  },
+  {
+   "name": "Georgia",
+   "continent": "Asia",
+   "iso": null
+  },
+  {
+   "name": "India",
+   "continent": "Asia",
+   "iso": null
+  },
+  {
+   "name": "Indonesia",
+   "continent": "Asia",
+   "iso": "360"
+  },
+  {
+   "name": "Iran",
+   "continent": "Asia",
+   "iso": null
+  },
+  {
+   "name": "Iraq",
+   "continent": "Asia",
+   "iso": null
+  },
+  {
+   "name": "Israel",
+   "continent": "Asia",
+   "iso": "376"
+  },
+  {
+   "name": "Japan",
+   "continent": "Asia",
+   "iso": "392"
+  },
+  {
+   "name": "Jordan",
+   "continent": "Asia",
+   "iso": null
+  },
+  {
+   "name": "Kazakhstan",
+   "continent": "Asia",
+   "iso": null
+  },
+  {
+   "name": "Kuwait",
+   "continent": "Asia",
+   "iso": null
+  },
+  {
+   "name": "Kyrgyzstan",
+   "continent": "Asia",
+   "iso": null
+  },
+  {
+   "name": "Laos",
+   "continent": "Asia",
+   "iso": null
+  },
+  {
+   "name": "Lebanon",
+   "continent": "Asia",
+   "iso": null
+  },
+  {
+   "name": "Malaysia",
+   "continent": "Asia",
+   "iso": null
+  },
+  {
+   "name": "Maldives",
+   "continent": "Asia",
+   "iso": null
+  },
+  {
+   "name": "Mongolia",
+   "continent": "Asia",
+   "iso": null
+  },
+  {
+   "name": "Myanmar",
+   "continent": "Asia",
+   "iso": null
+  },
+  {
+   "name": "Nepal",
+   "continent": "Asia",
+   "iso": null
+  },
+  {
+   "name": "North Korea",
+   "continent": "Asia",
+   "iso": null
+  },
+  {
+   "name": "Oman",
+   "continent": "Asia",
+   "iso": null
+  },
+  {
+   "name": "Pakistan",
+   "continent": "Asia",
+   "iso": null
+  },
+  {
+   "name": "Palestine",
+   "continent": "Asia",
+   "iso": null
+  },
+  {
+   "name": "Philippines",
+   "continent": "Asia",
+   "iso": null
+  },
+  {
+   "name": "Qatar",
+   "continent": "Asia",
+   "iso": null
+  },
+  {
+   "name": "Saudi Arabia",
+   "continent": "Asia",
+   "iso": null
+  },
+  {
+   "name": "Singapore",
+   "continent": "Asia",
+   "iso": null
+  },
+  {
+   "name": "South Korea",
+   "continent": "Asia",
+   "iso": null
+  },
+  {
+   "name": "Sri Lanka",
+   "continent": "Asia",
+   "iso": null
+  },
+  {
+   "name": "Syria",
+   "continent": "Asia",
+   "iso": null
+  },
+  {
+   "name": "Tajikistan",
+   "continent": "Asia",
+   "iso": null
+  },
+  {
+   "name": "Thailand",
+   "continent": "Asia",
+   "iso": "764"
+  },
+  {
+   "name": "Timor-Leste",
+   "continent": "Asia",
+   "iso": null
+  },
+  {
+   "name": "Turkey",
+   "continent": "Asia",
+   "iso": "792"
+  },
+  {
+   "name": "Turkmenistan",
+   "continent": "Asia",
+   "iso": null
+  },
+  {
+   "name": "United Arab Emirates",
+   "continent": "Asia",
+   "iso": "784"
+  },
+  {
+   "name": "Uzbekistan",
+   "continent": "Asia",
+   "iso": null
+  },
+  {
+   "name": "Vietnam",
+   "continent": "Asia",
+   "iso": "704"
+  },
+  {
+   "name": "Yemen",
+   "continent": "Asia",
+   "iso": null
+  },
+  {
+   "name": "Albania",
+   "continent": "Europe",
+   "iso": null
+  },
+  {
+   "name": "Andorra",
+   "continent": "Europe",
+   "iso": null
+  },
+  {
+   "name": "Austria",
+   "continent": "Europe",
+   "iso": "040"
+  },
+  {
+   "name": "Belarus",
+   "continent": "Europe",
+   "iso": null
+  },
+  {
+   "name": "Belgium",
+   "continent": "Europe",
+   "iso": "056"
+  },
+  {
+   "name": "Bosnia and Herzegovina",
+   "continent": "Europe",
+   "iso": null
+  },
+  {
+   "name": "Bulgaria",
+   "continent": "Europe",
+   "iso": null
+  },
+  {
+   "name": "Croatia",
+   "continent": "Europe",
+   "iso": "191"
+  },
+  {
+   "name": "Cyprus",
+   "continent": "Europe",
+   "iso": null
+  },
+  {
+   "name": "Czech Republic",
+   "continent": "Europe",
+   "iso": "203"
+  },
+  {
+   "name": "Denmark",
+   "continent": "Europe",
+   "iso": "208"
+  },
+  {
+   "name": "Estonia",
+   "continent": "Europe",
+   "iso": null
+  },
+  {
+   "name": "Finland",
+   "continent": "Europe",
+   "iso": null
+  },
+  {
+   "name": "France",
+   "continent": "Europe",
+   "iso": "250"
+  },
+  {
+   "name": "Germany",
+   "continent": "Europe",
+   "iso": "276"
+  },
+  {
+   "name": "Greece",
+   "continent": "Europe",
+   "iso": "300"
+  },
+  {
+   "name": "Hungary",
+   "continent": "Europe",
+   "iso": "348"
+  },
+  {
+   "name": "Iceland",
+   "continent": "Europe",
+   "iso": "352"
+  },
+  {
+   "name": "Ireland",
+   "continent": "Europe",
+   "iso": "372"
+  },
+  {
+   "name": "Italy",
+   "continent": "Europe",
+   "iso": "380"
+  },
+  {
+   "name": "Latvia",
+   "continent": "Europe",
+   "iso": null
+  },
+  {
+   "name": "Liechtenstein",
+   "continent": "Europe",
+   "iso": null
+  },
+  {
+   "name": "Lithuania",
+   "continent": "Europe",
+   "iso": null
+  },
+  {
+   "name": "Luxembourg",
+   "continent": "Europe",
+   "iso": null
+  },
+  {
+   "name": "Malta",
+   "continent": "Europe",
+   "iso": null
+  },
+  {
+   "name": "Moldova",
+   "continent": "Europe",
+   "iso": null
+  },
+  {
+   "name": "Monaco",
+   "continent": "Europe",
+   "iso": null
+  },
+  {
+   "name": "Montenegro",
+   "continent": "Europe",
+   "iso": null
+  },
+  {
+   "name": "Netherlands",
+   "continent": "Europe",
+   "iso": "528"
+  },
+  {
+   "name": "North Macedonia",
+   "continent": "Europe",
+   "iso": null
+  },
+  {
+   "name": "Norway",
+   "continent": "Europe",
+   "iso": "578"
+  },
+  {
+   "name": "Poland",
+   "continent": "Europe",
+   "iso": "616"
+  },
+  {
+   "name": "Portugal",
+   "continent": "Europe",
+   "iso": "620"
+  },
+  {
+   "name": "Romania",
+   "continent": "Europe",
+   "iso": null
+  },
+  {
+   "name": "Russia",
+   "continent": "Europe",
+   "iso": null
+  },
+  {
+   "name": "San Marino",
+   "continent": "Europe",
+   "iso": null
+  },
+  {
+   "name": "Serbia",
+   "continent": "Europe",
+   "iso": null
+  },
+  {
+   "name": "Slovakia",
+   "continent": "Europe",
+   "iso": null
+  },
+  {
+   "name": "Slovenia",
+   "continent": "Europe",
+   "iso": "705"
+  },
+  {
+   "name": "Spain",
+   "continent": "Europe",
+   "iso": "724"
+  },
+  {
+   "name": "Sweden",
+   "continent": "Europe",
+   "iso": "752"
+  },
+  {
+   "name": "Switzerland",
+   "continent": "Europe",
+   "iso": "756"
+  },
+  {
+   "name": "Ukraine",
+   "continent": "Europe",
+   "iso": null
+  },
+  {
+   "name": "United Kingdom",
+   "continent": "Europe",
+   "iso": "826"
+  },
+  {
+   "name": "Vatican City",
+   "continent": "Europe",
+   "iso": null
+  },
+  {
+   "name": "Antigua and Barbuda",
+   "continent": "North America",
+   "iso": null
+  },
+  {
+   "name": "Bahamas",
+   "continent": "North America",
+   "iso": "044"
+  },
+  {
+   "name": "Barbados",
+   "continent": "North America",
+   "iso": null
+  },
+  {
+   "name": "Belize",
+   "continent": "North America",
+   "iso": null
+  },
+  {
+   "name": "Canada",
+   "continent": "North America",
+   "iso": "124"
+  },
+  {
+   "name": "Costa Rica",
+   "continent": "North America",
+   "iso": "188"
+  },
+  {
+   "name": "Cuba",
+   "continent": "North America",
+   "iso": null
+  },
+  {
+   "name": "Dominica",
+   "continent": "North America",
+   "iso": null
+  },
+  {
+   "name": "Dominican Republic",
+   "continent": "North America",
+   "iso": "214"
+  },
+  {
+   "name": "El Salvador",
+   "continent": "North America",
+   "iso": null
+  },
+  {
+   "name": "Grenada",
+   "continent": "North America",
+   "iso": null
+  },
+  {
+   "name": "Guatemala",
+   "continent": "North America",
+   "iso": null
+  },
+  {
+   "name": "Haiti",
+   "continent": "North America",
+   "iso": null
+  },
+  {
+   "name": "Honduras",
+   "continent": "North America",
+   "iso": null
+  },
+  {
+   "name": "Jamaica",
+   "continent": "North America",
+   "iso": "388"
+  },
+  {
+   "name": "Mexico",
+   "continent": "North America",
+   "iso": "484"
+  },
+  {
+   "name": "Nicaragua",
+   "continent": "North America",
+   "iso": null
+  },
+  {
+   "name": "Panama",
+   "continent": "North America",
+   "iso": null
+  },
+  {
+   "name": "Saint Kitts and Nevis",
+   "continent": "North America",
+   "iso": null
+  },
+  {
+   "name": "Saint Lucia",
+   "continent": "North America",
+   "iso": null
+  },
+  {
+   "name": "Saint Vincent and Grenadines",
+   "continent": "North America",
+   "iso": null
+  },
+  {
+   "name": "Trinidad and Tobago",
+   "continent": "North America",
+   "iso": null
+  },
+  {
+   "name": "United States",
+   "continent": "North America",
+   "iso": "840"
+  },
+  {
+   "name": "Argentina",
+   "continent": "South America",
+   "iso": "032"
+  },
+  {
+   "name": "Bolivia",
+   "continent": "South America",
+   "iso": null
+  },
+  {
+   "name": "Brazil",
+   "continent": "South America",
+   "iso": "076"
+  },
+  {
+   "name": "Chile",
+   "continent": "South America",
+   "iso": "152"
+  },
+  {
+   "name": "Colombia",
+   "continent": "South America",
+   "iso": "170"
+  },
+  {
+   "name": "Ecuador",
+   "continent": "South America",
+   "iso": null
+  },
+  {
+   "name": "Guyana",
+   "continent": "South America",
+   "iso": null
+  },
+  {
+   "name": "Paraguay",
+   "continent": "South America",
+   "iso": null
+  },
+  {
+   "name": "Peru",
+   "continent": "South America",
+   "iso": "604"
+  },
+  {
+   "name": "Suriname",
+   "continent": "South America",
+   "iso": null
+  },
+  {
+   "name": "Uruguay",
+   "continent": "South America",
+   "iso": null
+  },
+  {
+   "name": "Venezuela",
+   "continent": "South America",
+   "iso": null
+  },
+  {
+   "name": "Australia",
+   "continent": "Oceania",
+   "iso": "036"
+  },
+  {
+   "name": "Fiji",
+   "continent": "Oceania",
+   "iso": null
+  },
+  {
+   "name": "Kiribati",
+   "continent": "Oceania",
+   "iso": null
+  },
+  {
+   "name": "Marshall Islands",
+   "continent": "Oceania",
+   "iso": null
+  },
+  {
+   "name": "Micronesia",
+   "continent": "Oceania",
+   "iso": null
+  },
+  {
+   "name": "Nauru",
+   "continent": "Oceania",
+   "iso": null
+  },
+  {
+   "name": "New Zealand",
+   "continent": "Oceania",
+   "iso": "554"
+  },
+  {
+   "name": "Palau",
+   "continent": "Oceania",
+   "iso": null
+  },
+  {
+   "name": "Papua New Guinea",
+   "continent": "Oceania",
+   "iso": null
+  },
+  {
+   "name": "Samoa",
+   "continent": "Oceania",
+   "iso": null
+  },
+  {
+   "name": "Solomon Islands",
+   "continent": "Oceania",
+   "iso": null
+  },
+  {
+   "name": "Tonga",
+   "continent": "Oceania",
+   "iso": null
+  },
+  {
+   "name": "Tuvalu",
+   "continent": "Oceania",
+   "iso": null
+  },
+  {
+   "name": "Vanuatu",
+   "continent": "Oceania",
+   "iso": null
+  }
+ ],
+ "territories": [
+  {
+   "name": "Cayman Islands",
+   "of": "United Kingdom (overseas territory)",
+   "continent": "North America"
+  },
+  {
+   "name": "Puerto Rico",
+   "of": "United States (territory)",
+   "continent": "North America"
+  }
+ ],
+ "notCounted": [
+  {
+   "name": "Kosovo",
+   "why": "Not a UN member or observer"
+  },
+  {
+   "name": "Taiwan",
+   "why": "Not a UN member or observer"
+  }
+ ],
+ "states": [
+  {
+   "abbr": "AL",
+   "fips": "01",
+   "name": "Alabama"
+  },
+  {
+   "abbr": "AK",
+   "fips": "02",
+   "name": "Alaska"
+  },
+  {
+   "abbr": "AZ",
+   "fips": "04",
+   "name": "Arizona"
+  },
+  {
+   "abbr": "AR",
+   "fips": "05",
+   "name": "Arkansas"
+  },
+  {
+   "abbr": "CA",
+   "fips": "06",
+   "name": "California"
+  },
+  {
+   "abbr": "CO",
+   "fips": "08",
+   "name": "Colorado"
+  },
+  {
+   "abbr": "CT",
+   "fips": "09",
+   "name": "Connecticut"
+  },
+  {
+   "abbr": "DE",
+   "fips": "10",
+   "name": "Delaware"
+  },
+  {
+   "abbr": "DC",
+   "fips": "11",
+   "name": "Washington DC"
+  },
+  {
+   "abbr": "FL",
+   "fips": "12",
+   "name": "Florida"
+  },
+  {
+   "abbr": "GA",
+   "fips": "13",
+   "name": "Georgia"
+  },
+  {
+   "abbr": "HI",
+   "fips": "15",
+   "name": "Hawaii"
+  },
+  {
+   "abbr": "ID",
+   "fips": "16",
+   "name": "Idaho"
+  },
+  {
+   "abbr": "IL",
+   "fips": "17",
+   "name": "Illinois"
+  },
+  {
+   "abbr": "IN",
+   "fips": "18",
+   "name": "Indiana"
+  },
+  {
+   "abbr": "IA",
+   "fips": "19",
+   "name": "Iowa"
+  },
+  {
+   "abbr": "KS",
+   "fips": "20",
+   "name": "Kansas"
+  },
+  {
+   "abbr": "KY",
+   "fips": "21",
+   "name": "Kentucky"
+  },
+  {
+   "abbr": "LA",
+   "fips": "22",
+   "name": "Louisiana"
+  },
+  {
+   "abbr": "ME",
+   "fips": "23",
+   "name": "Maine"
+  },
+  {
+   "abbr": "MD",
+   "fips": "24",
+   "name": "Maryland"
+  },
+  {
+   "abbr": "MA",
+   "fips": "25",
+   "name": "Massachusetts"
+  },
+  {
+   "abbr": "MI",
+   "fips": "26",
+   "name": "Michigan"
+  },
+  {
+   "abbr": "MN",
+   "fips": "27",
+   "name": "Minnesota"
+  },
+  {
+   "abbr": "MS",
+   "fips": "28",
+   "name": "Mississippi"
+  },
+  {
+   "abbr": "MO",
+   "fips": "29",
+   "name": "Missouri"
+  },
+  {
+   "abbr": "MT",
+   "fips": "30",
+   "name": "Montana"
+  },
+  {
+   "abbr": "NE",
+   "fips": "31",
+   "name": "Nebraska"
+  },
+  {
+   "abbr": "NV",
+   "fips": "32",
+   "name": "Nevada"
+  },
+  {
+   "abbr": "NH",
+   "fips": "33",
+   "name": "New Hampshire"
+  },
+  {
+   "abbr": "NJ",
+   "fips": "34",
+   "name": "New Jersey"
+  },
+  {
+   "abbr": "NM",
+   "fips": "35",
+   "name": "New Mexico"
+  },
+  {
+   "abbr": "NY",
+   "fips": "36",
+   "name": "New York"
+  },
+  {
+   "abbr": "NC",
+   "fips": "37",
+   "name": "North Carolina"
+  },
+  {
+   "abbr": "ND",
+   "fips": "38",
+   "name": "North Dakota"
+  },
+  {
+   "abbr": "OH",
+   "fips": "39",
+   "name": "Ohio"
+  },
+  {
+   "abbr": "OK",
+   "fips": "40",
+   "name": "Oklahoma"
+  },
+  {
+   "abbr": "OR",
+   "fips": "41",
+   "name": "Oregon"
+  },
+  {
+   "abbr": "PA",
+   "fips": "42",
+   "name": "Pennsylvania"
+  },
+  {
+   "abbr": "RI",
+   "fips": "44",
+   "name": "Rhode Island"
+  },
+  {
+   "abbr": "SC",
+   "fips": "45",
+   "name": "South Carolina"
+  },
+  {
+   "abbr": "SD",
+   "fips": "46",
+   "name": "South Dakota"
+  },
+  {
+   "abbr": "TN",
+   "fips": "47",
+   "name": "Tennessee"
+  },
+  {
+   "abbr": "TX",
+   "fips": "48",
+   "name": "Texas"
+  },
+  {
+   "abbr": "UT",
+   "fips": "49",
+   "name": "Utah"
+  },
+  {
+   "abbr": "VT",
+   "fips": "50",
+   "name": "Vermont"
+  },
+  {
+   "abbr": "VA",
+   "fips": "51",
+   "name": "Virginia"
+  },
+  {
+   "abbr": "WA",
+   "fips": "53",
+   "name": "Washington"
+  },
+  {
+   "abbr": "WV",
+   "fips": "54",
+   "name": "West Virginia"
+  },
+  {
+   "abbr": "WI",
+   "fips": "55",
+   "name": "Wisconsin"
+  },
+  {
+   "abbr": "WY",
+   "fips": "56",
+   "name": "Wyoming"
+  }
+ ]
+}

@@ -1,0 +1,24 @@
+added 2009 San Juan, Puerto Rico: BRIEF 5.3, missing from Trip Log
+2025 Philadelphia: BRIEF 5.4, was typed International
+added ~2008 Buffalo, NY + Toronto, Canada (Dolphins away game): BRIEF 5.5; year unknown per owner. 2008 is an estimate (first Bills Toronto Series game was Dolphins v Bills, Dec 2008)
+added 2000 Mont Tremblant, Canada: BRIEF 5.5; year 2000 per owner
+added 2021 Savannah, GA: BRIEF 5.5
+2026 Durham: OWNER_ANSWERS 1, planned trip happened
+2026 Bend: OWNER_ANSWERS 1, planned trip happened
+2026 Lake Tahoe: OWNER_ANSWERS 1, planned trip happened
+2026 Bend: tidy destination
+removed 2021 Maui: OWNER_ANSWERS 2, phantom (all-four Hawaii trip is the 2025 row)
+1993 Rome: OWNER_ANSWERS 3, confirmed
+2002 Washington DC: OWNER_ANSWERS 4, Daryl only
+Early 2000s Brazil: OWNER_ANSWERS 5, year ~2000 (estimate)
+2023 Rome: drop age detail
+workbook country rows: 197
+in workbook, not among the 195: Cayman Islands, Kosovo, Taiwan
+among the 195, missing from workbook: Cote d'Ivoire
+states missing from workbook: New Mexico, Oregon
+Tracker correction from trips: state Maine: trips show sloane but the Tracker did not mark them
+Tracker correction from trips: state Texas: trips show ivory, sloane but the Tracker did not mark them
+kept from Tracker without a trip: state FL (ivory, jaxon, sloane) Home state, Miami based
+kept from Tracker without a trip: state MI (jaxon) Daryl: Traverse City, Arcadia Bluffs golf 2025; Jaxon: teen tour
+kept from Tracker without a trip: state VT (daryl) Late 1980s, with parents as a kid
+kept from Tracker without a trip: state DC (ivory) Multiple visits; ~2002 noted

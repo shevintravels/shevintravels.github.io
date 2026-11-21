@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Shevin Travels</title>
+<meta name="description" content="Everywhere the Shevin family has been: trips, countries, states and the bucket list.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&family=DM+Sans:wght@300;400;500;700&family=Bebas+Neue&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="header">
+  <div class="header-inner">
+    <div class="header-eyebrow">Family travel record</div>
+    <h1>The Shevin Travels</h1>
+    <div class="header-rule"></div>
+    <div class="header-sub" id="header-sub"></div>
+  </div>
+</header>
+
+<nav class="nav" aria-label="Sections">
+  <div class="nav-inner">
+    <a href="#overview">Overview</a><a href="#world">World map</a><a href="#usa">USA map</a>
+    <a href="#timeline">Timeline</a><a href="#countries">Countries</a><a href="#states">States</a>
+    <a href="#trips">Trip log</a><a href="#recurring">Recurring</a><a href="#bucket">Bucket list</a>
+    <a href="#idiot-cup">Idiot Cup</a>
+  </div>
+</nav>
+
+<main class="main">
+  <section id="overview">
+    <div class="metrics" id="metrics"></div>
+    <div class="people" id="people"></div>
+  </section>
+
+  <section id="world" class="card">
+    <h2 class="section-title">World map</h2>
+    <p class="section-note">One pin per place. Tap or hover a pin to see the trips. Scroll or pinch to zoom, drag to pan.</p>
+    <div class="filters" id="world-filters"></div>
+    <div class="legend" id="world-legend"></div>
+    <div class="map-wrap" id="world-map">
+      <div class="zoom-btns">
+        <button type="button" data-zoom="in" aria-label="Zoom in">+</button>
+        <button type="button" data-zoom="out" aria-label="Zoom out">&minus;</button>
+        <button type="button" data-zoom="reset" aria-label="Reset zoom">&#8962;</button>
+      </div>
+    </div>
+    <label class="toggle"><input type="checkbox" id="world-us"> Show US destinations on the world map</label>
+  </section>
+
+  <section id="usa" class="card">
+    <h2 class="section-title">USA map</h2>
+    <p class="section-note">States shaded by how many of us have been. Pick a person to see just their states. Dots are trip destinations; diamonds are recurring spots.</p>
+    <div class="filters" id="us-filters"></div>
+    <div class="legend" id="us-legend"></div>
+    <div class="map-wrap us" id="us-map">
+      <div class="zoom-btns">
+        <button type="button" data-zoom="in" aria-label="Zoom in">+</button>
+        <button type="button" data-zoom="out" aria-label="Zoom out">&minus;</button>
+        <button type="button" data-zoom="reset" aria-label="Reset zoom">&#8962;</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="timeline" class="card">
+    <h2 class="section-title">Trips by year</h2>
+    <div class="legend" id="tl-legend"></div>
+    <div id="tl"></div>
+    <p class="section-note small">Years marked ~ are estimates.</p>
+  </section>
+
+  <div class="two-col">
+    <section id="countries" class="card">
+      <h2 class="section-title">Countries</h2>
+      <div class="chips" id="country-chips"></div>
+      <div id="country-list"></div>
+      <div id="country-extra"></div>
+    </section>
+    <section id="states" class="card">
+      <h2 class="section-title">US states</h2>
+      <div class="chips" id="state-chips"></div>
+      <div id="state-list"></div>
+    </section>
+  </div>
+
+  <section id="trips" class="card">
+    <h2 class="section-title">Trip log</h2>
+    <div class="log-controls">
+      <input type="search" id="q" placeholder="Search places, notes, who..." aria-label="Search trips">
+      <select id="f-person" aria-label="Filter by person"></select>
+      <select id="f-year" aria-label="Filter by year"></select>
+      <select id="f-type" aria-label="Filter by trip type"></select>
+    </div>
+    <div class="log-count" id="log-count"></div>
+    <div class="table-wrap"><table class="log" id="log"></table></div>
+  </section>
+
+  <section id="recurring" class="card">
+    <h2 class="section-title">Recurring destinations</h2>
+    <p class="section-note">Places we go so often they are listed once instead of trip by trip.</p>
+    <div class="grid" id="recurring-grid"></div>
+  </section>
+
+  <section id="bucket" class="card">
+    <h2 class="section-title">Bucket list</h2>
+    <p class="section-note">Never been. Yet.</p>
+    <div class="grid" id="bucket-grid"></div>
+  </section>
+
+  <section id="idiot-cup" class="ic">
+    <div class="ic-head">
+      <div>
+        <div class="ic-eyebrow">Annual golf trip with the buddies</div>
+        <div class="ic-title">The Idiot Cup</div>
+      </div>
+      <a class="ic-btn" id="ic-link" href="#" target="_blank" rel="noopener">Visit the Idiot Cup site &rarr;</a>
+    </div>
+    <div class="ic-strip" id="ic-strip"></div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="rules" id="rules"></div>
+  <div id="footer-line"></div>
+</footer>
+
+<div class="tip" id="tip" role="tooltip"></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/3.0.2/topojson.min.js"></script>
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
