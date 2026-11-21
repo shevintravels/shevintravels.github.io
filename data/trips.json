@@ -941,6 +941,34 @@
    "id": 80
   },
   {
+   "year": "2009",
+   "timing": "Summer",
+   "destination": "Cancun, Mexico",
+   "who": {
+    "daryl": true,
+    "ivory": true,
+    "jaxon": false,
+    "sloane": false
+   },
+   "type": "Couples",
+   "travelers": "Daryl + Ivory",
+   "others": "",
+   "confidence": "Exact",
+   "notes": "",
+   "places": [
+    {
+     "name": "Cancun, Mexico",
+     "lat": 21.16,
+     "lng": -86.85,
+     "country": "Mexico"
+    }
+   ],
+   "yearSort": 2009,
+   "approxYear": false,
+   "idiotCup": false,
+   "id": 81
+  },
+  {
    "year": "2010",
    "timing": "Summer",
    "destination": "New Jersey",
