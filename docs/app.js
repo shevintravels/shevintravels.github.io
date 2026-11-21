@@ -285,8 +285,11 @@
   $('state-list').innerHTML = `<div class="cont-head">Visited (${visitedS.length})</div>` +
     visitedS.map(s => {
       const bits = [];
-      if (s.trips.length) bits.push(`${s.trips.length} trip${s.trips.length === 1 ? '' : 's'}`);
-      if (s.recurring.length) bits.push('recurring');
+      if (['CO', 'FL', 'NY'].includes(s.abbr)) bits.push('many trips', 'recurring');
+      else {
+        if (s.trips.length) bits.push(`${s.trips.length} trip${s.trips.length === 1 ? '' : 's'}`);
+        if (s.recurring.length) bits.push('recurring');
+      }
       if (!bits.length && s.other.length) bits.push(s.abbr === 'FL' ? 'home' : 'no trip logged');
       return `<div class="item"><span>${esc(s.name)}</span><span class="meta">${bits.join(', ')}</span>${whoDots(s.who)}</div>`;
     }).join('') +
