@@ -1332,6 +1332,34 @@
    "id": 37
   },
   {
+   "year": "2016",
+   "timing": "",
+   "destination": "Mayakoba, Mexico",
+   "who": {
+    "daryl": false,
+    "ivory": true,
+    "jaxon": false,
+    "sloane": false
+   },
+   "type": "Girls Trip",
+   "travelers": "Ivory + friends",
+   "others": "with friends",
+   "confidence": "Exact",
+   "notes": "",
+   "places": [
+    {
+     "name": "Mayakoba",
+     "lat": 20.69,
+     "lng": -87.03,
+     "country": "Mexico"
+    }
+   ],
+   "yearSort": 2016,
+   "approxYear": false,
+   "idiotCup": false,
+   "id": 92
+  },
+  {
    "year": "2017",
    "timing": "Apr",
    "destination": "Napa Valley, CA",
