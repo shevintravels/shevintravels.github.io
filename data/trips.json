@@ -479,35 +479,6 @@
    "id": 14
   },
   {
-   "year": "~2003",
-   "timing": "",
-   "destination": "San Francisco, CA",
-   "who": {
-    "daryl": true,
-    "ivory": true,
-    "jaxon": false,
-    "sloane": false
-   },
-   "type": "Couples",
-   "travelers": "Daryl + Ivory",
-   "others": "",
-   "confidence": "Fuzzy",
-   "notes": "",
-   "places": [
-    {
-     "name": "San Francisco, CA",
-     "lat": 37.77,
-     "lng": -122.42,
-     "country": "United States",
-     "state": "CA"
-    }
-   ],
-   "yearSort": 2003,
-   "approxYear": true,
-   "idiotCup": false,
-   "id": 15
-  },
-  {
    "year": "2004",
    "timing": "Summer",
    "destination": "Tunica, MS",
@@ -564,6 +535,35 @@
    "approxYear": false,
    "idiotCup": false,
    "id": 17
+  },
+  {
+   "year": "2005",
+   "timing": "Feb",
+   "destination": "San Francisco, CA",
+   "who": {
+    "daryl": true,
+    "ivory": true,
+    "jaxon": false,
+    "sloane": false
+   },
+   "type": "Couples",
+   "travelers": "Daryl + Ivory",
+   "others": "",
+   "confidence": "Exact",
+   "notes": "Ivory's birthday trip",
+   "places": [
+    {
+     "name": "San Francisco, CA",
+     "lat": 37.77,
+     "lng": -122.42,
+     "country": "United States",
+     "state": "CA"
+    }
+   ],
+   "yearSort": 2005,
+   "approxYear": false,
+   "idiotCup": false,
+   "id": 15
   },
   {
    "year": "2005",
