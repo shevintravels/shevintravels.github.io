@@ -1995,7 +1995,7 @@
    "type": "Teen Tour",
    "travelers": "Jaxon solo",
    "confidence": "Exact",
-   "notes": "Boulder, Jackson Hole, Yellowstone, Park City, SF, Tahoe, SB, LA, SD, LV, Zion, Bryce, Grand Canyon, Sedona, Scottsdale",
+   "notes": "Boulder, Jackson Hole, Yellowstone, Park City, SF, Tahoe, LA, SD, LV, Zion, Bryce, Grand Canyon, Sedona, Scottsdale",
    "places": [
     {
      "name": "Boulder, CO",
@@ -2036,13 +2036,6 @@
      "name": "Lake Tahoe, CA",
      "lat": 39.1,
      "lng": -120.03,
-     "country": "United States",
-     "state": "CA"
-    },
-    {
-     "name": "Santa Barbara, CA",
-     "lat": 34.42,
-     "lng": -119.7,
      "country": "United States",
      "state": "CA"
     },
