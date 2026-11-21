@@ -2259,6 +2259,35 @@
   },
   {
    "year": "2024",
+   "timing": "Nov",
+   "destination": "Chicago, IL",
+   "who": {
+    "daryl": false,
+    "ivory": true,
+    "jaxon": false,
+    "sloane": true
+   },
+   "type": "Girls Trip",
+   "travelers": "Ivory + Sloane",
+   "others": "",
+   "confidence": "Exact",
+   "notes": "Matoaka girls trip",
+   "places": [
+    {
+     "name": "Chicago, IL",
+     "lat": 41.88,
+     "lng": -87.63,
+     "country": "United States",
+     "state": "IL"
+    }
+   ],
+   "yearSort": 2024,
+   "approxYear": false,
+   "idiotCup": false,
+   "id": 82
+  },
+  {
+   "year": "2024",
    "timing": "Dec",
    "destination": "Pebble Beach, CA",
    "who": {
@@ -2768,7 +2797,7 @@
     "sloane": false
    },
    "firstVisit": "~2000s",
-   "frequency": "Daryl about 6 times; Daryl and Ivory together twice. Kids have not been."
+   "frequency": "Daryl about 6 times; Daryl and Ivory together twice. Sloane once with Ivory (2024)."
   },
   {
    "name": "Boston, MA",

@@ -9,7 +9,7 @@ import sys
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 PEOPLE = ["daryl", "ivory", "jaxon", "sloane"]
 TYPES = {"Golf Trip", "International", "Couples", "Family", "Sports Trip", "Teen Tour", "Family/Personal",
-         "Personal", "Guys Trip"}
+         "Personal", "Guys Trip", "Girls Trip"}
 CONFIDENCE = {"Exact", "Approximate", "Fuzzy", "Planned"}
 
 
