@@ -332,7 +332,7 @@
   {
    "year": "1997",
    "timing": "Jan",
-   "destination": "Tempe, AZ - Fiesta Bowl",
+   "destination": "Tempe, AZ",
    "who": {
     "daryl": true,
     "ivory": false,
@@ -343,7 +343,7 @@
    "travelers": "Daryl solo",
    "others": "",
    "confidence": "Exact",
-   "notes": "UF vs Nebraska national championship game",
+   "notes": "Fiesta Bowl: UF vs Nebraska national championship game",
    "places": [
     {
      "name": "Tempe, AZ",
@@ -637,7 +637,7 @@
   {
    "year": "2006",
    "timing": "Apr",
-   "destination": "Indianapolis, IN - Final Four",
+   "destination": "Indianapolis, IN",
    "who": {
     "daryl": true,
     "ivory": false,
@@ -648,7 +648,7 @@
    "travelers": "Daryl solo",
    "others": "",
    "confidence": "Exact",
-   "notes": "UF National Championship, beat UCLA 73-57, RCA Dome",
+   "notes": "Final Four: UF National Championship, beat UCLA 73-57, RCA Dome",
    "places": [
     {
      "name": "Indianapolis, IN",
@@ -695,7 +695,7 @@
   {
    "year": "2007",
    "timing": "Jul",
-   "destination": "Keystone, CO - Wedding",
+   "destination": "Keystone, CO",
    "who": {
     "daryl": true,
     "ivory": true,
@@ -820,10 +820,10 @@
   },
   {
    "timing": "",
-   "notes": "",
+   "notes": "Dolphins away game",
    "confidence": "Fuzzy",
    "year": "~2008",
-   "destination": "Buffalo, NY + Toronto, Canada - Dolphins away game",
+   "destination": "Buffalo, NY + Toronto, Canada",
    "who": {
     "daryl": true,
     "ivory": false,
@@ -925,7 +925,7 @@
    "travelers": "Daryl + Ivory",
    "others": "",
    "confidence": "Approximate",
-   "notes": "Attending a wedding",
+   "notes": "Wedding",
    "places": [
     {
      "name": "Rhode Island",
@@ -1288,7 +1288,7 @@
   {
    "year": "2017",
    "timing": "Dec",
-   "destination": "Durham/Chapel Hill, NC - Duke + UNC games",
+   "destination": "Durham/Chapel Hill, NC",
    "who": {
     "daryl": true,
     "ivory": false,
@@ -2021,7 +2021,7 @@
   {
    "year": "2024",
    "timing": "Jun",
-   "destination": "Buena Vista, CO - Whitewater rafting",
+   "destination": "Buena Vista, CO",
    "who": {
     "daryl": true,
     "ivory": false,
@@ -2032,7 +2032,7 @@
    "travelers": "Daryl + Jaxon + Brandon + Keaton",
    "others": "with Brandon + Keaton",
    "confidence": "Exact",
-   "notes": "Camping trip",
+   "notes": "Whitewater rafting and camping trip",
    "places": [
     {
      "name": "Buena Vista, CO",
@@ -2050,7 +2050,7 @@
   {
    "year": "2024",
    "timing": "Summer",
-   "destination": "Jaxon Teen Tour, American West (28 days)",
+   "destination": "American West (28 days)",
    "who": {
     "daryl": false,
     "ivory": false,
@@ -2383,7 +2383,7 @@
   {
    "year": "2025",
    "timing": "Summer",
-   "destination": "Jaxon Teen Tour, Central Europe + Greek Islands (26 days)",
+   "destination": "Central Europe + Greek Islands (26 days)",
    "who": {
     "daryl": false,
     "ivory": false,
@@ -2617,7 +2617,7 @@
   {
    "year": "2026",
    "timing": "Nov",
-   "destination": "China - Discover Jiangsu",
+   "destination": "China",
    "who": {
     "daryl": false,
     "ivory": false,
