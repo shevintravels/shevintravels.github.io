@@ -273,7 +273,7 @@
   const visitedC = D.countries.filter(c => c.visited);
   $('country-chips').innerHTML = `<span class="chip"><strong>${S.countries}</strong>of 195</span>` +
     D.people.map(p => `<span class="chip"><strong>${p.countries}</strong>${p.name}</span>`).join('');
-  const conts = [...new Set(visitedC.map(c => c.continent))].sort();
+  const conts = [...new Set(D.countries.map(c => c.continent))].sort();   // every continent with countries (Antarctica has none)
   const cRow = c => {
     const n = c.trips.length;
     return `<div class="item"><span>${esc(c.name)}</span><span class="meta">${n} trip${n === 1 ? '' : 's'}</span>${whoDots(c.who)}</div>`;
@@ -283,7 +283,7 @@
     'Slovakia', 'Slovenia', 'Ukraine']);
   $('country-list').innerHTML = conts.map(ct => {
     const list = visitedC.filter(c => c.continent === ct);
-    let body = list.map(cRow).join('');
+    let body = list.length ? list.map(cRow).join('') : '<div class="item"><span class="meta">None yet</span></div>';
     if (ct === 'Europe') {
       const euAll = D.countries.filter(c => c.continent === 'Europe');
       body = [['Western Europe', c => !EAST_EU.has(c.name)], ['Eastern Europe', c => EAST_EU.has(c.name)]]

@@ -23,8 +23,8 @@
 
 <nav class="nav" aria-label="Sections">
   <div class="nav-inner">
-    <a href="#overview">Overview</a><a href="#world">World map</a><a href="#usa">USA map</a>
-    <a href="#timeline">Timeline</a><a href="#countries">Countries</a><a href="#states">States</a>
+    <a href="#overview">Overview</a><a href="#countries">Countries</a><a href="#states">States</a>
+    <a href="#world">World map</a><a href="#usa">USA map</a><a href="#timeline">Timeline</a>
     <a href="#trips">Trip log</a><a href="#bucket">Bucket list</a>
     <a href="#idiot-cup">Idiot Cup</a>
   </div>
@@ -35,6 +35,20 @@
     <div class="metrics" id="metrics"></div>
     <div class="people" id="people"></div>
   </section>
+
+  <div class="two-col">
+    <section id="countries" class="card">
+      <h2 class="section-title">Countries</h2>
+      <div class="chips" id="country-chips"></div>
+      <div id="country-list"></div>
+      <div id="country-extra"></div>
+    </section>
+    <section id="states" class="card">
+      <h2 class="section-title">US states</h2>
+      <div class="chips" id="state-chips"></div>
+      <div id="state-list"></div>
+    </section>
+  </div>
 
   <section id="world" class="card">
     <h2 class="section-title">World map</h2>
@@ -71,20 +85,6 @@
     <div class="legend" id="tl-legend"></div>
     <div id="tl"></div>
   </section>
-
-  <div class="two-col">
-    <section id="countries" class="card">
-      <h2 class="section-title">Countries</h2>
-      <div class="chips" id="country-chips"></div>
-      <div id="country-list"></div>
-      <div id="country-extra"></div>
-    </section>
-    <section id="states" class="card">
-      <h2 class="section-title">US states</h2>
-      <div class="chips" id="state-chips"></div>
-      <div id="state-list"></div>
-    </section>
-  </div>
 
   <section id="trips" class="card">
     <h2 class="section-title">Trip log</h2>
@@ -125,6 +125,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/3.0.2/topojson.min.js"></script>
 <script src="data.js?v=07016f6c"></script>
-<script src="app.js?v=65f6e0a1"></script>
+<script src="app.js?v=48be4e67"></script>
 </body>
 </html>
