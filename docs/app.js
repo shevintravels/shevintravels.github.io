@@ -342,7 +342,10 @@
 
   /* ---------- Idiot Cup ---------- */
   const ic = D.trips.filter(t => t.idiotCup).sort((a, b) => b.yearSort - a.yearSort);
-  $('ic-strip').innerHTML = ic.map(t => `<div class="ic-ed"><div class="y">${t.year}</div>${esc(t.destination.replace(/\s*\(.*\)$/, '').replace(', golf trip', ''))}</div>`).join('');
+  const icName = t => t.destination.includes('Casa de Campo') ? 'Casa de Campo'
+    : t.destination.includes('Oconee') ? 'Oconee, GA'
+    : t.destination.replace(/\s*\(.*\)$/, '').replace(', golf trip', '');
+  $('ic-strip').innerHTML = ic.map(t => `<div class="ic-ed"><div class="y">${t.year}</div>${esc(icName(t))}</div>`).join('');
 
   /* ---------- nav highlight ---------- */
   const links = [...document.querySelectorAll('.nav a')];

@@ -162,8 +162,8 @@ details p { margin-top: 8px; line-height: 1.7; }
 .ic-title { font-family: 'Bebas Neue', sans-serif; font-size: clamp(2.4rem, 7vw, 3.4rem); line-height: 1; letter-spacing: .02em; }
 .ic-btn { background: var(--gold); color: var(--forest); text-decoration: none; font-weight: 700; font-size: 13px; padding: 10px 16px; border-radius: 8px; }
 .ic-btn:hover { background: var(--gold-light); }
-.ic-strip { display: grid; grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: 8px; }
-.ic-ed { background: rgba(255,255,255,.07); border-radius: 8px; padding: 8px 10px; border-left: 3px solid var(--gold); font-size: 12px; }
+.ic-strip { display: grid; grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); grid-auto-rows: 1fr; gap: 8px; }
+.ic-ed { background: rgba(255,255,255,.07); border-radius: 8px; padding: 8px 10px; border-left: 3px solid var(--gold); font-size: 12px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .ic-ed .y { font-family: 'Bebas Neue', sans-serif; font-size: 18px; color: var(--gold-light); letter-spacing: .04em; }
 
 .footer { text-align: center; padding: 2rem 1rem 2.5rem; font-size: 11.5px; color: var(--muted); border-top: 1px solid var(--cream-dark); }
