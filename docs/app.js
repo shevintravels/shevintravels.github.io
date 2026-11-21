@@ -285,7 +285,7 @@
   $('state-list').innerHTML = `<div class="cont-head">Visited (${visitedS.length})</div>` +
     visitedS.map(s => {
       const bits = [];
-      if (['CO', 'FL', 'NY', 'IL', 'ME', 'MA', 'NV', 'NC'].includes(s.abbr)) bits.push('recurring');
+      if (['CO', 'FL', 'NY', 'IL', 'ME', 'MA', 'NV', 'NC', 'LA'].includes(s.abbr)) bits.push('recurring');
       else {
         if (s.trips.length) bits.push(`${s.trips.length} trip${s.trips.length === 1 ? '' : 's'}`);
         if (s.recurring.length) bits.push('recurring');
