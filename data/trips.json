@@ -2017,6 +2017,35 @@
   },
   {
    "year": "2023",
+   "timing": "May",
+   "destination": "New Orleans, LA",
+   "who": {
+    "daryl": false,
+    "ivory": true,
+    "jaxon": false,
+    "sloane": false
+   },
+   "type": "Girls Trip",
+   "travelers": "Ivory + friends",
+   "others": "with friends",
+   "confidence": "Exact",
+   "notes": "Jazzfest",
+   "places": [
+    {
+     "name": "New Orleans, LA",
+     "lat": 29.95,
+     "lng": -90.07,
+     "country": "United States",
+     "state": "LA"
+    }
+   ],
+   "yearSort": 2023,
+   "approxYear": false,
+   "idiotCup": false,
+   "id": 89
+  },
+  {
+   "year": "2023",
    "timing": "Summer",
    "destination": "Ireland",
    "who": {
