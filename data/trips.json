@@ -272,7 +272,7 @@
   {
    "year": "1996",
    "timing": "",
-   "destination": "Study Abroad, Spain (Barcelona, Madrid, San Sebastian, Marbella)",
+   "destination": "Study Abroad, Spain (Sevilla, Barcelona, Madrid, San Sebastian, Marbella and more)",
    "who": {
     "daryl": true,
     "ivory": false,
@@ -282,8 +282,14 @@
    "type": "International",
    "travelers": "Daryl solo",
    "confidence": "Exact",
-   "notes": "Based in Spain all year",
+   "notes": "Based in Sevilla for 4+ months",
    "places": [
+    {
+     "name": "Sevilla",
+     "lat": 37.39,
+     "lng": -5.98,
+     "country": "Spain"
+    },
     {
      "name": "Barcelona",
      "lat": 41.39,
