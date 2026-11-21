@@ -51,6 +51,10 @@ After any change to `docs/styles.css` or `docs/app.js`, also run `py tools/build
 
 ## House rules (from the brief)
 
+- Wording: `+` joins places and names in trip names and the Who line; notes use "and", never `&`. No period at the
+  end of a note. An event goes after a dash in the trip name: `Tempe, AZ - Fiesta Bowl`. Name lists are alphabetical
+  (`with Adams, Medinas + Nardinis`); families are plural with no apostrophe. Golf and guys trips say `with buddies`.
+
 - Florida intrastate trips are not logged. States only driven through do not count.
 - Denver, Keystone, New York, Chicago, Boston, Las Vegas, New Orleans, Maine and Asheville are recurring: listed once
   in `recurring`. Repeat visits there are not logged as trips unless they were a special occasion (like the 2007

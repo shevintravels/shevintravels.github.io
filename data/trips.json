@@ -332,7 +332,7 @@
   {
    "year": "1997",
    "timing": "Jan",
-   "destination": "Tempe, AZ, Fiesta Bowl",
+   "destination": "Tempe, AZ - Fiesta Bowl",
    "who": {
     "daryl": true,
     "ivory": false,
@@ -370,9 +370,9 @@
    },
    "type": "International",
    "travelers": "Daryl + friends",
-   "others": "with friends",
+   "others": "with Brandon + buddies",
    "confidence": "Fuzzy",
-   "notes": "Carnival trip with Brandon and friends",
+   "notes": "Carnival trip",
    "places": [
     {
      "name": "Salvador",
@@ -394,7 +394,7 @@
   },
   {
    "timing": "",
-   "notes": "With Brandon and parents.",
+   "notes": "",
    "confidence": "Approximate",
    "year": "2000",
    "destination": "Mont Tremblant, Canada",
@@ -637,7 +637,7 @@
   {
    "year": "2006",
    "timing": "Apr",
-   "destination": "Indianapolis, IN, Final Four",
+   "destination": "Indianapolis, IN - Final Four",
    "who": {
     "daryl": true,
     "ivory": false,
@@ -695,7 +695,7 @@
   {
    "year": "2007",
    "timing": "Jul",
-   "destination": "Keystone, CO, Wedding",
+   "destination": "Keystone, CO - Wedding",
    "who": {
     "daryl": true,
     "ivory": true,
@@ -820,10 +820,10 @@
   },
   {
    "timing": "",
-   "notes": "Dolphins away game with friends.",
+   "notes": "",
    "confidence": "Fuzzy",
    "year": "~2008",
-   "destination": "Buffalo, NY + Toronto, Canada (Dolphins away game)",
+   "destination": "Buffalo, NY + Toronto, Canada - Dolphins away game",
    "who": {
     "daryl": true,
     "ivory": false,
@@ -884,7 +884,7 @@
   },
   {
    "timing": "",
-   "notes": "Guys trip for Keith's bachelor party. US territory, not counted as a country.",
+   "notes": "Keith's bachelor party; US territory, not counted as a country",
    "confidence": "Exact",
    "year": "2009",
    "destination": "San Juan, Puerto Rico",
@@ -896,7 +896,7 @@
    },
    "type": "Guys Trip",
    "travelers": "Daryl + friends",
-   "others": "with friends",
+   "others": "with buddies",
    "places": [
     {
      "name": "San Juan, Puerto Rico",
@@ -1288,7 +1288,7 @@
   {
    "year": "2017",
    "timing": "Dec",
-   "destination": "Durham/Chapel Hill, NC, Duke + UNC games",
+   "destination": "Durham/Chapel Hill, NC - Duke + UNC games",
    "who": {
     "daryl": true,
     "ivory": false,
@@ -1661,7 +1661,7 @@
    "travelers": "Daryl + Ivory",
    "others": "",
    "confidence": "Exact",
-   "notes": "Daryl & Ivory Pebble and Carmel",
+   "notes": "Pebble and Carmel",
    "places": [
     {
      "name": "Pebble Beach, CA",
@@ -1678,7 +1678,7 @@
   },
   {
    "timing": "",
-   "notes": "Stopover on the drive to Kiawah.",
+   "notes": "Stopover on the drive to Kiawah",
    "confidence": "Exact",
    "year": "2021",
    "destination": "Savannah, GA",
@@ -1719,7 +1719,7 @@
    "travelers": "All four",
    "others": "with Lamonts, Laverys + Sotos",
    "confidence": "Exact",
-   "notes": "Spring break family trip",
+   "notes": "Spring Break family trip",
    "places": [
     {
      "name": "Nassau",
@@ -1833,7 +1833,7 @@
    "travelers": "All four + other families",
    "others": "with Lamonts, Laverys + Sotos",
    "confidence": "Exact",
-   "notes": "Spring break family trip",
+   "notes": "Spring Break family trip",
    "places": [
     {
      "name": "Punta Cana",
@@ -1889,7 +1889,7 @@
    "travelers": "Jax, Keaton and Grammy",
    "others": "with Grammy + Keaton",
    "confidence": "Exact",
-   "notes": "Jax, Keaton and Grammy",
+   "notes": "",
    "places": [
     {
      "name": "Rome",
@@ -1969,7 +1969,7 @@
    "travelers": "All four",
    "others": "",
    "confidence": "Exact",
-   "notes": "Spring break family trip",
+   "notes": "Spring Break family trip",
    "places": [
     {
      "name": "Paris",
@@ -2021,7 +2021,7 @@
   {
    "year": "2024",
    "timing": "Jun",
-   "destination": "Buena Vista, CO, whitewater rafting",
+   "destination": "Buena Vista, CO - Whitewater rafting",
    "who": {
     "daryl": true,
     "ivory": false,
@@ -2032,7 +2032,7 @@
    "travelers": "Daryl + Jaxon + Brandon + Keaton",
    "others": "with Brandon + Keaton",
    "confidence": "Exact",
-   "notes": "Camping trip with Keaton and Uncle Brandon",
+   "notes": "Camping trip",
    "places": [
     {
      "name": "Buena Vista, CO",
@@ -2209,7 +2209,7 @@
    "travelers": "Sloane + Grammy",
    "others": "with Grammy",
    "confidence": "Exact",
-   "notes": "Sloane and Grammy",
+   "notes": "",
    "places": [
     {
      "name": "Switzerland",
@@ -2527,7 +2527,7 @@
    "travelers": "Daryl + Jaxon",
    "others": "with the Feigelsons",
    "confidence": "Exact",
-   "notes": "Duke Visit & Pinehurst",
+   "notes": "Duke visit and Pinehurst",
    "places": [
     {
      "name": "Durham, NC",
@@ -2617,7 +2617,7 @@
   {
    "year": "2026",
    "timing": "Nov",
-   "destination": "China: Suzhou, Changzhou, Nanjing, Shanghai (Discover Jiangsu)",
+   "destination": "China - Discover Jiangsu",
    "who": {
     "daryl": false,
     "ivory": false,
