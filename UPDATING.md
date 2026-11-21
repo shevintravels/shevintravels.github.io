@@ -54,7 +54,7 @@ After any change to `docs/styles.css` or `docs/app.js`, also run `py tools/build
 - Wording: `+` joins places and names in trip names and the Who line; notes use "and", never `&`. No period at the
   end of a note. The trip name is places only: one place is `City, ST` or `City, Country`; several places in one state or
   country are `Country (A, B, C)`; separate countries are joined with `+`; an event starts the note: `Fiesta Bowl: UF vs Nebraska ...`. Name lists are alphabetical
-  (`with Adams, Medinas + Nardinis`); families are plural with no apostrophe. Golf and guys trips say `with buddies`.
+  (`with Adams, Medinas + Nardinis`); families are plural with no apostrophe. Golf and guys trips say `with buddies`. The note `Couples trip` is only for trips with other couples; a plain Daryl + Ivory trip gets a blank note.
 
 - Florida intrastate trips are not logged. States only driven through do not count.
 - Denver, Keystone, New York, Chicago, Boston, Las Vegas, New Orleans, Maine and Asheville are recurring: listed once
