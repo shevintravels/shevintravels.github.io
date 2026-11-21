@@ -633,7 +633,7 @@
   {
    "year": "2006",
    "timing": "Feb",
-   "destination": "Argentina (Mendoza, Salta, Buenos Aires)",
+   "destination": "Argentina (Mendoza, Salta, Buenos Aires, Iguazu Falls)",
    "who": {
     "daryl": true,
     "ivory": true,
@@ -662,6 +662,12 @@
      "name": "Buenos Aires",
      "lat": -34.6,
      "lng": -58.38,
+     "country": "Argentina"
+    },
+    {
+     "name": "Iguazu Falls",
+     "lat": -25.69,
+     "lng": -54.44,
      "country": "Argentina"
     }
    ],
