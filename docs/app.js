@@ -122,7 +122,7 @@
   /* ---------- world map ---------- */
   (function world() {
     const wrap = $('world-map');
-    let filt = 'all', showUS = false, k = 1;
+    let filt = 'all', k = 1;
     filterBar($('world-filters'), [
       { label: 'Who went' }, { k: 'all', text: 'All trips', on: true },
       ...CATS.map(([c, n]) => ({ k: c, text: n, color: css(c) })),
@@ -131,7 +131,6 @@
     $('world-legend').innerHTML = CATS.map(([c, n]) => `<span><i style="background:${css(c)}"></i>${n}</span>`).join('') +
       `<span><i style="background:#fff;border:2px solid ${css('gold')}"></i>Gold ring: more than one trip</span>` +
       `<span><i class="sq" style="background:#f0dfae"></i>Country visited</span>`;
-    $('world-us').addEventListener('change', e => { showUS = e.target.checked; draw(); });
 
     const W = 960, H = 480;
     const svg = d3.select(wrap).append('svg').attr('viewBox', `0 0 ${W} ${H}`).attr('preserveAspectRatio', 'xMidYMid meet');
@@ -144,7 +143,7 @@
 
     function draw() {
       const m = matcher(filt);
-      const pts = all.filter(p => (showUS || p.country !== 'United States') && p.trips.some(m))
+      const pts = all.filter(p => p.trips.some(m))
         .map(p => ({ ...p, hit: p.trips.filter(m) }))
         .sort((a, b) => b.hit.length - a.hit.length);
       const sel = pinG.selectAll('circle').data(pts, d => d.name);
