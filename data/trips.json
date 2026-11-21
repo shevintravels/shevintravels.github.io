@@ -595,6 +595,42 @@
    "id": 18
   },
   {
+   "year": "2005",
+   "timing": "Jul",
+   "destination": "Las Vegas, NV + Grand Canyon, AZ",
+   "who": {
+    "daryl": false,
+    "ivory": true,
+    "jaxon": false,
+    "sloane": false
+   },
+   "type": "Girls Trip",
+   "travelers": "Ivory + Jodi",
+   "others": "with Jodi",
+   "confidence": "Exact",
+   "notes": "Vegas and Grand Canyon",
+   "places": [
+    {
+     "name": "Las Vegas, NV",
+     "lat": 36.17,
+     "lng": -115.14,
+     "country": "United States",
+     "state": "NV"
+    },
+    {
+     "name": "Grand Canyon, AZ",
+     "lat": 36.06,
+     "lng": -112.14,
+     "country": "United States",
+     "state": "AZ"
+    }
+   ],
+   "yearSort": 2005,
+   "approxYear": false,
+   "idiotCup": false,
+   "id": 84
+  },
+  {
    "year": "2006",
    "timing": "Feb",
    "destination": "Argentina (Mendoza, Salta, Buenos Aires)",
