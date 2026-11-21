@@ -31,7 +31,7 @@
   /* ---------- header, footer ---------- */
   const upd = new Date(D.meta.updated + 'T12:00:00');
   const updText = upd.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
-  $('header-sub').textContent = `${PEOPLE.map(p => p.name).join(' · ')}  ·  Home base ${D.meta.home}  ·  Updated ${updText}`;
+  $('header-sub').textContent = `${PEOPLE.map(p => p.name).join(' · ')}  ·  Updated ${updText}`;
   $('rules').innerHTML = D.meta.rules.map(esc).join(' ');
   $('footer-line').textContent = `The Shevin Travels · ${S.trips} trips logged since ${S.firstYear} · a work in progress`;
 
