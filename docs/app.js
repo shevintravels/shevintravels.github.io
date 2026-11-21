@@ -325,13 +325,7 @@
   [q, fp, fy, ft].forEach(el => el.addEventListener('input', renderLog));
   renderLog();
 
-  /* ---------- recurring, bucket ---------- */
-  $('recurring-grid').innerHTML = D.recurring.map(r => `
-    <div class="tile">
-      <div class="tile-head"><span class="tile-title">${esc(r.name)}</span>${whoDots(r.who)}</div>
-      <div class="tile-sub">${esc(r.frequency)}</div>
-      <div class="tile-for" style="margin-top:6px">First visit ${esc(r.firstVisit)}</div>
-    </div>`).join('');
+  /* ---------- bucket ---------- */
   $('bucket-grid').innerHTML = D.bucket.map(b => `
     <div class="tile bucket">
       <div class="tile-for">${esc(b.for)}</div>
