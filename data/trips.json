@@ -2001,7 +2001,7 @@
    },
    "type": "Family",
    "travelers": "All four + other families",
-   "others": "with other families",
+   "others": "with Lamonts, Laverys + Sotos",
    "confidence": "Exact",
    "notes": "Memorial Day weekend",
    "places": [
@@ -2059,7 +2059,7 @@
    },
    "type": "Teen Tour",
    "travelers": "Jaxon solo",
-   "others": "",
+   "others": "with Blake",
    "confidence": "Exact",
    "notes": "Boulder, Jackson Hole, Yellowstone, Park City, SF, Tahoe, LA, SD, LV, Zion, Bryce, Grand Canyon, Sedona, Scottsdale",
    "places": [
@@ -2392,7 +2392,7 @@
    },
    "type": "Teen Tour",
    "travelers": "Jaxon solo",
-   "others": "",
+   "others": "with Andrew",
    "confidence": "Exact",
    "notes": "Dubrovnik, Split, Hvar, Ljubljana, Salzburg, Vienna, Prague, Greek Islands",
    "places": [
@@ -2525,7 +2525,7 @@
    },
    "type": "Family",
    "travelers": "Daryl + Jaxon",
-   "others": "",
+   "others": "with the Feigelsons",
    "confidence": "Exact",
    "notes": "Duke Visit & Pinehurst",
    "places": [
@@ -2597,7 +2597,7 @@
    },
    "type": "Couples",
    "travelers": "Daryl + Ivory",
-   "others": "",
+   "others": "with Lamonts, Laverys + Sotos",
    "confidence": "Exact",
    "notes": "50th bday couples trip",
    "places": [
@@ -2626,7 +2626,7 @@
    },
    "type": "International",
    "travelers": "Jaxon",
-   "others": "",
+   "others": "with Ricky + Javi",
    "confidence": "Exact",
    "notes": "Discover Jiangsu Trip = Suzhou, Changzhou, Nanjing, Shanghai",
    "places": [
