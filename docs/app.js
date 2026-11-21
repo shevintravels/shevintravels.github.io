@@ -167,6 +167,11 @@
     fetch('https://cdn.jsdelivr.net/npm/world-atlas@2.0.2/countries-110m.json').then(r => r.json()).then(w => {
       landG.selectAll('path').data(topojson.feature(w, w.objects.countries).features).enter().append('path')
         .attr('class', d => 'land' + (visitedIso.has(String(d.id).padStart(3, '0')) ? ' visited' : '')).attr('d', path);
+      // faded world map behind the page header (visited countries tinted gold)
+      const hw = d3.select('#header-map'), feats = topojson.feature(w, w.objects.countries).features.filter(f => f.id !== '010');
+      const hp = d3.geoPath(d3.geoNaturalEarth1().fitSize([960, 440], { type: 'FeatureCollection', features: feats }));
+      hw.selectAll('path').data(feats).enter().append('path').attr('d', hp)
+        .attr('class', d => visitedIso.has(String(d.id).padStart(3, '0')) ? 'hm-v' : 'hm');
     }).catch(() => mapFail(wrap, 'Map outline could not load (offline?). Pins still work.'));
     draw();
   })();
