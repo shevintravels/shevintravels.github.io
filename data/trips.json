@@ -1520,6 +1520,35 @@
   },
   {
    "year": "2019",
+   "timing": "May",
+   "destination": "New Orleans, LA",
+   "who": {
+    "daryl": false,
+    "ivory": true,
+    "jaxon": false,
+    "sloane": false
+   },
+   "type": "Girls Trip",
+   "travelers": "Ivory + Aleesa + Jodi + Marisa",
+   "others": "with Aleesa, Jodi + Marisa",
+   "confidence": "Exact",
+   "notes": "Jazzfest",
+   "places": [
+    {
+     "name": "New Orleans, LA",
+     "lat": 29.95,
+     "lng": -90.07,
+     "country": "United States",
+     "state": "LA"
+    }
+   ],
+   "yearSort": 2019,
+   "approxYear": false,
+   "idiotCup": false,
+   "id": 91
+  },
+  {
+   "year": "2019",
    "timing": "Jun",
    "destination": "Boston, MA",
    "who": {
