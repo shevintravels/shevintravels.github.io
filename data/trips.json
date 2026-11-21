@@ -3365,9 +3365,20 @@
    "us": true
   },
   {
+   "title": "Budapest, Hungary",
+   "who": [
+    "daryl"
+   ],
+   "note": "",
+   "check": {
+    "countries": [
+     "Hungary"
+    ]
+   }
+  },
+  {
    "title": "Eastern Europe",
    "who": [
-    "daryl",
     "ivory"
    ],
    "note": "Jaxon has been on his 2025 teen tour.",
