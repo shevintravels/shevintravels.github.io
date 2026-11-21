@@ -190,7 +190,7 @@
     const W = 960, H = 600;
     const svg = d3.select(wrap).append('svg').attr('viewBox', `0 0 ${W} ${H}`).attr('preserveAspectRatio', 'xMidYMid meet');
     const g = svg.append('g');
-    const proj = d3.geoAlbersUsa().scale(1250).translate([W / 2, H / 2]);
+    const proj = d3.geoAlbersUsa().scale(1160).translate([W / 2, H / 2]);
     const path = d3.geoPath(proj);
     const stG = g.append('g'), pinG = g.append('g');
     const places = groupPlaces(true);
