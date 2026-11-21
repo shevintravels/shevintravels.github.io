@@ -245,7 +245,7 @@
   {
    "year": "1996",
    "timing": "",
-   "destination": "Portugal (small town)",
+   "destination": "Algarve, Portugal",
    "who": {
     "daryl": true,
     "ivory": false,
@@ -258,9 +258,9 @@
    "notes": "During study abroad",
    "places": [
     {
-     "name": "Portugal",
-     "lat": 39.6,
-     "lng": -8.0,
+     "name": "Algarve",
+     "lat": 37.09,
+     "lng": -8.25,
      "country": "Portugal"
     }
    ],
