@@ -1409,6 +1409,35 @@
   },
   {
    "year": "2019",
+   "timing": "Jun",
+   "destination": "Boston, MA",
+   "who": {
+    "daryl": true,
+    "ivory": false,
+    "jaxon": true,
+    "sloane": false
+   },
+   "type": "Sports Trip",
+   "travelers": "Daryl + Jaxon + Brandon + Keaton",
+   "others": "with Brandon + Keaton",
+   "confidence": "Exact",
+   "notes": "Fenway with the boys",
+   "places": [
+    {
+     "name": "Boston, MA",
+     "lat": 42.36,
+     "lng": -71.06,
+     "country": "United States",
+     "state": "MA"
+    }
+   ],
+   "yearSort": 2019,
+   "approxYear": false,
+   "idiotCup": false,
+   "id": 83
+  },
+  {
+   "year": "2019",
    "timing": "Jul",
    "destination": "UAE (Dubai) + South Africa (Kruger, Cape Town, Grootbos)",
    "who": {
