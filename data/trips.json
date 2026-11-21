@@ -879,6 +879,34 @@
    "id": 28
   },
   {
+   "year": "~2009",
+   "timing": "",
+   "destination": "Rhode Island",
+   "who": {
+    "daryl": true,
+    "ivory": true,
+    "jaxon": false,
+    "sloane": false
+   },
+   "type": "Couples",
+   "travelers": "Daryl + Ivory",
+   "confidence": "Approximate",
+   "notes": "Attending a wedding",
+   "places": [
+    {
+     "name": "Rhode Island",
+     "lat": 41.7,
+     "lng": -71.5,
+     "country": "United States",
+     "state": "RI"
+    }
+   ],
+   "yearSort": 2009,
+   "approxYear": true,
+   "idiotCup": false,
+   "id": 80
+  },
+  {
    "year": "2010",
    "timing": "Summer",
    "destination": "New Jersey",
